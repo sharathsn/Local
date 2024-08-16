@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EstimatedMeetingExpense__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Related Estimated Meeting Expense</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Related Estimated Meeting Expense</inlineHelpText>
+    <label>Estimated Meeting Expense</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>OCE__MeetingExpense__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Estimate</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>OCE__MeetingExpense__c</referenceTo>
+    <relationshipLabel>Meeting Expenses</relationshipLabel>
+    <relationshipName>MeetingExpenses</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

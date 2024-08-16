@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The AHA ID to be updated if the record type selected is Update HCO.
+            This is used to identify a new AHA ID.
+            Appears on Update HCO page layout</help>
+    <label><!-- AHA ID --></label>
+    <name>OCE__AHAID__c</name>
+</CustomFieldTranslation>

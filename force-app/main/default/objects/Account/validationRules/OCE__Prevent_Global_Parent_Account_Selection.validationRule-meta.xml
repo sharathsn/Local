@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Prevent_Global_Parent_Account_Selection</fullName>
+    <active>true</active>
+    <description>While creating/editing local account, assigning global parent account is not allowed.</description>
+    <errorConditionFormula>AND( OCE__ParentAccount__r.OCE__IsGlobal__c  = true, OCE__ParentAccount__r.OCE__IsSubscribed__c = true, OCE__IsGlobal__c  = false, OCE__IsSubscribed__c = false)</errorConditionFormula>
+    <errorDisplayField>OCE__ParentAccount__c</errorDisplayField>
+    <errorMessage>Cannot assign a Global Account as Parent Account.</errorMessage>
+</ValidationRule>

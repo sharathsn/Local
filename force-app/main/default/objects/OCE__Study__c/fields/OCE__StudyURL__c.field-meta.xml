@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__StudyURL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Website link to an external system with study information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Website link to an external system with study information.</inlineHelpText>
+    <label>Study URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

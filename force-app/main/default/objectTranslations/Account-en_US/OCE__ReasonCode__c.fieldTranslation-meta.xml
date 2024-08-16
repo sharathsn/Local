@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Reason Code</help>
+    <label><!-- Reason Code --></label>
+    <name>OCE__ReasonCode__c</name>
+    <picklistValues>
+        <masterLabel>Associate</masterLabel>
+        <translation>Associate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation>Closed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creation</masterLabel>
+        <translation>Creation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Privacy Law</masterLabel>
+        <translation>Data Privacy Law</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deceased</masterLabel>
+        <translation>Deceased</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicate</masterLabel>
+        <translation>Duplicate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicate Reversal</masterLabel>
+        <translation>Duplicate Reversal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Initial Loading</masterLabel>
+        <translation>Initial Loading</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invalidation</masterLabel>
+        <translation>Invalidation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moved to another country</masterLabel>
+        <translation>Moved to another country</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No longer working</masterLabel>
+        <translation>No longer working</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion</masterLabel>
+        <translation>Promotion</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality control</masterLabel>
+        <translation>Quality control</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reactivation</masterLabel>
+        <translation>Reactivation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relation : Creation / Suppression / Checking</masterLabel>
+        <translation>Relation : Creation / Suppression / Checking</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relation creation</masterLabel>
+        <translation>Relation creation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relation suppression</masterLabel>
+        <translation>Relation suppression</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relocation</masterLabel>
+        <translation>Relocation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired</masterLabel>
+        <translation>Retired</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Simple modification</masterLabel>
+        <translation>Simple modification</translation>
+    </picklistValues>
+</CustomFieldTranslation>

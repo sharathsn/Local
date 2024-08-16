@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>User name which interviewed account.</help>
+    <label><!-- Interviewed By Name --></label>
+    <name>OCE__InterviewedByName__c</name>
+</CustomFieldTranslation>

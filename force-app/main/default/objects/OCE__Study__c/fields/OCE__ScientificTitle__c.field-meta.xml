@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ScientificTitle__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The official title of a protocol used to identify a clinical study or a short title written in language intended for the lay public.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The official title of a protocol used to identify a clinical study or a short title written in language intended for the lay public.</inlineHelpText>
+    <label>Scientific Title</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

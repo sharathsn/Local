@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__Satellite_Cannot_Update_RecordType2</fullName>
+    <active>true</active>
+    <description>Prevents updating the Record Type for the Satellite Meeting</description>
+    <errorConditionFormula>AND(
+            ISPICKVAL(OCE__MeetingStructure__c, &quot;Satellite&quot;),
+            ISCHANGED(RecordTypeId)
+            )</errorConditionFormula>
+    <errorDisplayField>RecordTypeId</errorDisplayField>
+    <errorMessage>This field comes from the Host Meeting and cannot be modified.</errorMessage>
+</ValidationRule>

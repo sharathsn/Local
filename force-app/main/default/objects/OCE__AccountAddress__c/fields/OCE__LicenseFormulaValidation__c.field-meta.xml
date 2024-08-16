@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__LicenseFormulaValidation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula for validation license.</description>
+    <externalId>false</externalId>
+    <formula>AND(!ISBLANK(OCE__LicenseNumber__c), OCE__LicenseExpirationDate__c &gt;= TODAY())</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>License Formula Validation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

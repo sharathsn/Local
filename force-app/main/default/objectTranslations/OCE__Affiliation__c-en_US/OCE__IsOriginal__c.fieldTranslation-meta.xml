@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indicator of original affiliation (as opposite to reciprocal one).</help>
+    <label><!-- Is Original --></label>
+    <name>OCE__IsOriginal__c</name>
+</CustomFieldTranslation>

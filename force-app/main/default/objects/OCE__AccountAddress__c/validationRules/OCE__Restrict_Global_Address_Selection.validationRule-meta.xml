@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Restrict_Global_Address_Selection</fullName>
+    <active>false</active>
+    <description>While creating/editing local account address , assigning global address is not allowed.</description>
+    <errorConditionFormula>AND( OCE__Address__r.OCE__IsSubscribed__c = true, OCE__Account__r.OCE__IsGlobal__c = false, OCE__Account__r.OCE__IsSubscribed__c = false )</errorConditionFormula>
+    <errorDisplayField>OCE__Address__c</errorDisplayField>
+    <errorMessage>A Global Address cannot be assigned to a Non-Global Account.</errorMessage>
+</ValidationRule>

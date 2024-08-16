@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__EndTime_Later_Than_StartTime_RecordTypes</fullName>
+    <active>false</active>
+    <description>End Date/Time should be later than Start Date/Time, excluding certain record types.</description>
+    <errorConditionFormula>AND(OCE__EndDateTime__c  &lt;= OCE__StartDateTime__c, NOT(OR(RecordType.DeveloperName = &apos;Grant_Donation&apos;,RecordType.DeveloperName = &apos;InvestigatorInitiatedStudy&apos;)))</errorConditionFormula>
+    <errorMessage>End Date/Time Should Be Later Than Start Date/Time.</errorMessage>
+</ValidationRule>

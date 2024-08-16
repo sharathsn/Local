@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EndDateTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>End Date Time</description>
+    <externalId>false</externalId>
+    <inlineHelpText>End Date Time</inlineHelpText>
+    <label>End Date Time</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

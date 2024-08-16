@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>HomePageEmail</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__ActionName__c</field>
+        <value xsi:type="xsd:string">Email</value>
+    </values>
+    <values>
+        <field>OCE__Color__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Icon__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__Location__c</field>
+        <value xsi:type="xsd:string">Home Page</value>
+    </values>
+    <values>
+        <field>OCE__MobileOnly__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__Object__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>OCE__Order__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>OCE__PermissionSets__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Profiles__c</field>
+        <value xsi:type="xsd:string">;Senior Executive;</value>
+    </values>
+    <values>
+        <field>OCE__RecordTypes__c</field>
+        <value xsi:type="xsd:string">;Lilly_WorkDay;MP;</value>
+    </values>
+</CustomMetadata>

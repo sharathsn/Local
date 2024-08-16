@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Additional State Code field not dependent on OOTB dependency.</help>
+    <label><!-- State Code 2 --></label>
+    <name>OCE__StateCode2__c</name>
+    <picklistValues>
+        <masterLabel>State2</masterLabel>
+        <translation><!-- State2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

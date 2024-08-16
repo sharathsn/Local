@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__AddAccountsNotAllowed</fullName>
+    <active>false</active>
+    <description>Prevent adding accounts to the parented insight.</description>
+    <errorConditionFormula>OCE__ParentInsight__r.OCE1__IsParented__c 
+&amp;&amp;
+NOT( ISBLANK( OCE__InsightAccount__c ) )</errorConditionFormula>
+    <errorMessage>This insight is parented. You cannot add accounts.</errorMessage>
+</ValidationRule>

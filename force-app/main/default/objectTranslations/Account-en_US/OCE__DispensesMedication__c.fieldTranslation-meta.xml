@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>(KAM) Indicates if the Account dispenses medication.</help>
+    <label><!-- Dispenses Medication --></label>
+    <name>OCE__DispensesMedication__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Category of the record. Example: Approve</help>
+    <label><!-- Category --></label>
+    <name>OCE__Category__c</name>
+    <picklistValues>
+        <masterLabel>Abandon</masterLabel>
+        <translation>Abandon</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approve</masterLabel>
+        <translation>Approve</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel</masterLabel>
+        <translation>Cancel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Claim</masterLabel>
+        <translation>Claim</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conclude</masterLabel>
+        <translation>Conclude</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Execute</masterLabel>
+        <translation>Execute</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAI</masterLabel>
+        <translation>RAI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reject</masterLabel>
+        <translation>Reject</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submit for Approval</masterLabel>
+        <translation>Submit for Approval</translation>
+    </picklistValues>
+</CustomFieldTranslation>

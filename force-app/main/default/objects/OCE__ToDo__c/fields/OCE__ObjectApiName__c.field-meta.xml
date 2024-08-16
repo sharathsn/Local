@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ObjectApiName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the object that the comment is for, to categorize comments in reports.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the object that the comment is for, to categorize comments in reports.</inlineHelpText>
+    <label>Object API Name</label>
+    <length>60</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

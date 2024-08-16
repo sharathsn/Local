@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AvailableOffline__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates Territory fields to be only downloaded to the mobile DB.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates Territory fields to be only downloaded to the mobile DB.</inlineHelpText>
+    <label>Available Offline</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SponsorCollaborators__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A sponsor is the organization or person who initiates the study and who has authority and control over the study. A collaborator is an organization other than the sponsor that provides support for a clinical study. This support may include activities related to funding, design, implementation, data analysis, or reporting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A sponsor is the organization or person who initiates the study and who has authority and control over the study. A collaborator is an organization other than the sponsor that provides support for a clinical study.</inlineHelpText>
+    <label>Sponsor/Collaborators</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

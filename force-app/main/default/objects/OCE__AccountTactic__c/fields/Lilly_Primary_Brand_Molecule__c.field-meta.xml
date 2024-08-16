@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Primary_Brand_Molecule__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Brand/Molecule</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lilly_Platform_Disease_State_Activity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>11bHSD1 INHIBITOR(LY2508913)</fullName>
+                <default>false</default>
+                <label>11bHSD1 INHIBITOR(LY2508913)</label>
+            </value>
+            <value>
+                <fullName>4-HEXYLRESORCINOL</fullName>
+                <default>false</default>
+                <label>4-HEXYLRESORCINOL</label>
+            </value>
+            <value>
+                <fullName>ABCIXIMAB</fullName>
+                <default>false</default>
+                <label>ABCIXIMAB</label>
+            </value>
+            <value>
+                <fullName>ABEMACICLIB</fullName>
+                <default>false</default>
+                <label>ABEMACICLIB</label>
+            </value>
+            <value>
+                <fullName>AMBROXOL HYDROCHLORIDE</fullName>
+                <default>false</default>
+                <label>AMBROXOL HYDROCHLORIDE</label>
+            </value>
+            <value>
+                <fullName>ANASTROZOLE</fullName>
+                <default>false</default>
+                <label>ANASTROZOLE</label>
+            </value>
+            <value>
+                <fullName>Ang2 Antibody (LY3127804)</fullName>
+                <default>false</default>
+                <label>Ang2 Antibody (LY3127804)</label>
+            </value>
+            <value>
+                <fullName>ANTI-CD20 ANTIBODY II</fullName>
+                <default>false</default>
+                <label>ANTI-CD20 ANTIBODY II</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>11bHSD1 INHIBITOR(LY2508913)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>4-HEXYLRESORCINOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>ABCIXIMAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>ABEMACICLIB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>AMBROXOL HYDROCHLORIDE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>ANASTROZOLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>Ang2 Antibody (LY3127804)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>ANTI-CD20 ANTIBODY II</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

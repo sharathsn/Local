@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not yet recruiting</fullName>
+                <default>false</default>
+                <label>Not yet recruiting</label>
+            </value>
+            <value>
+                <fullName>Recruiting</fullName>
+                <default>false</default>
+                <label>Recruiting</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Active, not recruiting</fullName>
+                <default>false</default>
+                <label>Active, not recruiting</label>
+            </value>
+            <value>
+                <fullName>Recruiting complete, follow-up complete</fullName>
+                <default>false</default>
+                <label>Recruiting complete, follow-up complete</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Unknown status</fullName>
+                <default>false</default>
+                <label>Unknown status</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

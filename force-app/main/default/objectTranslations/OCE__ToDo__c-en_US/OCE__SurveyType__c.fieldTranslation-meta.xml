@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Channel using which account was interviewed.</help>
+    <label><!-- Survey Type --></label>
+    <name>OCE__SurveyType__c</name>
+    <picklistValues>
+        <masterLabel>DM</masterLabel>
+        <translation>DM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation>Email</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Face To Face</masterLabel>
+        <translation>Face To Face</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fax</masterLabel>
+        <translation>Fax</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone</masterLabel>
+        <translation>Phone</translation>
+    </picklistValues>
+</CustomFieldTranslation>

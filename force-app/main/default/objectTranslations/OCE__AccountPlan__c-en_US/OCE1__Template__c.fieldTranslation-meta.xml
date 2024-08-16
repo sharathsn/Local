@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Source of the record if it was created from Template --></help>
+    <label><!-- Template --></label>
+    <name>OCE1__Template__c</name>
+    <relationshipLabel><!-- Account Plans --></relationshipLabel>
+</CustomFieldTranslation>

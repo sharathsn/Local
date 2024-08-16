@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AccountPlan_SWOT_allOrNone</fullName>
+    <active>true</active>
+    <description>User must complete all fields of SWOT analysis to be able to save Account Plan</description>
+    <errorConditionFormula>NOT(
+  OR(
+    AND(
+      LEN(OCE__Strength__c) = 0,
+      LEN(OCE__Weakness__c) = 0,
+      LEN(OCE__Opportunities__c) = 0,
+      LEN(OCE__Threats__c) = 0
+    ),
+    AND(
+      LEN(OCE__Strength__c) &gt; 0,
+      LEN(OCE__Weakness__c) &gt; 0,
+      LEN(OCE__Opportunities__c) &gt; 0,
+      LEN(OCE__Threats__c) &gt; 0
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>Please, populate all fields in the SWOT analysis</errorMessage>
+</ValidationRule>

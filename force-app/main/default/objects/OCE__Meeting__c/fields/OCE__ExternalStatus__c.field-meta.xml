@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ExternalStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Status of the request that will be visible to an External User</description>
+    <externalId>false</externalId>
+    <label>External Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>In Revision</fullName>
+                <default>false</default>
+                <label>In Revision</label>
+            </value>
+            <value>
+                <fullName>Submitted for Review</fullName>
+                <default>false</default>
+                <label>Submitted for Review</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Denied</fullName>
+                <default>false</default>
+                <label>Denied</label>
+            </value>
+            <value>
+                <fullName>Pending LOA Signature</fullName>
+                <default>false</default>
+                <label>Pending LOA Signature</label>
+            </value>
+            <value>
+                <fullName>Pending Fulfillment</fullName>
+                <default>false</default>
+                <label>Pending Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Request Fulfilled</fullName>
+                <default>false</default>
+                <label>Request Fulfilled</label>
+            </value>
+            <value>
+                <fullName>Closeout Required</fullName>
+                <default>false</default>
+                <label>Closeout Required</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+            <value>
+                <fullName>Additional Information Requested</fullName>
+                <default>false</default>
+                <label>Additional Information Requested</label>
+            </value>
+            <value>
+                <fullName>Executed</fullName>
+                <default>false</default>
+                <label>Executed</label>
+            </value>
+            <value>
+                <fullName>Concluded</fullName>
+                <default>false</default>
+                <label>Concluded</label>
+            </value>
+            <value>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+                <label>Abandoned</label>
+            </value>
+            <value>
+                <fullName>Pending Financial Reconciliation</fullName>
+                <default>false</default>
+                <label>Pending Financial Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Financial Reconciliation In Review</fullName>
+                <default>false</default>
+                <label>Financial Reconciliation In Review</label>
+            </value>
+            <value>
+                <fullName>Pending Outcome Reconciliation</fullName>
+                <default>false</default>
+                <label>Pending Outcome Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Outcome Reconciliation In Review</fullName>
+                <default>false</default>
+                <label>Outcome Reconciliation In Review</label>
+            </value>
+            <value>
+                <fullName>Recalled</fullName>
+                <default>false</default>
+                <label>Recalled</label>
+            </value>
+            <value>
+                <fullName>Concept Accepted/Full Proposal Requested</fullName>
+                <default>false</default>
+                <label>Concept Accepted/Full Proposal Requested</label>
+            </value>
+            <value>
+                <fullName>Pending Study Update</fullName>
+                <default>false</default>
+                <label>Pending Study Update</label>
+            </value>
+            <value>
+                <fullName>Final Study Submitted For Review</fullName>
+                <default>false</default>
+                <label>Final Study Submitted For Review</label>
+            </value>
+            <value>
+                <fullName>Final Study Approved</fullName>
+                <default>false</default>
+                <label>Final Study Approved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

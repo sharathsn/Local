@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ResearchGateCitations__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A,B,C,D,E,F,0 grade, basing on the number of ResearchGate Citations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A,B,C,D,E,F,0 grade, basing on the number of ResearchGate Citations</inlineHelpText>
+    <label>ResearchGate Citations</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

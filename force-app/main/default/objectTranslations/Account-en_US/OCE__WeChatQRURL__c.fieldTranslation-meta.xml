@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Holds Generated QR Code URL</help>
+    <label><!-- WeChat QR URL --></label>
+    <name>OCE__WeChatQRURL__c</name>
+</CustomFieldTranslation>

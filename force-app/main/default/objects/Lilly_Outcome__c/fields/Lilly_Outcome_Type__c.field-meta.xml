@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Outcome_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Outcome Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>KOL - Speaking Engagement</fullName>
+                <default>false</default>
+                <label>KOL - Speaking Engagement</label>
+            </value>
+            <value>
+                <fullName>KOL - Trial Participation</fullName>
+                <default>false</default>
+                <label>KOL - Trial Participation</label>
+            </value>
+            <value>
+                <fullName>KOL – Publication</fullName>
+                <default>false</default>
+                <label>KOL – Publication</label>
+            </value>
+            <value>
+                <fullName>KOL – Advisory Board</fullName>
+                <default>false</default>
+                <label>KOL – Advisory Board</label>
+            </value>
+            <value>
+                <fullName>HCA – On Guidelines</fullName>
+                <default>false</default>
+                <label>HCA – On Guidelines</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

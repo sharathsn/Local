@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__InsDocHCOToHCP__c</fullName>
+    <deprecated>false</deprecated>
+    <description>InsDoc&apos;s HCO Id to HCP Id combination</description>
+    <externalId>false</externalId>
+    <formula>CASESAFEID(OCE__ParentAccount__c)  &amp; &apos;_&apos;  &amp;  CASESAFEID(OCE__InsDocHCP__c)</formula>
+    <inlineHelpText>InsDoc&apos;s HCO Id to HCP Id combination</inlineHelpText>
+    <label>Ins Doc HCO To HCP</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

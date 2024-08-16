@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ManagementAgency__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The organization managing an Acccount. Values: Nation, Public, Social Insurance, Individual, Other</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The organization managing an Acccount. Values: Nation, Public, Social Insurance, Individual, Other</inlineHelpText>
+    <label>Management Agency</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nation</fullName>
+                <default>false</default>
+                <label>Nation</label>
+            </value>
+            <value>
+                <fullName>Public</fullName>
+                <default>false</default>
+                <label>Public</label>
+            </value>
+            <value>
+                <fullName>Social Insurance</fullName>
+                <default>false</default>
+                <label>Social Insurance</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

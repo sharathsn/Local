@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SelfEvaluation</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>OCE__FC_Event</compactLayoutAssignment>
+    <description>Evaluation phase for Employee.</description>
+    <label>Self-Evaluation</label>
+    <picklistValues>
+        <picklist>OCE__Status__c</picklist>
+        <values>
+            <fullName>Self Evaluation</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

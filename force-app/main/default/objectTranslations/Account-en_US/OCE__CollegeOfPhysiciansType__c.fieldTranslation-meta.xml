@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>DEPRECATED. Type of College of Physicians license, which will be C.
+            Canada specific.</help>
+    <label><!-- DEPRECATED College of Physicians Type --></label>
+    <name>OCE__CollegeOfPhysiciansType__c</name>
+    <picklistValues>
+        <masterLabel>Regulatory</masterLabel>
+        <translation>Regulatory</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>__c</masterLabel>
+        <translation>__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsCompanyAccreditorForThisProgram__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Controls whether the System shows the &apos;I certify...&apos; and the Accreditation Certificate(s) to the User, also controls if System should select the value &apos;Accreditor&apos; in the Partner Organization Types</description>
+    <externalId>false</externalId>
+    <label>Is your company the accreditor?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

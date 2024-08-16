@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>InsDoc&apos;s HCP Id to HCO Id combination</help>
+    <label><!-- Ins Doc HCP To HCO --></label>
+    <name>OCE__InsDocHCPToHCO__c</name>
+</CustomFieldTranslation>

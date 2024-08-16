@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ClinicalTrialsLastStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The latest date of all the CTs, in which the HCP participated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The latest date of all the CTs, in which the HCP participated</inlineHelpText>
+    <label>ClinicalTrials Last Start Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

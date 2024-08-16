@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EnrollmentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of enrollment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of enrollment</inlineHelpText>
+    <label>Enrollment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exclusive Provider Organization (EPO)</fullName>
+                <default>false</default>
+                <label>Exclusive Provider Organization (EPO)</label>
+            </value>
+            <value>
+                <fullName>Health Maintenance Organization (HMO)</fullName>
+                <default>false</default>
+                <label>Health Maintenance Organization (HMO)</label>
+            </value>
+            <value>
+                <fullName>Point of Service (POS)</fullName>
+                <default>false</default>
+                <label>Point of Service (POS)</label>
+            </value>
+            <value>
+                <fullName>Preferred Provider Organization (PPO)</fullName>
+                <default>false</default>
+                <label>Preferred Provider Organization (PPO)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

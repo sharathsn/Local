@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CustomerTypeCode --></label>
+    <name>Lilly_CustomerTypeCode__c</name>
+    <picklistValues>
+        <masterLabel>plan</masterLabel>
+        <translation><!-- plan --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

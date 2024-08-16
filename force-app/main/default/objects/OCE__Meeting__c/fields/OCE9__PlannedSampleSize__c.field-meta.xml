@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__PlannedSampleSize__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of observations used for determining the estimations of a given population and the ability of a study to detect statistically significant results, such as effects of a treatment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of observations used for determining the estimations of a given population and the ability of a study to detect statistically significant results, such as effects of a treatment.</inlineHelpText>
+    <label>Planned Sample Size / Statistical Power</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

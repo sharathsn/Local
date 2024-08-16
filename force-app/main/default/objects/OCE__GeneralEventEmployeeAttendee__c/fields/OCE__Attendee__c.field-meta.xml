@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Attendee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Reference to Event Attendee (User)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reference to Event Attendee (User)</inlineHelpText>
+    <label>Event Attendee</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>GeneralEventEmployeeAttendees</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

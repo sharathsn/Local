@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__LicenseTypeName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type if License given to the HCP. Examples include Practical Nurse or Physician&apos;s Assistant.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type if License given to the HCP. Examples include Practical Nurse or Physician&apos;s Assistant.</inlineHelpText>
+    <label>License Type Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

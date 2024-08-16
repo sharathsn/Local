@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Annual_Spend_Threshold__c</members>
+        <members>OCE__ToDoAccountPlanStakeholder__c</members>
+        <members>Most_recent_contracted__c</members>
+        <members>OCE__BusinessToDo__c</members>
+        <members>OCE__BusinessTactic__c</members>
+        <members>OCE__Publication__c</members>
+        <members>OCE__ClinicalTrial__c</members>
+        <members>Industry_Activity__c</members>
+        <members>PreferenceSurvey__c</members>
+        <members>OCE__AccountObjective__c</members>
+        <members>OCE__AccountPlan__c</members>
+        <members>OCE__AccountPlanMember__c</members>
+        <members>OCE__AccountPlanMemberStakeholder__c</members>
+        <members>OCE__AccountPlanStakeholder__c</members>
+        <members>OCE__AccountTactic__c</members>
+        <members>OCE__BusinessObjective__c</members>
+        <members>OCE__ToDo__c</members>
+        <members>OCE__Affiliation__c</members>
+        <members>OCE__Meeting__c</members>
+        <members>OCE__MeetingExpense__c</members>
+        <members>OCE__ExpenseType__c</members>
+        <members>OCE__Address__c</members>
+        <members>OCE__AccountAddress__c</members>
+        <members>Lilly_Session__c</members>
+        <members>Lilly_Non_Contract_Engagement__c</members>
+        <members>Lilly_Scientific_Congress__c</members>
+        <members>LilIy_Investigator_Init_Study_Request__c</members>
+        <members>Lilly_People__c</members>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Lilly_Payment__c</members>
+        <members>Lilly_Claim__c</members>
+        <members>OCE__Insight__c</members>
+        <members>OCE__FieldCoachingEvent__c</members>
+        <members>OCE__FieldCoachingEventData__c</members>
+        <members>Lilly_Tag__c</members>
+        <members>Lilly_Tag_Assignment__c</members>
+        <members>Lilly_User_Tag_Access__c</members>
+        <members>H1_Profile__c</members>
+        <members>OCE__Study__c</members>
+        <members>OCE__MedicalInquiryRequest__c</members>
+        <members>Lilly_HCP_Education__c</members>
+        <members>Lilly_HCP_Identifiers__c</members>
+        <members>Lilly_HCP_Segmentation__c</members>
+        <members>Lilly_HCO_Insurance__c</members>
+        <members>Lilly_HCO_Identifiers__c</members>
+        <members>Lilly_HCO_Segmentation__c</members>
+        <members>OCE__MergeHistory__c</members>
+
+        <members>Lilly_Outcome__c</members>
+        <members>Lilly_KOL_Status__c</members>
+        <members>Lilly_Scientific_Congress__c</members>
+        <members>Lilly_Journal__c</members>
+        <members>Lilly_Physician_Association__c</members>
+        <members>Lilly_Treatment_Guidl__c</members>
+        <members>Lilly_Corporate_Activities__c</members>
+        <members>Lilly_Upcoming_Events__c</members>
+        <members>Lilly_Session_Note__c</members>
+        <members>Lilly_eCommerce_Registration__c</members>
+        <members>Lilly_Account_Team__c</members>
+        <members>Lilly_Account_Team_Notes__c</members>
+        <members>Lilly_Referrals_Received__c</members>
+        <members>Lilly_ReferralsSent__c</members>
+        <members>Lilly_Custom_Attribute__c</members>
+
+        <members>OCE__Opt__c</members>
+        <members>OCE__OptDetail__c</members>
+        <members>Lilly_H1_HCP_Patient_DI__c</members>
+
+        <!-- Megha's Changes -->
+        <members>Account</members>
+		<members>Contracting_Status__c</members>
+		<members>Lilly_Payment__c</members>
+		<members>Lilly_Social_Media_Links__c</members>
+		<members>OCE__AccountAddress__c</members>
+		<!--<members>OCE__AccountPlan__c</members>-->
+		<members>OCE__AccountTerritoryFields__c</members>
+		<!--<members>OCE__ToDo__c</members>-->
+        <members>Lilly_Custom_Object__c</members>
+        <members>OCE__FieldCoachingEvent__c</members>
+        <members>OCE__HomeOfficeMessage__c</members>
+
+        <members>OCE__GeneralEvent__c</members>
+        <members>OCE__TimeOffTerritory__c</members>
+        <members>OCE__GeneralEventEmployeeAttendee__c</members>
+        <members>OCE__Topic__c</members>
+        <name>CustomObject</name>
+    </types>
+    
+    <types>
+        <members>Account.LinkedIn__c</members>
+        <members>Account.Twitter_Profile__c</members>
+        <members>Account.Profile_Overview__c</members>
+        <members>Account.Account_Additional_Notes__c</members>
+        <members>OCE__Call__c.Associated_Congress__c</members>
+        <members>OCE__Call__c.Call_Description__c</members>
+        <members>OCE__Call__c.MSL_Tier__c</members>
+        <members>User.H1_Section1__c</members>
+        <members>User.H1_Section2__c</members>
+        <members>User.H1_Section3__c</members>
+        <members>User.H1_Section4__c</members>
+        <members>User.H1_Section5__c</members>
+        <members>User.H1_Section6__c</members>
+        <members>User.H1_Section7__c</members>
+        <members>OCE__Meeting__c.OCE9__ActualOutcomeLevelSingle__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Associated_Congress__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Forecasted_US_Contracted_HCPs__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Meeting_Type__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Type__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Max_of_Contracted_Participants__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Contract_Type__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Name_Local_Language__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Functional_Owner__c</members>
+        <members>OCE__AccountTactic__c.Lilly_ActivityOwner__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Sponsoring_Country__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Sponsoring_Organization__c</members>
+        <members>OCE__AccountTactic__c.Lilly_TL_Selection_Criteria__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Platform_Disease_State_Activity__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Primary_Brand_Molecule__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Primary_Indication_Condition__c</members>
+        <members>Account.Lilly_Contracting_Status__c</members>
+        <members>Account.HCO__c</members>
+        <members>Account.Cath_Lab__c</members>
+        <members>Account.HCO_COE__c</members>
+        <members>Account.HCO_Priority__c</members>
+        <members>Account.HCO_X1_Adoption__c</members>
+        <members>Account.Equipment_Capabilities_Survey__c</members>
+        <members>Account.NB_Speaker_Rating_AI_ML__c</members>
+        <members>Account.Lilly_Black_Flag__c</members>
+        <members>Account.Rising_Star__c</members>
+        <members>Account.Active_Trials__c</members>
+        <members>Account.Contract_Engagements_to_Review__c</members>
+        <members>Account.Lilly_Spend_Threshold__c</members>
+        <members>Account.Speaking_Status_Interest__c</members>
+        <members>OCE__Meeting__c.Lilly_Estimated_of_Inter_Attendees__c</members>
+        <members>OCE__Meeting__c.Lilly_Estimated_of_National_Attendees__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver3__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver5__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver_1__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver_2__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver_4__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver_6__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver_7__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver_8__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Approver__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Business_Need_Counts__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Business_Unit__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Engagement_Plan_Name_LocalLanguage__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Initial_Approval_Date__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Plan_Source__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Plan_Therapeutic_Area__c</members>
+        <members>OCE__AccountPlan__c.Lilly_UserContext__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Year__c</members>
+        <members>Account.Lilly_Contracting_Status__c</members>
+        <members>Account.HCO__c</members>
+        <members>Account.Cath_Lab__c</members>
+        <members>Account.HCO_Priority__c</members>
+        <members>Account.HCO_X1_Adoption__c</members>
+        <members>Account.NB_Speaker_Rating_AI_ML__c</members>
+        <members>Account.Lilly_Black_Flag__c</members>
+        <members>Account.Rising_Star__c</members>
+        <members>Account.Active_Trials__c</members>
+        <members>Account.Contract_Engagements_to_Review__c</members>
+        <members>Account.Lilly_Spend_Threshold__c</members>
+        <members>Account.Speaking_Status_Interest__c</members>
+        <members>OCE__AccountTerritoryFields__c.HCO_Volume_Rank__c</members>
+        <members>OCE__AccountPlan__c.OCE__UniqueIntegrationID__c</members>
+        <members>OCE__AccountPlan__c.OCE__ApprovedStatus__c</members>
+        <members>OCE__AccountPlan__c.OCE__Status__c</members>
+        <members>OCE__AccountPlan__c.OCE__Territory__c</members>
+        <members>OCE__AccountPlan__c.OCE__Description__c</members>
+        <members>OCE__AccountPlan__c.OCE__ContactCountryRef__c</members>
+        <members>OCE__AccountPlan__c.OCE__StartDate__c</members>
+        <members>OCE__AccountPlan__c.OCE__EndDate__c</members>
+        <members>OCE__AccountPlan__c.OCE1__ClusterAttributes__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Business_Unit__c</members>
+        <members>OCE__AccountPlan__c.Lilly_Plan_Therapeutic_Area__c</members>
+        <members>OCE__AccountPlan__c.OCE1__PromoPlanRecordType__c</members>
+        <members>OCE__AccountPlan__c.OCE1__PromoPlanRecordType__c</members>
+        <members>OCE__AccountObjective__c.OCE__UniqueIntegrationID__c</members>
+        <members>OCE__AccountObjective__c.OCE__AccountPlan__c</members>
+        <members>OCE__AccountObjective__c.OCE__Description__c</members>
+        <members>OCE__AccountObjective__c.OCE__Target__c</members>
+        <members>OCE__AccountTactic__c.OCE__UniqueIntegrationID1__c</members>
+        <members>OCE__AccountTactic__c.OCE__AccountObjective__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Name_Local_Language__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Contract_Type__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Max_of_Contracted_Participants__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Type__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Meeting_Type__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Associated_Congress__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Forecasted_US_Contracted_HCPs__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Functional_Owner__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Platform_Disease_State_Activity__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Primary_Brand_Molecule__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Primary_Indication_Condition__c</members>
+        <members>OCE__AccountTactic__c.Lilly_TL_Selection_Criteria__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Sponsoring_Organization__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Sponsoring_Country__c</members>
+        <members>OCE__AccountTactic__c.OCE__StartDate__c</members>
+        <members>OCE__AccountTactic__c.OCE__EndDate__c</members>
+        <members>OCE__AccountTactic__c.Lilly_ActivityOwner__c</members>
+        <members>OCE__AccountTerritoryFields__c.HCO_Volume_Rank__c</members>
+        <members>Account.Active_Trials__c</members>
+        <members>Account.Advisory_Board_Experience__c</members>
+        <members>Account.Consultancy_Experience__c</members>
+        <members>Account.Digital_Activity__c</members>
+        <members>Account.Digital_Audience__c</members>
+        <members>Account.Digital_Presence1__c</members>
+        <members>Account.Digital_Presence__c</members>
+        <members>Account.HCP_Pic_RT__c</members>
+        <members>Account.KOL_Status__c</members>
+        <members>Account.Last_Message_Delivered__c</members>
+        <members>Account.Market_Share__c</members>
+        <members>Account.NB_Speaker_Rating_AI_ML__c</members>
+        <members>Account.National_Account__c</members>
+        <members>Account.Net_New_Account__c</members>
+        <members>Account.Next_Best_Sequence__c</members>
+        <members>Account.On_Formulary__c</members>
+        <members>Account.Points_to_Level_Up_Calculated__c</members>
+        <members>Account.Points_to_Maintain_Calculated__c</members>
+        <members>Account.Predicted_Behavior__c</members>
+        <members>Account.Research_Experience__c</members>
+        <members>Account.Social_Media_Mention__c</members>
+        <members>Account.Social_Media_Owner__c</members>
+        <members>Account.Social_Media_Owner__c</members>
+        <members>Account.Speaking_Status_Interest__c</members>
+        <members>Account.Stopped_Purchasing__c</members>
+        <members>Account.Total_Publications__c</members>
+        <members>Account.Video_Mention__c</members>
+        <members>Account.Video_Owner__c</members>
+        <members>Account.Website_Mention__c</members>
+        <members>Account.Website_Owner__c</members>
+        <members>Account.X6M_Trend__c</members>
+        <members>Account.Year_over_Year_Sales_Growth__c</members>
+        <members>Account.usse_script_conversions__c</members>
+        <members>Lilly_Non_Contract_Engagement__c.LillyCongress_or_Meeting__c</members>
+        <members>Lilly_Upcoming_Events__c.Lilly_Account__c</members>
+        <members>Lilly_Upcoming_Events__c.Lilly_City__c</members>
+        <members>Lilly_Upcoming_Events__c.Lilly_Role__c</members>
+        <members>Lilly_Upcoming_Events__c.Lilly_State__c</members>
+        <members>OCE__Call__c.Affiliated_Prescriber__c</members>
+        <members>OCE__Call__c.Non_Prescriber_Attendee_Role__c</members>
+        <members>OCE__Call__c.Non_Prescriber_Subrole__c</members>
+        <members>OCE__Call__c.Prescriber_Type__c</members>
+        <members>OCE__Call__c.Remaining_Spend__c</members>
+        <members>OCE__Call__c.LillyPre_NegotiatedTime__c</members>
+        <members>OCE__Call__c.Med_Info_Case_Record__c</members>
+        <members>OCE__Call__c.Responded_to_Unsolicited_Request__c</members>
+        <members>OCE__Call__c.Medical_Information_Letter_Requested__c</members>
+        <members>OCE__Call__c.Lilly_Engagement_Type__c</members>
+        <members>OCE__Call__c.Record_Type__c</members>
+        <members>OCE__Call__c.Specialty__c</members>
+        <members>OCE__Call__c.Lilly_Meeting_Type__c</members>
+        <members>OCE__Call__c.Lilly_Engagement_Title__c</members>
+        <members>OCE__Call__c.OCE__Meeting__c</members>
+        <members>OCE__Call__c.Lilly_Meeting_Room_Name__c</members>
+        <members>OCE__Call__c.Coaching_Event__c</members>
+        <members>OCE__Call__c.Meeting_Owner__c</members>
+        <members>Account.Prescriber_Type__c</members>
+        <members>OCE__CallDiscussion__c.Reactive__c</members>
+        <members>OCE__CallDiscussion__c.Short_Note__c</members>
+        <members>OCE__CallDiscussion__c.Supporting_Medical_Letters_Docs__c</members>
+        <members>OCE__CallDiscussion__c.Scientific_Objective__c</members>
+        <members>Account.CoE__c</members>
+        <members>Account.HCP_ID__c</members>
+        <members>Account.Profitability_Index__c</members>
+        <members>Account.National_Account__c</members>
+        <members>Account.Net_New_Account__c</members>
+        <members>Account.Points_to_Level_Up_Calculated__c</members>
+        <members>Account.Points_to_Maintain_Calculated__c</members>
+        <members>Account.Stopped_Purchasing__c</members>
+        <members>Account.Year_over_Year_Sales_Growth__c</members>
+        <members>Account.aztwitter_handler__c</members>
+        <members>Account.usse_script_conversions__c</members>
+        <members>Account.Next_Best_Sequence__c</members>
+        <members>Account.Predicted_Behavior__c</members>
+        <members>Account.External_Urls__c</members>
+        <members>Account.HCP_Pic_RT__c</members>
+        <members>Account.Last_Message_Delivered__c</members>
+        <members>Account.X12M_Sales__c</members>
+        <members>Account.Market_Share__c</members>
+        <members>Account.Product_KOL__c</members>
+         <members>OCE__AccountPlan__c.Is_Market_Access_Plan__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Initial_Approval_Date__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_City__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Country__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Therapeutic_Area__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_State_Province__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Execution_Status__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Actual_US_Contracted_HCPs__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Cancellation_Reason__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Activity_Name__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Business_Need_Local_Language__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Business_Unit__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Contracted_ActivityCount__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Engagement_Plan_Name_LocalLanguage__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Engagement_Plan_Name__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Plan_Source__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Plan_Therapeutic_Area__c</members>
+        <members>OCE__AccountObjective__c.Lilly_Year__c</members>
+        <members>OCE__ToDo__c.Accept_Status_Date__c</members>
+        <members>OCE__ToDo__c.Accept_Status_Person__c</members>
+        <members>OCE__ToDo__c.Accept_Status__c</members>
+        <members>OCE__ToDo__c.Account_Plan__c</members>
+        <members>OCE__ToDo__c.Completed__c</members>
+        <members>OCE__ToDo__c.Contracted__c</members>
+        <members>OCE__ToDo__c.Deep_Link__c</members>
+        <members>OCE__ToDo__c.Lilly_Activity_Name_Local_Language__c</members>
+        <members>OCE__ToDo__c.Lilly_Activity_Owner__c</members>
+        <members>OCE__ToDo__c.Lilly_Activity_Type__c</members>
+        <members>OCE__ToDo__c.Lilly_Actual_US_Contracted_HCPs__c</members>
+        <members>OCE__ToDo__c.Lilly_Associated_Congress__c</members>
+        <members>OCE__ToDo__c.Lilly_Black_Flag__c</members>
+        <members>OCE__ToDo__c.Lilly_Cancellation_Reason__c</members>
+        <members>OCE__ToDo__c.Lilly_Contract_Type__c</members>
+        <members>OCE__ToDo__c.Lilly_Contracting_Status__c</members>
+        <members>OCE__ToDo__c.Lilly_Execution_Status__c</members>
+        <members>OCE__ToDo__c.Lilly_Forecasted_US_Contracted_HCPS__c</members>
+        <members>OCE__ToDo__c.Lilly_Functional_Owner__c</members>
+        <members>OCE__ToDo__c.Lilly_Maximum_of_Contracted_Participants__c</members>
+        <members>OCE__ToDo__c.Lilly_Meeting_Type__c</members>
+        <members>OCE__ToDo__c.Lilly_Rising_Star__c</members>
+        <members>OCE__ToDo__c.Lilly_Spend_Threshold__c</members>
+        <members>OCE__ToDo__c.Lilly_nominations_this_EP_current__c</members>
+        <members>OCE__ToDo__c.Lilly_of_nominations_this_EP_original__c</members>
+        <members>OCE__ToDo__c.Notes__c</members>
+        <members>OCE__ToDo__c.TLL_Activity_Name_Local_Language__c</members>
+        <members>OCE__ToDo__c.TLL_Activity_Name__c</members>
+        <members>OCE__ToDo__c.TLL_Activity_Owner__c</members>
+        <members>OCE__ToDo__c.TLL_Associated_Congress__c</members>
+        <members>OCE__ToDo__c.TLL_Contract_Type__c</members>
+        <members>OCE__ToDo__c.TLL_Forecasted_US_Contracted_HCPs__c</members>
+        <members>OCE__ToDo__c.TLL_Functional_Owner__c</members>
+        <members>OCE__ToDo__c.TLL_Meeting_Type__c</members>
+        <members>OCE__ToDo__c.This_TL_was_Selected_Contracted_for_the__c</members>
+        <members>OCE__Meeting__c.Is_Contract_Coordinator__c</members>
+        <members>OCE__AccountFilterSObject__c.OCE__Type__c</members>
+        <members>OCE__AccountEventX__c.OCE__EntityType__c</members>
+        <members>OCE__AccountTactic__c.Lilly_Work_Day__c</members>
+        <members>OCE__Meeting__c.Lilly_Work_Day__c</members>
+        <members>OCE__Call__c.Lilly_Work_Day__c</members>
+         <members>OCE__Call__c.Lilly_Comments__c</members>
+          <members>OCE__Call__c.Lilly_Disease_Area__c</members>
+          <members>OCE__Call__c.Lilly_Engagement_Type__c</members>
+          <members>OCE__Call__c.Lilly_Associated_Congress_if_applicable__c</members>
+          <members>OCE__Call__c.Lilly_Source__c</members>
+          <members>OCE__Call__c.Lilly_H1_HCP_Id__c</members>
+          <members>OCE__AccountTactic__c.Lilly_H1_HCP_Id__c</members>
+          <members>OCE__Publication__c.Lilly_H1_HCP_Id__c</members>
+
+          <!-- Megh's Changes -->
+          <members>Account.Active_Trials__c</members>
+		<members>Account.Lilly_Authors_of_Lilly_Pubs__c</members>
+		<members>Account.Lilly_BI_A_segmentation__c</members>
+		<members>Account.Lilly_Black_Flag__c</members>
+		<members>Account.Lilly_Current_Balance__c</members>
+		<members>Account.Lilly_Email__c</members>
+		<members>Account.Lilly_First_Name__c</members>
+		<members>Account.Lilly_Last_Name__c</members>
+		<members>Account.Lilly_Payment_Cap__c</members>
+		<members>Account.Lilly_Phone__c</members>
+		<members>Account.Lilly_Retirement_flag__c</members>
+		<members>Account.Lilly_Role__c</members>
+		<members>Account.Lilly_Status_of_licensee__c</members>
+		<members>Account.Lilly_TL_Type__c</members>
+		<members>Account.Lilly_Therapeutic_Area__c</members>
+		<members>Account.Lilly_Type_of_work_with_Lilly__c</members>
+		<members>Account.OCE__StateCode__c</members>
+		<members>Account.Rising_Star__c</members>
+		<members>Contracting_Status__c.Lilly_Account__c</members>
+		<members>Contracting_Status__c.Lilly_Contract_Type__c</members>
+		<members>Contracting_Status__c.Lilly_Contracting_Country__c</members>
+		<members>Contracting_Status__c.Lilly_Expiration_Date__c</members>
+		<members>Contracting_Status__c.Lilly_Special_contracting_needs__c</members>
+		<members>Contracting_Status__c.Lilly_URL_from_CPS__c</members>
+		<members>OCE__Publication__c.Lilly_Author__c</members>
+		<members>OCE__Call__c.Lilly_Source__c </members>
+        <members>OCE__Call__c.OCE__Account__c </members>
+		<members>OCE__Call__c.Lilly_Engagement_Title__c</members>
+		<members>OCE__Publication__c.Lilly_Publisher__c</members>
+		<members>OCE__ClinicalTrial__c.Lilly_Official_Title__c</members>
+        <members>OCE__Meeting__c.Lilly_Meeting_Name__c</members>
+
+        <members>User.QIDC__MDM_Available_Countries_ims__c</members>
+<members>User.QIDC__MDM_Preferred_Country_ims__c</members>
+<members>Account.Lilly_MS_Collaboration__c</members>
+<members>Account.Lilly_Activity_Participant__c</members>
+<members>Account.Lilly_Speaker__c</members>
+<members>Account.Scientific_Expert__c</members>
+<members>Account.Clinical_Expert__c</members>
+<members>Account.Clinical_Trail_Investigator__c</members>
+<members>Account.Contracted_Advisor__c</members>
+<members>Account.Lilly_Authors_of_Lilly_Pubs__c</members>
+<members>OCE__Call__c.OCE__BookingStatus__c</members>
+<members>OCE__ToDo__c.OCE__ShowInPlanner__c</members>
+<members>OCE__Call__c.Coaching_Event__c</members>
+
+<members>Account.Lilly_Office_Staff__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        
+        <members>Lilly_Account_Plan</members>
+        <members>Lilly_TLCoE_Account_Plan</members>
+        <members>Lilly_Team_Member_Record_Page</members>
+        <members>Lilly_Stakeholder_Record_Page</members>
+        <members>Lilly_Contracted_Activity_Record_Page</members>
+        <members>Lilly_BusinessObjectiveRecordPage</members>
+        <members>Lilly_To_Do</members>
+        <members>Lilly_Meeting</members>
+        <members>Lilly_MeetingExpenseRecordPage</members>
+        <members>Home_Page_Default112</members>
+        <members>Lily_Home_Page</members>
+        <members>Lilly_HCO_Profile_Onc_MSL</members>
+        <members>Outcomes</members>
+        <members>Scientific_Congress_Record_Page</members>
+        <members>Log_A_Call_Extended_Layout</members>
+        <members>Log_A_Call_Non_Contracted</members>
+        <members>Non_Contract_Engagement_Record_Page1</members>
+        <members>Lilly_Account_Objective</members>
+        <members>Lilly_Meeting</members>
+        <members>Lilly_Congress_Meeting</members>
+        <members>Lilly_Rep_Presentation_Meeting</members>
+        <members>Lilly_Speaker_Meeting</members>
+        <members>Lilly_Log_A_Call_Remote_Layout</members>
+       
+        <members>H1_Profile</members>
+        <members>HCPProfile2</members>
+        <members>Lilly_HCP_Profile_Onc_MSL</members>
+         
+        <members>HCPProfile4</members>
+        <members>Lilly_TLCoE_Account_Plan</members>
+
+        <!-- Megha's Changes-->
+        
+		<members>Lilly_Congress_Meeting_Stackholder</members>
+        <members>Lilly_Workday_Layout</members>
+        <members>Lilly_User_Home_Page</members>
+        <members>Lilly_Engagement_Plan_Load</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>OCE__Call__c.Lilly_Call_in_Meeting</members>
+        <members>OCE__Call__c.Attendee_GRL2</members>
+        <members>OCE__CallDiscussion__c.ListViewSet</members>
+        <members>OCE__CallMessage__c.Call_Message_GRL</members>
+
+        <!-- Megha's Changes-->
+        <members>OCE__AccountAddress__c.OCE__CustomerInfoDashboard</members>
+		<members>OCE__Affiliation__c.Lilly_Affiliation_Columns_to_Display</members>
+        <members>OCE__Meeting__c.Lilly_TL_Meeting_ListView</members>
+        <name>FieldSet</name>
+    </types>
+    <types>
+        <members>Lilly_Non_Contract_Engagement__c.Approved_for_Scheduling</members>
+        <members>Lilly_Non_Contract_Engagement__c.Confirmed_Scheduled</members>
+        <members>Lilly_Non_Contract_Engagement__c.Submitted</members>
+        <members>Lilly_Outcome__c.Outcomes_with_Accounts</members>
+        <members>OCE__AccountPlan__c.Market_Access_Plans</members>
+        <members>OCE__Meeting__c.Approvals_Needed</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Lilly_TLEE_Group</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>OCE__OutcomeLevels</members>
+        <name>GlobalValueSet</name>
+    </types>
+   <types>
+        <members>AccountManagementPlansKOLs</members>
+        <members>MarketAccess</members>
+        <members>MedicalReports</members>
+        <members>SalesManagerTMRMDMReports</members>
+        <members>ThoughtLeaderReports</members>
+        <members>AccountManagementPlansKOLs/New_Accounts_Report_ExC</members>
+        <members>MarketAccess/New_Tactics_by_Functional_Owner_sVu</members>
+        <members>MarketAccess/New_Tactics_by_Status_lO0</members>
+        <members>MedicalReports/Trending_Insights_V2_Z1T</members>
+        <members>MedicalReports/Outcomes_by_Significance_gGe</members>
+        <members>SalesManagerTMRMDMReports/New_Coaching_Event_Data_ReportKite_ujW</members>
+        <members>ThoughtLeaderReports/Adhoc_Meeting_Calls_hr8</members>
+        <members>ThoughtLeaderReports/Planned_Meeting_Calls_in_Congress_Gkw</members>
+        <members>ThoughtLeaderReports/Lilly_Survey_Question_Responses_with_Survey_Question</members>
+        <name>Report</name>
+    </types>
+    
+    <types>
+        <members>OncMSLDashboards</members>
+        <members>OncMSLDashboards/RUhiJrgnfwtUoPtCnyQkIzBuqBnrpd</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+         <members>OCE__LAC_EnableCall2_0</members>
+         <members>Contract_Coordinator</members>
+         <!-- Megha's Changes-->
+         <members>OCE__LAC_SkipRtPickerForCall2_0</members>
+         <members>OCE__ShowAccountEmailsWhenExplicitOptOut</members>
+         <members>OCE__SendEmailWhenNoOptOut</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Tactics_with_Account_Plans</members>
+        <members>Calls_with_Meetings_and_Meeting_Members</members>
+
+        <!-- Megha's Changes-->
+        <members>Lilly_Survey_QuestionResponses_with_SurveyQuestion</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>OCE__AccountPlan__c.Engagement_Plan_Compact_Layout</members>
+        <members>PersonAccount.OCE__HCP</members>
+        <members>OCE__AccountObjective__c.OCE__Account_Objective</members>
+        <members>OCE__Call__c.OCE__CallHeader</members>
+        <members>PersonAccount.Lilly_HCP_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>OCE__AccountObjective__c-Lilly Account Objective Layout</members>
+        <members>OCE__AccountPlan__c-Lilly Account Plan Layout</members>
+        <members>OCE__AccountPlanMember__c-Lilly Account Plan Member Layout</members>
+        <members>OCE__AccountPlanMemberStakeholder__c-Lilly Account Plan Member Stakeholder Layout</members>
+        <members>OCE__AccountPlanStakeholder__c-Lilly Account Plan Stakeholder Layout</members>
+        <members>OCE__AccountTactic__c-Lilly Account Tactic Layout</members>
+        <members>OCE__BusinessObjective__c-Lilly Business Objective Layout</members>
+        <members>OCE__ToDo__c-Lilly To-Do Master Page Layout</members>
+        <members>PersonAccount-Lilly HCP Page Layout</members>
+        <members>OCE__Affiliation__c-Lilly Affiliation Basic Layout</members>
+        <members>OCE__Meeting__c-Lilly Meeting Layout</members>
+        <members>OCE__Meeting__c-Lilly Rep Presentation Meeting Layout</members>
+        <members>OCE__MeetingExpense__c-Lilly Estimate Expense Layout</members>
+        <members>OCE__MeetingExpense__c-Lilly Actual Expense Layout</members>
+        <members>PersonAccount-HCP Page Layout TLEE</members>
+        <members>OCE__Meeting__c-Lilly Displays Exhibits Meeting Layout</members>
+        <members>OCE__Meeting__c-Lilly Congress Meeting Layout</members>
+        <members>Account-Lilly HCO Layout</members>
+        <members>Lilly_Corporate_Activities__c-Corporate Activities Layout</members>
+        <members>LilIy_Investigator_Init_Study_Request__c-Investigator Initiated Study Request Layout</members>
+        <members>Lilly_Journal__c-Journal Editorial Board Membership Layout</members>
+        <members>Lilly_KOL_Status__c-KOL Status Layout</members>
+        <members>Lilly_Outcome__c-Outcome Layout</members>
+        <members>Lilly_Physician_Association__c-Physician Association%2FSociety Membership Layout</members>
+        <members>Lilly_Scientific_Congress__c-Scientific Congress Layout</members>
+        <members>Lilly_Treatment_Guidl__c-Treatment Guidelines Layout</members>
+        <members>Lilly_Upcoming_Events__c-Upcoming Events Layout</members>
+        <members>Lilly_Session_Note__c-Session Note Layout</members>
+        <members>Lilly_Session__c-Session Layout</members>
+        <members>OCE__Call__c-Non-Contracted Engagement</members>
+        <members>OCE__Call__c-Call Layout ONC MSL</members>
+        <members>OCE__Call__c-Call Layout Abbvie</members>
+        <members>OCE__Call__c-Call Layout Remote</members>
+        <members>OCE__Call__c-Lilly_TLEE_Call_Layout</members>
+        <members>Account-Aesthetic Sold To</members>
+        <members>Lilly_eCommerce_Registration__c-eCommerce Registration Layout</members>
+        <members>Lilly_Account_Team__c-Account Team Layout</members>
+        <members>OCE__CallDiscussion__c-Call Discussion Layout ONC MSL</members>
+        <members>OCE__AccountObjective__c-Lilly Account Objective Layout</members>
+        <members>OCE__ToDo__c-Lilly To-Do Master Page Layout</members>
+        <members>OCE__AccountTerritoryFields__c-Lilly Account Territory Fields Layout	</members>
+
+        <!-- Megha's Changes-->
+        <members>Contracting_Status__c-Lilly Contracting Status Layout</members>
+		<members>Lilly_Payment__c-Lilly Payment Layout</members>
+		<members>Lilly_Social_Media_Links__c-Lilly Social Media Layout</members>
+		<members>OCE__AccountAddress__c-Lilly Account Address Layout</members>
+		<members>OCE__Call__c-Lilly_TLEE_Call_Layout</members>
+		<members>OCE__ClinicalTrial__c-Lilly Clinical Trial Layout</members>
+		<members>OCE__Publication__c-Lilly Publication Layout</members>
+		<members>PersonAccount-HCP Page Layout TLEE</members>
+		<members>SurveyInvitation-Survey Invitation Layout</members>
+        <members>Lilly_Non_Contract_Engagement__c-Lilly_Stackholder_MeetingRequest</members>
+        <members>Lilly_Non_Contract_Engagement__c-Lilly_TL_Operation_MeetingRequest</members>
+        <members>OCE__AccountPlan__c-Lilly_TLCoE_PageLyout</members>
+        <members>PersonAccount-Lilly Office Staff Layout</members>
+<members>PersonAccount-HCP Page Layout TLEE</members>
+<members>Lilly_Social_Media_Links__c-Lilly Social Media Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>OCE__OCE</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>OCE__AccountPlan__c.OCE1__AccountPlan</members>
+        <members>OCE__AccountPlan__c.Engagement_Plan</members>
+        <members>OCE__AccountPlanStakeholder__c.OCE__Account</members>
+        <members>OCE__AccountPlanStakeholder__c.OCE__NonProfiled</members>
+        <members>OCE__BusinessObjective__c.OCE__TerritoryBusinessObjective</members>
+        <members>OCE__Meeting__c.OCE__Displays_Exhibits</members>
+        <members>OCE__Meeting__c.OCE__Rep_Presentation</members>
+        <members>OCE__Meeting__c.OCE__Speaker_Meeting</members>
+        <members>OCE__MeetingExpense__c.OCE__Actual</members>
+        <members>OCE__MeetingExpense__c.OCE__Estimate</members>
+        <members>OCE__ExpenseType__c.OCE__Category</members>
+        <members>OCE__ExpenseType__c.OCE__LineItem</members>
+        <members>OCE__Meeting__c.OCE__Home_Office_Congress</members>
+        <members>OCE__Meeting__c.OCE__Displays_Exhibits</members>
+        <members>OCE__Meeting__c.OCE__HCP_Sponsorship</members>
+        <members>PersonAccount.OCE__BC</members>
+        <members>PersonAccount.OCE__MP</members>
+        <members>Account.OCE__Department</members>
+        <members>Account.OCE__Institution</members>
+        <members>Account.OCE__Wholesaler</members>
+        <members>Account.OCE__GPO</members>
+        <members>Account.OCE__Practices</members>
+        <members>OCE__Call__c.Base_Layout</members>
+        <members>OCE__Call__c.Base_Layout_w_Sampling</members>
+        <members>OCE__Call__c.Extended_Layout_2</members>
+        <members>OCE__Call__c.Extended_Layout_Options</members>
+        <members>OCE__Call__c.HTC_Hemophilia_Treatment_Center</members>
+        <members>OCE__Call__c.Nurse_Educator_Standard</members>
+        <members>OCE__Call__c.Patient_Program</members>
+        <members>OCE__Call__c.Remote_Detail</members>
+        <members>Account.HTC</members>
+        <members>Account.LAB</members>
+        <members>Account.Sold_To</members>
+        <members>OCE__CallDiscussion__c.Interactions</members>
+        <members>PersonAccount.Lilly_WorkDay</members>
+
+        <!-- Megha's Changes-->
+        <members>PersonAccount.OCE__MP</members>
+		<members>OCE__Call__c.Remote</members>
+		<members>OCE__Call__c.TLMaps_Example</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>OCE__Order2__c</members>
+        <members>OCE__OrdersDashboard</members>
+        <members>OCE__AccountPlan__c</members>
+        <members>OCE__AccountObjective__c</members>
+        <members>OCE__BusinessObjective__c</members>
+        <members>OCE__ToDo__c</members>
+        <members>Lilly_Tag__c</members>
+        <members>Lilly_Tag_Assignment__c</members>
+        <members>Lilly_User_Tag_Access__c</members>
+        <members>OCE__MedicalInquiryRequest__c</members>
+        <members>Lilly_HCP_Education__c</members>
+        <members>Lilly_HCP_Identifiers__c</members>
+        <members>Lilly_HCP_Segmentation__c</members>
+        <members>Lilly_HCO_Insurance__c</members>
+        <members>Lilly_HCO_Identifiers__c</members>
+        <members>Lilly_HCO_Segmentation__c</members>
+        <members>H1_Profile</members>
+        <members>OCE__Study__c</members>
+        <members>Lilly_Non_Contract_Engagement__c</members>
+        <members>OCE__Meeting__c</members>
+        <members>OCE__HomeOfficeMessage__c</members>
+        <members>Engagement_Plan_Load</members>
+        <members>OCE__Topic__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>en_US</members>
+        <name>Translations</name>
+    </types>
+    <types>
+        <members>OCE__AccountObjective__c-en_US</members>
+        <members>OCE__AccountPlan__c-en_US</members>
+        <members>OCE__AccountPlanMember__c-en_US</members>
+        <members>OCE__AccountPlanStakeholder__c-en_US</members>
+        <members>OCE__AccountTactic__c-en_US</members>
+        <members>OCE__ToDo__c-en_US</members>
+        <!-- Megha's Changes-->
+        <members>Account-en_US</members>
+        <members>OCE__Call__c-en_US</members>
+        <members>OCE__Affiliation__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>CSVFileReadLWCCntrl</members>
+        <members>lwcCSVUploaderController</members>
+        <members>Lilly_AccountSurveyRecordsController</members>
+        <!--CommunitiesLandingController-->
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>LillyOCE9MeetingUser</members>
+        <members>API_User_Permissions</members>
+        <members>Lilly_LSU</members>
+        <members>Lilly_Congress_Attendee</members>
+
+        <!-- Megha's Changes-->
+        <members>LillyKAMUser</members>
+		<members>LillyOCE9MeetingUser</members>
+		<members>Lilly_Integration_Permission_Set</members>
+        <members>Lilly_User_Permission_Set</members>
+		<members>Lilly_Permission_Set</members>
+        <members>Lilly_LACUser</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>OCE__DbSchema.Annual_Spend_Threshold_Name_c</members>
+        <members>OCE__DbSchema.ContractingStatus_c</members>
+        <members>OCE__DbSchema.MostRecentContracted_c</members>
+        <members>OCE__DbSchema.OCE__Publication_c</members>
+        <members>OCE__DbSchema.OCE__ClinicalTrial_c</members>
+        <members>OCE__DbSchema.IndustryActivity_c</members>
+        <members>OCE__DbSchema.PreferenceSurvey_c</members>
+        <members>OCE__DbSchema.OCE__AccountPlan_c</members>
+        <members>OCE__DbSchema.OCE__AccountPlanMember_c</members>
+        <members>OCE__DbSchema.OCE__AccountPlanMemberStakeholder_c</members>
+        <members>OCE__DbSchema.OCE__AccountPlanStakeholder_c</members>
+        <members>OCE__DbSchema.OCE__AccountTactic_c</members>
+        <members>OCE__DbSchema.OCE__BusinessObjective_c</members>
+        <members>OCE__DbSchema.OCE__ApplicationSettings_c</members>
+        <members>OCE__TriggerHandler.OCE__HardAffiliationHandler</members>
+        <members>OCE__Rating_Layout.HCO_Layout_Onc_MSL</members>
+        <members>OCE__Rating_Layout.NS_Pharma</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMnAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G7XBYA0</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G7X6YAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G7X1YAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMsAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMtAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G83EYAS</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMiAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FFjkAAG</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2k5x000000e8YhAAI</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FFjVAAW</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FHfIAAW</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FFjpAAG</members>
+        <members>OCE__Rating_Metric.Contracting_Status_Picklist</members>
+        <members>OCE__Rating_Metric.HCO_Patient_Volume</members>
+        <members>OCE__Rating_Metric.Cath_Lab</members>
+        <members>OCE__Rating_Metric.HCO_Priority</members>
+        <members>OCE__Rating_Metric.HCO_X1_Adoption</members>
+        <members>OCE__Rating_Metric.NB_Speaker_Rating_AI_ML</members>
+        <members>OCE__Rating_Metric.Black_Flag</members>
+        <members>OCE__Rating_Metric.Rising_Star</members>
+        <members>OCE__Rating_Metric.Active_Trials</members>
+        <members>OCE__Rating_Metric.Contract_Engagements_to_Review</members>
+        <members>OCE__Rating_Metric.Spend_Threshold</members>
+        <members>OCE__Rating_Metric.Speaking_Status_Interest</members>
+        <members>OCE__Rating_Metric.HCO_Volume_Rank</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberSharing</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberInvitedDate</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberExpenseCalculation</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberDuplicateMember</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberDenorm</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberDateTimeValidation</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberCreate</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberContextUserRole</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberAttrToColleague</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingLocationValidation</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingLocationUpdateMeetingAddr</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingExpenseCalculation</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingExpenseAllocationRecalculation</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingExpenseAllocationCreator</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingExpense</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberSpecialtyProvider</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingMemberStatus</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingSharingAdditional</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingSharingAdditionalAsync</members>
+        <members>OCE__TriggerHandler.OCE9__MeetingSharingNew</members>
+        <members>OCE__DbSchema.OCE__MeetingWorkFlowActionConfiguration_mdt</members>
+        <members>OCE__DbSchema.OCE__MeetingWorkFlowConfiguration_mdt</members>
+        <members>OCE__DbSchema.OCE__MeetingWorkFlowNodeConfiguration_mdt</members>
+        <members>OCE__DbSchema.OCE__ObjectWorkflowPathAssociation_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowAction_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowContextAction_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowContextCondition_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowContextType_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowContext_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowPathNode_c</members>
+        <members>OCE__DbSchema.OCE__WorkflowPath_c</members>
+        <members>OCE__DbSchema.OCE__MeetingBudget2_c</members>
+        <members>OCE__DbSchema.OCE__MeetingExpenseAllocation_c</members>
+        <members>OCE__DbSchema.OCE__MeetingExpense_c</members>
+        <members>OCE__DbSchema.OCE__MeetingHistory_c</members>
+        <members>OCE__DbSchema.OCE__MeetingLocation_c</members>
+        <members>OCE__DbSchema.OCE__MeetingMetadata_mdt</members>
+        <members>OCE__DbSchema.OCE__MeetingMember_c</members>
+        <members>OCE__DbSchema.OCE__MeetingProduct_c</members>
+        <members>OCE__DbSchema.OCE__MeetingTopic_c</members>
+        <members>OCE__DbSchema.OCE__MeetingsConfig_c</members>
+        <members>OCE__DbSchema.OCE__MeetingsOrgLevelConfig_c</members>
+        <members>OCE__DbSchema.OCE__MeetingValidationSettings_c</members>
+        <members>OCE__DbSchema.Lilly_Non_Contract_Engagement</members>
+        <members>OCE__DbSchema.Lilly_Session</members>
+        <members>OCE__Rating_Layout.HCO_Layout_Onc_MSL</members>
+        <members>OCE__Rating_Layout.NS_Pharma</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMnAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G7XBYA0</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G7X6YAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G7X1YAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMsAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMtAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2kDU000000G83EYAS</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003e2KvAAI_a2k5x000004AyMiAAK</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FFjkAAG</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2k5x000000e8YhAAI</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FFjVAAW</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FHfIAAW</members>
+        <members>OCE__Rating_Layout_Item.a2j5x000003XftMAAS_a2kf2000002FFjpAAG</members>
+        <members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6sJYAS</members>
+        <members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6sOYAS</members>
+        <members>OCE__Rating_Metric.MS_Collaboration</members>
+        <members>OCE__Rating_Metric.BI_A_segmentation</members>
+        <members>OCE__Rating_Metric.Contracting_Status_Picklist</members>
+        <members>OCE__Rating_Metric.HCO_Patient_Volume</members>
+        <members>OCE__Rating_Metric.Cath_Lab</members>
+        <members>OCE__Rating_Metric.HCO_Priority</members>
+        <members>OCE__Rating_Metric.HCO_X1_Adoption</members>
+        <members>OCE__Rating_Metric.NB_Speaker_Rating_AI_ML</members>
+        <members>OCE__Rating_Metric.Black_Flag</members>
+        <members>OCE__Rating_Metric.Rising_Star</members>
+        <members>OCE__Rating_Metric.Active_Trials</members>
+        <members>OCE__Rating_Metric.Contract_Engagements_to_Review</members>
+        <members>OCE__Rating_Metric.Spend_Threshold</members>
+        <members>OCE__Rating_Metric.Speaking_Status_Interest</members>
+        <members>OCE__TriggerHandler.OCE__ProfilingQuestionsRatingHandler</members>
+        <members>OCE__TriggerHandler.OCE__FormResponseSharingHandler</members>
+        <members>OCE__TriggerHandler.OCE__CoachingFormTemplateSharingHandler</members>
+        <members>OCE__DbSchema.Corporate_Activities</members>
+        <members>OCE__DbSchema.InvestigatorInitiatedStudyRequest</members>
+        <members>OCE__DbSchema.Journal_Editorial_Board_Membership</members>
+        <members>OCE__DbSchema.KOLStatus</members>
+        <members>OCE__DbSchema.Outcome</members>
+        <members>OCE__DbSchema.Physician_Association</members>
+        <members>OCE__DbSchema.Lilly_Scientific_Congress</members>
+        <members>OCE__DbSchema.Social_Media_Links</members>
+        <members>OCE__DbSchema.Treatment_Guidelines</members>
+        <members>OCE__DbSchema.UpcomingEvents</members>
+        <members>OCE__TriggerHandler.OCE__AccountPlanChangeStatusHandler</members>
+        <members>OCE__TriggerHandler.OCE__SetAccountPlanOnToDoHandler</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_LAC_Base_Layout_wSampling</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_LAC_Extended</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_LAC_Remote</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_LAC_TLMaps_Example</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_Rep_Presentation_v1</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_Speaker_Meeting_R9_v1</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_Meeting_Congress_OOB_V1</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_WFPath_Displays_Exhibits_v1</members>
+        <members>OCE__MeetingWorkFlowConfiguration.EXP_AccountPlan</members>
+        <members>OCE__ContextType.Meeting_c</members>
+        <members>OCE__DbSchema.Lilly_Payment_c</members>
+        <members>OCE__DbSchema.OCE__Report</members>
+        <members>OCE__DbSchema.OCE__Call_c</members>
+        <members>OCE__DbSchema.OCE__Meeting_c</members>
+        <members>OCE__DbSchema.OCE__AccountAddressSettings_c</members>
+        <members>OCE__DbSchema.OCE__AccountAddress_c</members>
+        <members>OCE__DbSchema.OCE__AccountCompliance_c</members>
+        <members>OCE__DbSchema.OCE__AccountComplianceCycle_c</members>
+        <members>OCE__DbSchema.OCE__AccountDynamicListConfiguration</members>
+        <members>OCE__DbSchema.OCE__AccountFilterColumn_c</members>
+        <members>OCE__DbSchema.OCE__AccountFilterConfig</members>
+        <members>OCE__DbSchema.OCE__AccountFilterCriteria_c</members>
+        <members>OCE__DbSchema.OCE__AccountFilterSObject_c</members>
+        <members>OCE__DbSchema.OCE__AccountFilter_c</members>
+        <members>OCE__DbSchema.OCE__AccountListItem</members>
+        <members>OCE__DbSchema.OCE__AccountSearchTypeSettings</members>
+        <members>OCE__DbSchema.OCE__AccountTeamFields_c</members>
+        <members>OCE__DbSchema.OCE__AccountTerritoryFields_c</members>
+        <members>OCE__DbSchema.OCE__AccountTerritoryProduct_c</members>
+        <members>OCE__DbSchema.OCE__Address_c</members>
+        <members>OCE__DbSchema.OCE__AffiliationConfig_c</members>
+        <members>OCE__DbSchema.OCE__CallDetail_c</members>
+        <members>OCE__DbSchema.OCE__Affiliation_All</members>
+        <members>OCE__DbSchema.OCE__AccountGroup_c</members>
+        <members>OCE__DbSchema.OCE__AccountHistory_c</members>
+        <members>OCE__DbSchema.OCE__AccountObjective_c</members>
+        <members>OCE__DbSchema.OCE__CallDiscussionRecordtype_c</members>
+        <members>OCE__DbSchema.OCE__CallDiscussion_c</members>
+        
+        <members>OCE__DbSchema.OCE__CallMessage_c</members>
+        <members>OCE__DbSchema.OCE__CalendarConfig_c</members>
+        <members>OCE__DbSchema.OCE__FieldCoachingEventData_c</members>
+        <members>OCE__DbSchema.OCE__FieldCoachingEventSettings_c</members>
+        <members>OCE__DbSchema.OCE__FieldCoachingEvent_c</members>
+        <members>OCE__DbSchema.OCE__FieldCoachingFormQuestion_c</members>
+        <members>OCE__DbSchema.OCE__FieldCoachingFormTemplate_c</members>
+        <members>OCE__DbSchema.OCE__FieldCoachingQuestion_c</members>
+        <members>OCE__DbSchema.OCE__Folder</members>
+        <members>OCE__DbSchema.OCE__Inquiry_c</members>
+        <members>OCE__DbSchema.OCE__InquiryTopic_c</members>
+        <members>OCE__DbSchema.OCE__InquiryQuestion_c</members>
+        <members>OCE__DbSchema.OCE__InquiryAnswer_c</members>
+        <members>OCE__DbSchema.OCE__HomeOfficeMessage_c</members>
+        <members>OCE__DbSchema.OCE__Location_c</members>
+        <members>OCE__DbSchema.OCE__LogACallSettings_c</members>
+        <members>OCE__DbSchema.OCE__SurveyResponse_c</members>
+        <members>OCE__DbSchema.OCE__Survey</members>
+        <members>OCE__DbSchema.OCE__SurveyInvitation</members>
+        <members>OCE__DbSchema.OCE__SurveyPage</members>
+        <members>OCE__DbSchema.OCE__SurveyQuestion</members>
+        <members>OCE__DbSchema.OCE__SurveyQuestionChoice</members>
+        <members>OCE__DbSchema.OCE__SurveyVersion</members>
+        <members>OCE__DbSchema.OCE__SyncTransactionConfig_c</members>
+        <members>OCE__DbSchema.OCE__TOTRule_mdt</members>
+        <members>OCE__DbSchema.OCE__TOTSettings_c</members>
+        <members>OCE__DbSchema.OCE__Tactic_c</members>
+        <members>OCE__DbSchema.OCE__TerritoryConfig_c</members>
+        <members>OCE__DbSchema.OCE__Territory2</members>
+        <members>OCE__DbSchema.OCE__TimeOffTerritorySlots_c</members>
+        <members>OCE__DbSchema.OCE__TimeOffTerritory_c</members>
+        <members>OCE__DbSchema.OCE__ToDo_c</members>
+        <members>OCE__DbSchema.OCE__ToDoAccountPlanStakeholder_c</members>
+        <members>OCE__DbSchema.OCE__TriggerHandler_mdt</members>
+        <members>OCE__DbSchema.OCE__User</members>
+        <members>OCE__DbSchema.OCE__QuickAction</members>
+        <members>OCE__DbSchema.OCE__RatingLayoutItem_c</members>
+        <members>OCE__DbSchema.OCE__RatingLayout_c</members>
+        <members>OCE__DbSchema.OCE__Rating_c</members>
+        <members>OCE__DbSchema.OCE__ReportsAndDashboardsSync_c</members>
+        <members>OCE__DbSchema.OCE__OptSettings_c</members>
+        <members>OCE__DbSchema.OCE__MedicalInquiryRequest_c</members>
+        <members>OCE__DbSchema.MedicalInquiryRequest_c</members>
+        <members>OCE__DbSchema.OCE__Study_c</members>
+        <members>OCE__DbSchema.LillyCall_c</members>
+        <members>OCE__DbSchema.HCP_Education</members>
+        <members>OCE__DbSchema.HCP_Segmentation</members>
+        <members>OCE__DbSchema.HCP_Identifiers</members>
+        <members>OCE__DbSchema.HCO_Insurance</members>
+        <members>OCE__DbSchema.HCO_Identifiers</members>
+        <members>OCE__DbSchema.HCO_Segmentation</members>
+        <members>OCE__DbSchema.H1_Profile_c</members>
+        <members>OCE__DbSchema.Session_Notes</members>
+        <members>OCE__DbSchema.OCE__Insight_c</members>
+        <members>OCE__DbSchema.OCE__SurveyQuestionResponse_c</members>
+
+        <members>OCE__DbSchema.Account_Team</members>
+        <members>OCE__DbSchema.Account_Team_Notes</members>
+        <members>OCE__DbSchema.Lilly_People</members>
+        <members>OCE__DbSchema.Lilly_Tag</members>
+        <members>OCE__DbSchema.Lilly_Tag_Assignment</members>
+        <members>OCE__DbSchema.Lilly_User_Tag_Access</members>
+        <members>OCE__DbSchema.Lilly_Custom_Attribute</members>
+        <members>OCE__DbSchema.Lilly_Referrals_Received</members>
+        <members>OCE__DbSchema.Lilly_Referrals_Sent</members>
+        <members>OCE__DbSchema.Lilly_Claim</members>
+        <members>OCE__DbSchema.OCE__AccountEventX_c</members>
+        <members>OCE__DbSchema.Opt_c</members>
+        <members>OCE__DbSchema.OCE__OptDetail_c</members>
+        <members>OCE__DbSchema.OCE__AffiliationTableWidgetConfig_c</members>
+        
+        <!-- Megha's Changes -->
+        <members>OCE__DbSchema.OCE__Account</members>
+		<members>OCE__Rating_Layout.NS_Pharma</members>
+		<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F3EmYAK</members>
+		<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F3EnYAK</members>
+		<members>OCE__Rating_Metric.Black_Flag</members>
+		<members>OCE__Rating_Metric.Rising_Star</members>
+        <members>OCE__CustomApplication.APP_918_2651</members>
+        <members>OCE__CustomApplication.APP_923_2650</members>
+        <members>OCE__CustomApplication.APP_922_2648</members>
+        <members>OCE__CustomAppAccess.H1_Profile</members>
+        <members>OCE__CustomAppAccess.Bio_Book</members>
+        <members>OCE__CustomAppAccess.Expert_Summary</members>
+
+        <members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6oHYAS</members>
+<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6oMYAS</members>
+<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6oRYAS</members>
+<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6oSYAS</members>
+<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6oWYAS</members>
+<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6obYAC</members>
+<members>OCE__Rating_Layout_Item.a5mDH000000DmTtYAK_a5nDH000000F6ogYAC</members>
+<members>OCE__Rating_Metric.Scientific_Expert</members>
+<members>OCE__Rating_Metric.Clinical_Expert</members>
+<members>OCE__Rating_Metric.Lilly_Activity_Participant</members>
+<members>OCE__Rating_Metric.Lilly_Clinical_Trial_Investigator</members>
+<members>OCE__Rating_Metric.Lilly_Speaker</members>
+<members>OCE__Rating_Metric.Lilly_Contracted_Advisor</members>
+<members>OCE__Rating_Metric.Lilly_publications_Author</members>
+
+<members>OCE__SbcFieldSetMapping.LillyStakeholderLilly_WorkDay</members>
+<members>OCE__SbcFieldSetMapping.SeniorExecutiveLilly_WorkDay</members>
+<members>OCE__SbcFieldSetMapping.TLOperationsLilly_WorkDay</members>
+<members>OCE__SbcFieldSetMapping.TLEELilly_WorkDay</members>
+<members>OCE__SbcFieldSetMapping.TLCOEAdminLilly_WorkDay</members>
+<members>OCE__SbcFieldSetMapping.Lilly_E_C_Lilly_WorkDay</members>
+
+<members>OCE__UiSchema.OCE__ClmTab</members>
+
+<members>OCE__QuickAction.CLONE_82a154ba9daf81983bc2af1c4a415ff1</members>
+<members>OCE__QuickAction.CLONE_f7ef7555c3ca733da431119b07e461cb</members>
+<members>OCE__QuickAction.CLONE_1c80019de5e4d6aa6ca7259e32044b81</members>
+<members>OCE__QuickAction.CLONE_4b655aeeb85aa6668b57c7a27e3cccdd</members>
+<members>OCE__QuickAction.CLONE_436cf41a68edf2b7ba241259d6778e18</members>
+<members>OCE__QuickAction.CLONE_740bb5a004f6307364e5fa65147bdcef</members>
+<members>OCE__QuickAction.CLONE_791deccfb5274bcbbfb4a86e5c770540</members>
+<members>OCE__QuickAction.CLONE_948cd8b9ed1b3f5cb599e8471c7392bc</members>
+<members>OCE__QuickAction.CLONE_2b6d22e7e8a8d5132bba600a3a0ec027</members>
+<members>OCE__QuickAction.CLONE_d9cbb4d5479ee3a938737d832e551b65</members>
+<members>OCE__QuickAction.CLONE_43722d61970cad035339b2c49993a010</members>
+<members>OCE__QuickAction.CLONE_17cd110122527a6b77e2eb651f5f97e4</members>
+<members>OCE__QuickAction.CLONE_8a4572c907bfc30f759ecc6ecb30fcff</members>
+<members>OCE__QuickAction.CLONE_331186bfd372fc319f019fa1e84227b1</members>
+<members>OCE__QuickAction.CLONE_684b4a5b94341cf1496d84f6471b4250</members>
+<members>OCE__QuickAction.CLONE_fa88e5dc7a32a5fa358ff2283c433ad8</members>
+<members>OCE__QuickAction.CLONE_bdb438b2865d48657db5c1ba1cb3d339</members>
+<members>OCE__QuickAction.CLONE_51081e3c3d7bd591ea0f588310a7c86f</members>
+<members>OCE__QuickAction.CLONE_eae4b5b7f316a611ff0f0b92ca55ed0d</members>
+<members>OCE__QuickAction.CLONE_f50b088af3408ee8ff2ae36863b84673</members>
+<members>OCE__QuickAction.CLONE_d7c88a481dc1b197701b9c6b709fa366</members>
+<members>OCE__QuickAction.CLONE_e28ece7df79eb4d6f8b282e5cc59175a</members>
+<members>OCE__QuickAction.CLONE_4ca367df7b6cd50d53d3c6e5fd521728</members>
+<members>OCE__QuickAction.CLONE_761ce628af0e3f82deb9705741d3d24b</members>
+<members>OCE__QuickAction.CLONE_b3f8795a898a1108a5dee46019fd97ff</members>
+<members>OCE__QuickAction.CLONE_a98101ebba36944aa1582a2524f0f7ab</members>
+<members>OCE__QuickAction.CLONE_dc678e258677b15bc3c41cdb2cfceb87</members>
+<members>OCE__QuickAction.CLONE_bb095b1c515a67b86e473496c22b0e58</members>
+<members>OCE__QuickAction.CLONE_6cd667043cada40f4d849219505700da</members>
+<members>OCE__QuickAction.CLONE_dbf8b1ad2b9a98695af09f52dccea449</members>
+<members>OCE__QuickAction.CLONE_16505c9571a1ff47c6e13cf0d275d8fe</members>
+<members>OCE__QuickAction.CLONE_5e7282d0d45208f008197c96d2acbe45</members>
+<members>OCE__QuickAction.CLONE_560d92caf9ac1e9b6d7815ccc6ac96de</members>
+<members>OCE__QuickAction.CLONE_0b5ad9693b819253b2cafc80f00f0a0d</members>
+<members>OCE__QuickAction.CLONE_0aafa9cadb5b7ea9e5189740bee0c5e1</members>
+<members>OCE__QuickAction.CLONE_d750a79e27ffbd15bd0eaa74ca5cae9f</members>
+<members>OCE__QuickAction.CLONE_b434daba4be63ce03cf1ebd14b5c94b2</members>
+<members>OCE__QuickAction.CLONE_56260b47e9e7312a6988a0abbee2ab30</members>
+<members>OCE__QuickAction.CLONE_47c20138944352739e9576339b8d72e5</members>
+<members>OCE__QuickAction.CLONE_6bf5f56d62eb234d45cfd60c8d575f7a</members>
+<members>OCE__QuickAction.CLONE_d81f6e58a2a1c769c7ed8d2449c1f2ad</members>
+<members>OCE__QuickAction.CLONE_695582fffb6a01ca67e5ecd335d429ee</members>
+<members>OCE__QuickAction.CLONE_e11df54e050d54aed2a74a221e658255</members>
+<members>OCE__QuickAction.CLONE_9d17cfd534673712f3cc98dd730ec37d</members>
+<members>OCE__QuickAction.CLONE_ffa7a22c17ecb307b680fe08cb495b84</members>
+<members>OCE__QuickAction.CLONE_219c315a82701fe790666cae8a9dcee2</members>
+<members>OCE__QuickAction.CLONE_c2284d533442870260a1b4642232d4db</members>
+<members>OCE__QuickAction.CLONE_9a5dda336ce43632f4e277bf0c5704d2</members>
+<members>OCE__QuickAction.Lilly_Email_HCP</members>
+
+<members>OCE__DbSchema.OCE__GeneralEvent_c</members>
+<members>OCE__DbSchema.OCE__TimeOffTerritory_c</members>
+<members>OCE__DbSchema.OCE__TimeOffTerritorySlots_c</members>
+
+<members>OCE__DataChangeEventSettings.OCE__DataChangeRequest</members>
+<members>OCE__DataChangeRequestConfiguration.OCE__Institution</members>
+<members>OCE__DataChangeRequestConfiguration.OCE__MP</members>
+
+<members>OCE__DbSchema.OCE__OCE__Topic_c</members>
+<members>OCE__DbSchema.OCE__Topic_c</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>EXP_WFPath_LAC_Base_Layout_wSampling</members>
+        <members>EXP_WFPath_LAC_Extended</members>
+        <members>EXP_WFPath_LAC_Remote</members>
+        <members>EXP_WFPath_LAC_TLMaps_Example</members>
+        <members>EXP_Meeting_Congress_OOB_V1</members>
+        <members>EXP_WFPath_Displays_Exhibits_v1</members>
+        <members>EXP_WFPath_Rep_Presentation_v1</members>
+        <members>EXP_WFPath_Speaker_Meeting_R9_v1</members>
+        <members>EXP_AccountPlan</members>
+        <!--<members>SNA_ggFQS_sf_default_cdn_Surveys1</members>-->
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>readExcelFile</members>
+        <members>lwcCSVUploader</members>
+        <members>lillyAccountSurveyRelatedRecord</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>OCE__AccountObjective__c.TLEE_EP_Draft</members>
+        <members>OCE__AccountTactic__c.TLEE_EP_Draft_Contracted_Activity</members>
+        <members>OCE__ToDo__c.CA_Status_Not_Executed</members>
+        <members>Account.Lilly_Users_should_not_edit_AccountName</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Lilly_Non_Contract_Engagement__c.Import_Record</members>
+        <members>OCE__AccountPlan__c.Engagement_Plan_Load</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Update_CA_sttaus</members>
+        <name>Flow</name>
+    </types>
+    <!--<types>
+        <members>*</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DigitalExperienceBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DigitalExperienceConfig</name>
+    </types>
+    <types>
+        <members>CommunitiesLanding</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SiteDotCom</name>
+    </types>-->
+    <types>
+        <members>TLCOE Admin</members>
+        <members>TLEE</members>
+        <members>Senior Executive</members>
+        <members>E%26C</members>
+        <members>Lilly Stakeholder</members>
+        <members>TL Operations</members>
+        <members>OCE Admin</members>
+        <members>Lilly APi Profile</members>
+        <name>Profile</name>
+    </types>
+    <version>59.0</version>
+</Package>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__CommentSubtype__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Subtype of the comment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subtype of the comment.</inlineHelpText>
+    <label>Comment Subtype</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>OCE__CommentType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clarification Request</fullName>
+                <default>false</default>
+                <label>Clarification Request</label>
+            </value>
+            <value>
+                <fullName>Feedback Request</fullName>
+                <default>false</default>
+                <label>Feedback Request</label>
+            </value>
+            <value>
+                <fullName>How-to</fullName>
+                <default>false</default>
+                <label>How-to</label>
+            </value>
+            <value>
+                <fullName>Missing Information</fullName>
+                <default>false</default>
+                <label>Missing Information</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Revision Request</fullName>
+                <default>false</default>
+                <label>Revision Request</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Requestor Comment</controllingFieldValue>
+            <controllingFieldValue>Reviewer Comment</controllingFieldValue>
+            <valueName>Clarification Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requestor Comment</controllingFieldValue>
+            <valueName>Feedback Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requestor Comment</controllingFieldValue>
+            <valueName>How-to</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requestor Comment</controllingFieldValue>
+            <valueName>Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requestor Comment</controllingFieldValue>
+            <controllingFieldValue>Reviewer Comment</controllingFieldValue>
+            <valueName>Revision Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reviewer Comment</controllingFieldValue>
+            <valueName>Missing Information</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

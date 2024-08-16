@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Enable this flag to create an Ins Doc Account.</help>
+    <label><!-- Create INS-DOC --></label>
+    <name>OCE__CreateInsDoc__c</name>
+</CustomFieldTranslation>

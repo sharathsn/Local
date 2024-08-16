@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__GradeScientificInfluenceImpactFactor__c</fullName>
+    <complianceGroup>PII;GDPR</complianceGroup>
+    <deprecated>false</deprecated>
+    <description>A,B,С,D, E, F  grade, HCPs’ presence in scientific channels: automatically calculated category, basing on the sum of the channels, which the HCP has been identified on. Where F is “low” presence, and A is “high” presence.</description>
+    <externalId>false</externalId>
+    <label>Scientific Influence Impact Factor Grade</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Interim record created as part of Search Before Create Process</help>
+    <label><!-- Is Temporary SBC Account --></label>
+    <name>OCE__IsTemporarySbcAccount__c</name>
+</CustomFieldTranslation>

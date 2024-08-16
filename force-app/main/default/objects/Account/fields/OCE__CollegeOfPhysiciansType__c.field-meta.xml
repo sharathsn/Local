@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__CollegeOfPhysiciansType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED. Type of College of Physicians license, which will be C.
+            Canada specific.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DEPRECATED. Type of College of Physicians license, which will be C.
+            Canada specific.</inlineHelpText>
+    <label>DEPRECATED College of Physicians Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>__c</fullName>
+                <default>false</default>
+                <label>__c</label>
+            </value>
+            <value>
+                <fullName>Regulatory</fullName>
+                <default>false</default>
+                <label>Regulatory</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

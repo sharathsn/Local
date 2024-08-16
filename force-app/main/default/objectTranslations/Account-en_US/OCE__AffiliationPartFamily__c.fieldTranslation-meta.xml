@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lists if the doctor&apos;s facility is part of a larger family of facilities.
+            Appears on HCP-JP page layout.</help>
+    <label><!-- Affiliation Part Family --></label>
+    <name>OCE__AffiliationPartFamily__c</name>
+</CustomFieldTranslation>

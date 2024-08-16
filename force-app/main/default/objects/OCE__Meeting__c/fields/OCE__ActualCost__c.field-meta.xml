@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ActualCost__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enables User to provide the Actual Program Budget if there is no detailed budget for the current subtype of the Meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enables User to provide the Actual Program Budget if there is no detailed budget for the current subtype of the Meeting</inlineHelpText>
+    <label>Actual Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

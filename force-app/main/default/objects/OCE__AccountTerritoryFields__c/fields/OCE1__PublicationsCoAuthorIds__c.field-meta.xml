@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__PublicationsCoAuthorIds__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of &quot;PubMed IDs&quot; when it is Co Author</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of &quot;PubMed IDs&quot; when it is Co Author</inlineHelpText>
+    <label>Publications Co-Author IDs</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

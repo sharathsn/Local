@@ -1,0 +1,19 @@
+<template>
+    <lightning-card icon-name="custom:custom19" title='Excel File Read'>
+        <div style="margin-left: 3%">
+            <lightning-file-upload accept={acceptedCSVFormats} 
+                                   label="Attach receipt" 
+                                   multiple="multiple" 
+                                   onuploadfinished={uploadFileHandler} 
+                                   record-id={recordId}></lightning-file-upload>
+        </div>
+
+
+        <div if:true={error}>
+            {error}
+        </div><br/>
+
+
+
+    </lightning-card>
+</template>

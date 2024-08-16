@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__NextBestChannels__c</fullName>
+    <deprecated>false</deprecated>
+    <description>{ &quot;Data&quot; : [ { &quot;Id&quot; : &quot;kajbfabgoabg80fe32&quot;, &quot;Order&quot; : 1 }
+            , { &quot;Id&quot; : &quot;lsgnoabgoabgoue34f&quot;, &quot;Order&quot; : 2 }]
+            }</description>
+    <externalId>false</externalId>
+    <label>Next Best Channels</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

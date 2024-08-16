@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__OrganizationTypes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores Organization Types</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores Organization Types</inlineHelpText>
+    <label>Organization Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Departments</fullName>
+                <default>false</default>
+                <label>Departments</label>
+            </value>
+            <value>
+                <fullName>Group Purchasing Organizations</fullName>
+                <default>false</default>
+                <label>Group Purchasing Organizations</label>
+            </value>
+            <value>
+                <fullName>Institutions</fullName>
+                <default>false</default>
+                <label>Institutions</label>
+            </value>
+            <value>
+                <fullName>Integrated Delivery Networks</fullName>
+                <default>false</default>
+                <label>Integrated Delivery Networks</label>
+            </value>
+            <value>
+                <fullName>Pharmacies</fullName>
+                <default>false</default>
+                <label>Pharmacies</label>
+            </value>
+            <value>
+                <fullName>Practices</fullName>
+                <default>false</default>
+                <label>Practices</label>
+            </value>
+            <value>
+                <fullName>Wholesalers</fullName>
+                <default>false</default>
+                <label>Wholesalers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

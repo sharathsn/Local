@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreNotificationRequired__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if PreNotification is required for this meeting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if pre-notification is required for this participant based on rules and conditions.</inlineHelpText>
+    <label>PreNotification Required</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

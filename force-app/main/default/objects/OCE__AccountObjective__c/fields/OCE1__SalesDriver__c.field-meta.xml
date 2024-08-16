@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__SalesDriver__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Main sales driver of the promotional activity (MVP)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Main sales driver of the promotional activity</inlineHelpText>
+    <label>Sales Driver</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Visibility</fullName>
+                <default>false</default>
+                <label>Visibility</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

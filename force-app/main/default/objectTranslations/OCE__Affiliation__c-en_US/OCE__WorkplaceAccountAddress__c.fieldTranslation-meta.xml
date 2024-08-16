@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The shadow AccountAddress created due to workplace address dependency when this affiliation is created.</help>
+    <label><!-- Workplace Account Address --></label>
+    <name>OCE__WorkplaceAccountAddress__c</name>
+    <relationshipLabel><!-- Affiliations --></relationshipLabel>
+</CustomFieldTranslation>

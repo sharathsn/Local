@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__StudyRationaleBackground__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reason behind the research and the motivation for the selected topic.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The reason behind the research and the motivation for the selected topic.</inlineHelpText>
+    <label>Study Background and Rationale</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Associated_Congress__c</fullName>
+    <externalId>false</externalId>
+    <label>Associated Congress</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(AAAAI) Americal Academy of Allergy, Asthma and Immunology</fullName>
+                <default>false</default>
+                <label>(AAAAI) Americal Academy of Allergy, Asthma and Immunology</label>
+            </value>
+            <value>
+                <fullName>(AACE) American Association of Clinical Endocrinologists</fullName>
+                <default>false</default>
+                <label>(AACE) American Association of Clinical Endocrinologists</label>
+            </value>
+            <value>
+                <fullName>(AACR) American Association for Cancer Research</fullName>
+                <default>false</default>
+                <label>(AACR) American Association for Cancer Research</label>
+            </value>
+            <value>
+                <fullName>(AAD) American Academy of Dermatology</fullName>
+                <default>false</default>
+                <label>(AAD) American Academy of Dermatology</label>
+            </value>
+            <value>
+                <fullName>(AADE) American Association of Diabetes Educators</fullName>
+                <default>false</default>
+                <label>(AADE) American Association of Diabetes Educators</label>
+            </value>
+            <value>
+                <fullName>(AAN) Americal Academy of Neurology</fullName>
+                <default>false</default>
+                <label>(AAN) Americal Academy of Neurology</label>
+            </value>
+            <value>
+                <fullName>(AANP) American Association of Nurse Practitioners</fullName>
+                <default>false</default>
+                <label>(AANP) American Association of Nurse Practitioners</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

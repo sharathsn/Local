@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determines if the Account is allowed to have Orders placed for them.</help>
+    <label><!-- DEPRECATED Enable Order --></label>
+    <name>OCE__EnableOrder__c</name>
+</CustomFieldTranslation>

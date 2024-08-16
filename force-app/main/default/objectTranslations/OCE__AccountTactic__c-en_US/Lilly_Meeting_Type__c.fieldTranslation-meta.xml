@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Meeting Type --></label>
+    <name>Lilly_Meeting_Type__c</name>
+    <picklistValues>
+        <masterLabel>Face to Face</masterLabel>
+        <translation><!-- Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid</masterLabel>
+        <translation><!-- Hybrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtual</masterLabel>
+        <translation><!-- Virtual --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

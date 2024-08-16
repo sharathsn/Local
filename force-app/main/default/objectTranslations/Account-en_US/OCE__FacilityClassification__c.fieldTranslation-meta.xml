@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determines the type of Facility. Values: General Clinic, HP, GP, PH.
+            HP-large hospital &amp;gt; 200 beds, GP - General practice, PH - Pharmacy</help>
+    <label><!-- Facility Classification --></label>
+    <name>OCE__FacilityClassification__c</name>
+    <picklistValues>
+        <masterLabel>General Clinic</masterLabel>
+        <translation>General Clinic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Practice</masterLabel>
+        <translation>General Practice</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital</masterLabel>
+        <translation>Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy</masterLabel>
+        <translation>Pharmacy</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DecisionByDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date that the decision whether to move forward with the request is due.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date that the decision whether to move forward with the request is due.</inlineHelpText>
+    <label>Decision By Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

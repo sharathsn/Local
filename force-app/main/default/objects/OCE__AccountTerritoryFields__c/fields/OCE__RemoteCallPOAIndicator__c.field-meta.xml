@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__RemoteCallPOAIndicator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Remote Call POA Indicator</description>
+    <externalId>false</externalId>
+    <formula>IF(
+             OCE__POAToDateRemoteCalls__c &gt; 0,
+            IF(
+                OCE__POAToDateRemoteCalls__c &gt; OCE__POARemoteCallGoal__c,
+                &apos;color-text-green&apos;,
+                IF(
+                    OCE__POAToDateRemoteCalls__c = OCE__POARemoteCallGoal__c,
+                    &apos;color-text-lightgreen&apos;,
+                    IF(
+                        OCE__RemoteCallPOAProratedGoal__c &gt; 0,
+                        IF(
+                            OCE__POAToDateRemoteCalls__c/OCE__RemoteCallPOAProratedGoal__c * 100 &gt; 100,
+                            &apos;color-text-yellow&apos;,
+                            IF(
+                                OCE__POAToDateRemoteCalls__c/OCE__RemoteCallPOAProratedGoal__c * 100 = 100,
+                                &apos;color-text-orange&apos;,
+                                IF(
+                                    OCE__POAToDateRemoteCalls__c/OCE__RemoteCallPOAProratedGoal__c * 100 &gt;= 75,
+                                    &apos;color-text-brown&apos;,
+                                    &apos;color-text-red&apos;
+                                )
+                            )
+                        ),
+                        &apos;&apos;
+                    )
+                )
+            ),
+            &apos;&apos;
+        )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Remote Call POA Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

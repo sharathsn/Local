@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Promoted product location in a store --></help>
+    <label><!-- Store Area --></label>
+    <name>OCE1__StoreArea__c</name>
+    <picklistValues>
+        <masterLabel>Category Shelf</masterLabel>
+        <translation><!-- Category Shelf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Display</masterLabel>
+        <translation><!-- Primary Display --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secondary Display</masterLabel>
+        <translation><!-- Secondary Display --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

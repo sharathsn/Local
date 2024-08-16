@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EstimatedCostBreakdownRollup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rollup summary of the cost line item details</description>
+    <externalId>false</externalId>
+    <label>Sum of Estimated Cost Breakdown</label>
+    <summarizedField>OCE__MeetingDetail__c.OCE__EstimatedTotalCost__c</summarizedField>
+    <summaryFilterItems>
+        <field>OCE__MeetingDetail__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Unit Cost, Group Cost</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OCE__MeetingDetail__c.OCE__Meeting__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

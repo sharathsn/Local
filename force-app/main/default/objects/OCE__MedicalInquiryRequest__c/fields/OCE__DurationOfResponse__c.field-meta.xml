@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DurationOfResponse__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Computed field to report on &quot;Duration of Response&quot; (Response time - Submition time)</description>
+    <externalId>false</externalId>
+    <formula>OCE__ResponseDateTime__c - OCE__SubmittedDateTime__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Duration of Response</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

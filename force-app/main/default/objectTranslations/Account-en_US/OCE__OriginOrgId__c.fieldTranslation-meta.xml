@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Id of the org from which an account originates.</help>
+    <label><!-- Origin Org Id --></label>
+    <name>OCE__OriginOrgId__c</name>
+</CustomFieldTranslation>

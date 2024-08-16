@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PhoneCallPOAAttainment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What has been attained against the Rep Call Goal for the Call channel This allows the Rep to see where they are in the cycle in terms of Call attainment on the Account for current plan cycle.</description>
+    <externalId>false</externalId>
+    <formula>IF( OCE__POAPhoneCallGoal__c &gt; 0,  OCE__POAToDatePhoneCalls__c /OCE__POAPhoneCallGoal__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Phone Call POA Attainment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

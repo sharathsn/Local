@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Deprecated: Store Deceased Date</help>
+    <label><!-- Deprecated: Deceased Date --></label>
+    <name>OCE__DeceasedDate__c</name>
+</CustomFieldTranslation>

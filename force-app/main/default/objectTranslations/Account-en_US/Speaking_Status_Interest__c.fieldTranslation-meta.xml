@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Speaking Status/Interest --></label>
+    <name>Speaking_Status_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Current Speaker</masterLabel>
+        <translation><!-- Current Speaker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interested in Speaking</masterLabel>
+        <translation><!-- Interested in Speaking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Interest</masterLabel>
+        <translation><!-- No Interest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The professional designation of the doctor.</help>
+    <label><!-- Professional Designation --></label>
+    <name>OCE__ProfessionalDesignation__c</name>
+    <picklistValues>
+        <masterLabel>DO</masterLabel>
+        <translation>DO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MBBS</masterLabel>
+        <translation>MBBS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MD</masterLabel>
+        <translation>MD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NP</masterLabel>
+        <translation>NP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OD</masterLabel>
+        <translation>OD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PA</masterLabel>
+        <translation>PA</translation>
+    </picklistValues>
+</CustomFieldTranslation>

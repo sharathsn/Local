@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Session</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__AttachmentsSupport__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__DeltaDateField__c</field>
+        <value xsi:type="xsd:string">LastModifiedDate</value>
+    </values>
+    <values>
+        <field>OCE__EnableDataUploadNotification__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__Errors__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__IsSync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__IsWeChatCompatible__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__MandatoryFields__c</field>
+        <value xsi:type="xsd:string">UserRecordAccess.HasReadAccess,UserRecordAccess.HasEditAccess,UserRecordAccess.HasDeleteAccess,UserRecordAccess.HasAllAccess,UserRecordAccess.MaxAccessLevel,Id,OwnerId,IsDeleted,Name,CurrencyIsoCode,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById</value>
+    </values>
+    <values>
+        <field>OCE__OneWaySync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__PermissionSets__c</field>
+        <value xsi:type="xsd:string">;Lilly_Permission_Set;</value>
+    </values>
+    <values>
+        <field>OCE__PermittedProfiles__c</field>
+        <value xsi:type="xsd:string">;OCE Admin;</value>
+    </values>
+    <values>
+        <field>OCE__Profiles__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__SObject__c</field>
+        <value xsi:type="xsd:string">Lilly_Session__c</value>
+    </values>
+    <values>
+        <field>OCE__SobjectPlatformEvents__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Status__c</field>
+        <value xsi:type="xsd:string">Valid</value>
+    </values>
+    <values>
+        <field>OCE__Type__c</field>
+        <value xsi:type="xsd:string">Data</value>
+    </values>
+    <values>
+        <field>OCE__WhereSoql__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

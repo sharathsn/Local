@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Health Code --></label>
+    <name>OCE__HealthCode__c</name>
+    <picklistValues>
+        <masterLabel>All health insurances</masterLabel>
+        <translation>All health insurances</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional health insurances</masterLabel>
+        <translation>Regional health insurances</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small health insurances</masterLabel>
+        <translation>Small health insurances</translation>
+    </picklistValues>
+</CustomFieldTranslation>

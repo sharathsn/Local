@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Meeting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The meeting that the Meeting Expense is related to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The meeting that the Meeting Expense is related to.</inlineHelpText>
+    <label>Meeting</label>
+    <referenceTo>OCE__Meeting__c</referenceTo>
+    <relationshipLabel>Meeting Expenses</relationshipLabel>
+    <relationshipName>MeetingExpenses</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

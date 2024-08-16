@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__GeneralEvent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reference to corresponding General Event</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reference to corresponding General Event</inlineHelpText>
+    <label>General Event</label>
+    <referenceTo>OCE__GeneralEvent__c</referenceTo>
+    <relationshipLabel>GeneralEventEmployeeAttendees</relationshipLabel>
+    <relationshipName>GeneralEventEmployeeAttendees</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

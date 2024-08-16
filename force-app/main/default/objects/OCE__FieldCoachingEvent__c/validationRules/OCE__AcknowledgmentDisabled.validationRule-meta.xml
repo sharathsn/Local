@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AcknowledgmentDisabled</fullName>
+    <active>true</active>
+    <description>If AcknowledgementEnabled__c disabled, coach cannot publish evaluation</description>
+    <errorConditionFormula>AND($Setup.OCE__FieldCoachingEventSettings__c.OCE__AcknowledgementEnabled__c = FALSE, ISPICKVAL(OCE__Status__c,&apos;Employee Review&apos;))</errorConditionFormula>
+    <errorMessage>You cannot publish evaluation, because Acknowledgement setting disabled</errorMessage>
+</ValidationRule>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__StatusColorCode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Will drive a status indicator of the study. This value can be set using standard SFDC workflow rules based on client requirements.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Will drive a status indicator of the study. This value can be set using standard SFDC workflow rules based on client requirements.</inlineHelpText>
+    <label>Status Color Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Red</fullName>
+                <default>false</default>
+                <label>Red</label>
+            </value>
+            <value>
+                <fullName>Amber</fullName>
+                <default>false</default>
+                <label>Amber</label>
+            </value>
+            <value>
+                <fullName>Green</fullName>
+                <default>false</default>
+                <label>Green</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

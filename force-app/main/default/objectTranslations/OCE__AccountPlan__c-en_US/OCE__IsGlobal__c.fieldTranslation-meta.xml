@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Defines whether record has to be synced to the OCEx related orgs.</help>
+    <label><!-- Is Global --></label>
+    <name>OCE__IsGlobal__c</name>
+</CustomFieldTranslation>

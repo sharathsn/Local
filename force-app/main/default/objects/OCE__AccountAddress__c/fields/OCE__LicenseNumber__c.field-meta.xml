@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__LicenseNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>License number that indicates if a doctor can sign for samples. This License is required for any doctors that will be signing for samples.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>License number that indicates if a doctor can sign for samples. This License is required for any doctors that will be signing for samples.</inlineHelpText>
+    <label>License #</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

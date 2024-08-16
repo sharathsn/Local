@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>If granted then user will be redirected to another native Lightning Call page creation, with recordtype selection</description>
+    <isLicensed>false</isLicensed>
+    <label>LAC: Enable Call 2.0</label>
+</CustomPermission>

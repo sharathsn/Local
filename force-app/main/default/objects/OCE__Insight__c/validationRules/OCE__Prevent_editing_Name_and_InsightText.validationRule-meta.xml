@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Prevent_editing_Name_and_InsightText</fullName>
+    <active>true</active>
+    <description>Prevents editing Name and InsightText fields on Global Insights</description>
+    <errorConditionFormula>AND($Permission.OCE__OCEx_SuperAdmin = FALSE, $Permission.OCE__OCEx_Admin = FALSE, OCE__IsGlobal__c = TRUE, OR(ISCHANGED(Name),ISCHANGED(OCE__InsightText__c)))</errorConditionFormula>
+    <errorMessage>You cannot modify Insight and Insight Title fields on Global Insight</errorMessage>
+</ValidationRule>

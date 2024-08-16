@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Disable_OCEx_subscribed_accounts_edit</fullName>
+    <active>false</active>
+    <description>Disables creating or editing OCEx subscribed accounts</description>
+    <errorConditionFormula>$Permission.OCE__OCEx_SuperAdmin = FALSE &amp;&amp; $Permission.OCE__OCEx_Admin = FALSE &amp;&amp; OCE__IsSubscribed__c = TRUE</errorConditionFormula>
+    <errorMessage>You cannot edit or create subscribed accounts</errorMessage>
+</ValidationRule>

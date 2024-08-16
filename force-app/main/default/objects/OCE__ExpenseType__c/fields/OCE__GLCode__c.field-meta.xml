@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__GLCode__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A general ledger, or GL, is a means for keeping record of a company&apos;s total financial accounts. This code represents the financial system reference of the expense type</description>
+    <externalId>false</externalId>
+    <label>GL Code</label>
+    <referenceTo>OCE__GLCode__c</referenceTo>
+    <relationshipLabel>Expense Types</relationshipLabel>
+    <relationshipName>ExpenseTypes</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

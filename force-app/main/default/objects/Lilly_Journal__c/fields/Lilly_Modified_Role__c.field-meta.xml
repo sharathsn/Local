@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Modified_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Modified Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Editorial Board Member</fullName>
+                <default>false</default>
+                <label>Editorial Board Member</label>
+            </value>
+            <value>
+                <fullName>Associate Editor</fullName>
+                <default>false</default>
+                <label>Associate Editor</label>
+            </value>
+            <value>
+                <fullName>Editor-in-chief</fullName>
+                <default>false</default>
+                <label>Editor-in-chief</label>
+            </value>
+            <value>
+                <fullName>Editor</fullName>
+                <default>false</default>
+                <label>Editor</label>
+            </value>
+            <value>
+                <fullName>Deputy Editor</fullName>
+                <default>false</default>
+                <label>Deputy Editor</label>
+            </value>
+            <value>
+                <fullName>Editorial Advisor</fullName>
+                <default>false</default>
+                <label>Editorial Advisor</label>
+            </value>
+            <value>
+                <fullName>President, Board of Directors</fullName>
+                <default>false</default>
+                <label>President, Board of Directors</label>
+            </value>
+            <value>
+                <fullName>Review Editor</fullName>
+                <default>false</default>
+                <label>Review Editor</label>
+            </value>
+            <value>
+                <fullName>Section Editor</fullName>
+                <default>false</default>
+                <label>Section Editor</label>
+            </value>
+            <value>
+                <fullName>Senior Editor</fullName>
+                <default>false</default>
+                <label>Senior Editor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

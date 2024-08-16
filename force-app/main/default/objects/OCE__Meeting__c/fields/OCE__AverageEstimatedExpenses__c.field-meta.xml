@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AverageEstimatedExpenses__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED. The average of estimated expenses allocated to unique Meeting Members.</description>
+    <externalId>false</externalId>
+    <formula>IF( OCE__MembersAllocatedToEstimateExpense__c =0,
+            0,
+            OCE__TotalEstimatedExpenses__c /OCE__MembersAllocatedToEstimateExpense__c
+            )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>DEPRECATED. The average of estimated expenses allocated to unique Meeting Members.</inlineHelpText>
+    <label>DEPRECATED Average Estimated Expenses</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

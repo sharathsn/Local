@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TotalProductsValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rollup of the Product&apos;s value selected for Donation</description>
+    <externalId>false</externalId>
+    <label>Total Product&apos;s Value</label>
+    <summarizedField>OCE__MeetingProduct__c.OCE__TotalValue__c</summarizedField>
+    <summaryFilterItems>
+        <field>OCE__MeetingProduct__c.OCE__IsDonationProduct__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OCE__MeetingProduct__c.OCE__Meeting__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

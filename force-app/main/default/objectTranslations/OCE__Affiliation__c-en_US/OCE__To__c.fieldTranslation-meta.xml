@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>To Account</help>
+    <label><!-- To --></label>
+    <lookupFilter>
+        <errorMessage><!-- Account is not valid to be used as &apos;To&apos; end of the Affiliation. --></errorMessage>
+        <informationalMessage><!-- Select the account to be used as &apos;To&apos; end of the Affiliation (should be different than &apos;From&apos; one) --></informationalMessage>
+    </lookupFilter>
+    <name>OCE__To__c</name>
+    <relationshipLabel><!-- To Affiliations --></relationshipLabel>
+</CustomFieldTranslation>

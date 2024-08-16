@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Message_Delivered__c</fullName>
+    <externalId>false</externalId>
+    <label>Last Message Delivered</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Natural-Looking Results</fullName>
+                <default>false</default>
+                <label>Natural-Looking Results</label>
+            </value>
+            <value>
+                <fullName>Grow New Collagen</fullName>
+                <default>false</default>
+                <label>Grow New Collagen</label>
+            </value>
+            <value>
+                <fullName>Immediate Results</fullName>
+                <default>false</default>
+                <label>Immediate Results</label>
+            </value>
+            <value>
+                <fullName>Long-Lasting Results</fullName>
+                <default>false</default>
+                <label>Long-Lasting Results</label>
+            </value>
+            <value>
+                <fullName>Easy to Maintain</fullName>
+                <default>false</default>
+                <label>Easy to Maintain</label>
+            </value>
+            <value>
+                <fullName>Versatile Treatment</fullName>
+                <default>false</default>
+                <label>Versatile Treatment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

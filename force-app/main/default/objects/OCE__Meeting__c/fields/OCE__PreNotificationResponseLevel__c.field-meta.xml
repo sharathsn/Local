@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreNotificationResponseLevel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Level of the response from the external authority.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Level of the response from the external authority.</inlineHelpText>
+    <label>PreNotification Response Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Binding Approval</fullName>
+                <default>false</default>
+                <label>Binding Approval</label>
+            </value>
+            <value>
+                <fullName>Non-Binding Opinion</fullName>
+                <default>false</default>
+                <label>Non-Binding Opinion</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

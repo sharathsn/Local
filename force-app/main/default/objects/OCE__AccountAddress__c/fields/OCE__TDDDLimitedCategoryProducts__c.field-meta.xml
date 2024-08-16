@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TDDDLimitedCategoryProducts__c</fullName>
+    <deprecated>false</deprecated>
+    <description>JSON string that contains list of SDL limited category products. Duplicates same field value of parent Address__c, since long text area fields cannot be used in formula.</description>
+    <externalId>false</externalId>
+    <label>SDL Limited Category Products</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

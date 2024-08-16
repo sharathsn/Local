@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type</help>
+    <label><!-- Type --></label>
+    <name>OCE__Type__c</name>
+    <picklistValues>
+        <masterLabel>Accounting/Business Office</masterLabel>
+        <translation>Accounting/Business Office</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administrative</masterLabel>
+        <translation>Administrative</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Analyst</masterLabel>
+        <translation>Analyst</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audiology</masterLabel>
+        <translation>Audiology</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiology</masterLabel>
+        <translation>Cardiology</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Supply</masterLabel>
+        <translation>Central Supply</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinic</masterLabel>
+        <translation>Clinic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitor</masterLabel>
+        <translation>Competitor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Chains</masterLabel>
+        <translation>Corporate Chains</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Parent</masterLabel>
+        <translation>Corporate Parent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Correctional Facility</masterLabel>
+        <translation>Correctional Facility</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>Customer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency</masterLabel>
+        <translation>Emergency</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Medicine</masterLabel>
+        <translation>Family Medicine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GI Lab</masterLabel>
+        <translation>GI Lab</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health</masterLabel>
+        <translation>Home Health</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice</masterLabel>
+        <translation>Hospice</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital</masterLabel>
+        <translation>Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Campus</masterLabel>
+        <translation>Hospital Campus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICU</masterLabel>
+        <translation>ICU</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IDN</masterLabel>
+        <translation>IDN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IHS</masterLabel>
+        <translation>IHS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immunology</masterLabel>
+        <translation>Immunology</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Disease</masterLabel>
+        <translation>Infectious Disease</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integrator</masterLabel>
+        <translation>Integrator</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Medicine</masterLabel>
+        <translation>Internal Medicine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor</masterLabel>
+        <translation>Investor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&amp;D</masterLabel>
+        <translation>L&amp;D</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab</masterLabel>
+        <translation>Lab</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long term acute care</masterLabel>
+        <translation>Long term acute care</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management Company</masterLabel>
+        <translation>Management Company</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maternity</masterLabel>
+        <translation>Maternity</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Staff Office</masterLabel>
+        <translation>Medical Staff Office</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NICU</masterLabel>
+        <translation>NICU</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing Home</masterLabel>
+        <translation>Nursing Home</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Occupational Therapy</masterLabel>
+        <translation>Occupational Therapy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology</masterLabel>
+        <translation>Oncology</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operating Room</masterLabel>
+        <translation>Operating Room</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Other</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others &lt; {0}%</masterLabel>
+        <translation>Others &lt; {0}%</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outpatient Care</masterLabel>
+        <translation>Outpatient Care</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner</masterLabel>
+        <translation>Partner</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatrics</masterLabel>
+        <translation>Pediatrics</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy</masterLabel>
+        <translation>Pharmacy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Therapy</masterLabel>
+        <translation>Physical Therapy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Press</masterLabel>
+        <translation>Press</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prison</masterLabel>
+        <translation>Prison</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prospect</masterLabel>
+        <translation>Prospect</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychiatric Facility</masterLabel>
+        <translation>Psychiatric Facility</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pulmonology</masterLabel>
+        <translation>Pulmonology</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing</masterLabel>
+        <translation>Purchasing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiology</masterLabel>
+        <translation>Radiology</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reseller</masterLabel>
+        <translation>Reseller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Respiratory Therapy</masterLabel>
+        <translation>Respiratory Therapy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery Center</masterLabel>
+        <translation>Surgery Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Services</masterLabel>
+        <translation>Surgical Services</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trauma</masterLabel>
+        <translation>Trauma</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VA/Military</masterLabel>
+        <translation>VA/Military</translation>
+    </picklistValues>
+</CustomFieldTranslation>

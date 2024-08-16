@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DisplayAddress2__c</fullName>
+    <complianceGroup>PII;GDPR</complianceGroup>
+    <deprecated>false</deprecated>
+    <description>Full Address in Single line</description>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(
+            IF( NOT(ISBLANK(Name)), Name, &apos;&apos;)&amp;
+            IF( NOT(ISBLANK(OCE__AddressLine2__c)), &apos;, &apos;&amp; OCE__AddressLine2__c, &apos;&apos;)&amp;
+            IF( NOT(ISBLANK(OCE__AddressLine3__c)), &apos;, &apos;&amp; OCE__AddressLine3__c, &apos;&apos;)&amp;
+            IF( NOT(ISBLANK(OCE__AddressLine4__c)), &apos;, &apos;&amp; OCE__AddressLine4__c, &apos;&apos;)&amp;
+            IF(OCE__City__c !=&apos;&apos;,&apos;, &apos;&amp; OCE__City__c,&apos;&apos;)&amp;
+            IF( TEXT( OCE__StateCode2__c ) !=&apos;&apos;,&apos;, &apos;&amp; TEXT( OCE__StateCode2__c ), IF( TEXT( OCE__StateCode__c ) !=&apos;&apos;,&apos;, &apos;&amp; TEXT( OCE__StateCode__c ), &apos;&apos;))&amp;
+            IF( TEXT( OCE__CountryCode__c ) !=&apos;&apos;,&apos;, &apos;&amp; TEXT( OCE__CountryCode__c ),&apos;&apos;)&amp;
+            IF(OCE__ZipCode__c !=&apos;&apos;,&apos;, &apos;&amp; OCE__ZipCode__c,&apos;&apos;)
+            ,&apos;&apos;
+            ,&apos;&apos;)</formula>
+    <inlineHelpText>Display Address 2</inlineHelpText>
+    <label>Display Address 2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

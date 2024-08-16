@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TerritoryTargetedPresentationsJSON__c</fullName>
+    <deprecated>false</deprecated>
+    <description>JSON with territory based available Presentations</description>
+    <externalId>false</externalId>
+    <label>Territory Targeted Presentations JSON</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

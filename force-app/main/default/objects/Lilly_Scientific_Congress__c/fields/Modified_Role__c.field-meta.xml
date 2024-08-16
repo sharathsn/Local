@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modified_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Modified Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Main Presenter</fullName>
+                <default>false</default>
+                <label>Main Presenter</label>
+            </value>
+            <value>
+                <fullName>Co-presenter</fullName>
+                <default>false</default>
+                <label>Co-presenter</label>
+            </value>
+            <value>
+                <fullName>Chair</fullName>
+                <default>false</default>
+                <label>Chair</label>
+            </value>
+            <value>
+                <fullName>President</fullName>
+                <default>false</default>
+                <label>President</label>
+            </value>
+            <value>
+                <fullName>Scientific Committee Member</fullName>
+                <default>false</default>
+                <label>Scientific Committee Member</label>
+            </value>
+            <value>
+                <fullName>Local Committee Member</fullName>
+                <default>false</default>
+                <label>Local Committee Member</label>
+            </value>
+            <value>
+                <fullName>Organizing Committee Member</fullName>
+                <default>false</default>
+                <label>Organizing Committee Member</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

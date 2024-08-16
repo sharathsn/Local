@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Account_Address</fullName>
+    <fields>OCE__AddressLine1__c</fields>
+    <fields>OCE__AddressLine2__c</fields>
+    <fields>OCE__City__c</fields>
+    <fields>OCE__State__c</fields>
+    <fields>OCE__ZipCode__c</fields>
+    <fields>OCE__IsPrimary__c</fields>
+    <label>Account Address</label>
+</CompactLayout>

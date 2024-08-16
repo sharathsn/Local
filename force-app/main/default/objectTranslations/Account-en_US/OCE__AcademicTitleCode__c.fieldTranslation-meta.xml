@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Academic Title Code --></label>
+    <name>OCE__AcademicTitleCode__c</name>
+    <picklistValues>
+        <masterLabel>Clinic Ex-chief</masterLabel>
+        <translation>Clinic Ex-chief</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doyen</masterLabel>
+        <translation>Doyen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ex-Hospital Clinical Clerk</masterLabel>
+        <translation>Ex-Hospital Clinical Clerk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ex-Hospital Trainee</masterLabel>
+        <translation>Ex-Hospital Trainee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ex-Monitor</masterLabel>
+        <translation>Ex-Monitor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ex-Provisory Hospital Intern</masterLabel>
+        <translation>Ex-Provisory Hospital Intern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ex-Work Chief</masterLabel>
+        <translation>Ex-Work Chief</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Faculties Monitor</masterLabel>
+        <translation>Faculties Monitor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Assistant Doctor</masterLabel>
+        <translation>Hospital Assistant Doctor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Assistant Specialist</masterLabel>
+        <translation>Hospital Assistant Specialist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Ex-assistant</masterLabel>
+        <translation>Hospital Ex-assistant</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Specialist</masterLabel>
+        <translation>Hospital Specialist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professor, Hospital Doctor</masterLabel>
+        <translation>Professor, Hospital Doctor</translation>
+    </picklistValues>
+</CustomFieldTranslation>

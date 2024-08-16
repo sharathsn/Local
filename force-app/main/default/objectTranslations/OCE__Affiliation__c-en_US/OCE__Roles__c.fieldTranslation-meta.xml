@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Affiliation role</help>
+    <label><!-- Roles --></label>
+    <name>OCE__Roles__c</name>
+    <picklistValues>
+        <masterLabel>Admitting</masterLabel>
+        <translation>Admitting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Affiliate</masterLabel>
+        <translation>Affiliate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attending</masterLabel>
+        <translation>Attending</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co Business</masterLabel>
+        <translation>Co Business</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co-Worker</masterLabel>
+        <translation>Co-Worker</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting</masterLabel>
+        <translation>Consulting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Owner</masterLabel>
+        <translation>Corporate Owner</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicate</masterLabel>
+        <translation>Duplicate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fellowship</masterLabel>
+        <translation>Fellowship</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GPO</masterLabel>
+        <translation>GPO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IDN</masterLabel>
+        <translation>IDN</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Affiliated To</masterLabel>
+        <translation>Is Affiliated To</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Opinion Follower</masterLabel>
+        <translation>Key Opinion Follower</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Opinion Leader</masterLabel>
+        <translation>Key Opinion Leader</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Other</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Program</masterLabel>
+        <translation>Program</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Program Director</masterLabel>
+        <translation>Program Director</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Program Member</masterLabel>
+        <translation>Program Member</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referred By</masterLabel>
+        <translation>Referred By</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referred To</masterLabel>
+        <translation>Referred To</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff</masterLabel>
+        <translation>Staff</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subsidiary</masterLabel>
+        <translation>Subsidiary</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Treating</masterLabel>
+        <translation>Treating</translation>
+    </picklistValues>
+</CustomFieldTranslation>

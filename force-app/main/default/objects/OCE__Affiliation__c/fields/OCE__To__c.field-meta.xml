@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__To__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>To Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To Account</inlineHelpText>
+    <label>To</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1</booleanFilter>
+        <errorMessage>Account is not valid to be used as &apos;To&apos; end of the Affiliation.</errorMessage>
+        <filterItems>
+            <field>$Source.OCE__From__c</field>
+            <operation>notEqual</operation>
+            <valueField>Account.Id</valueField>
+        </filterItems>
+        <infoMessage>Select the account to be used as &apos;To&apos; end of the Affiliation (should be different than &apos;From&apos; one)</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>To Affiliations</relationshipLabel>
+    <relationshipName>ToAffiliations</relationshipName>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

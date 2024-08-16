@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Opt</fullName>
+    <fields>Name</fields>
+    <fields>OCE__Active__c</fields>
+    <fields>OCE__Source__c</fields>
+    <label>Opt</label>
+</CompactLayout>

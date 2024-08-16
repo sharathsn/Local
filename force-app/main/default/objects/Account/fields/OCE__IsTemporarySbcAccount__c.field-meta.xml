@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsTemporarySbcAccount__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Is account created as an interim record in process of finding duplicate accounts in Search Before Create (SBC) process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Interim record created as part of Search Before Create Process</inlineHelpText>
+    <label>Is Temporary SBC Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

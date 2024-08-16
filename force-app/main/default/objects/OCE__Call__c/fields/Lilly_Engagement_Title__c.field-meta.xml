@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Engagement_Title__c</fullName>
+    <externalId>false</externalId>
+    <label>Engagement Title</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Introductory Meeting</fullName>
+                <default>false</default>
+                <label>Introductory Meeting</label>
+            </value>
+            <value>
+                <fullName>General Insights Gathering</fullName>
+                <default>false</default>
+                <label>General Insights Gathering</label>
+            </value>
+            <value>
+                <fullName>Partnership with Lilly</fullName>
+                <default>false</default>
+                <label>Partnership with Lilly</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>Contracted Activity - Advising - Medical</fullName>
+                <default>false</default>
+                <label>Contracted Activity - Advising - Medical</label>
+            </value>
+            <value>
+                <fullName>Contracted Activity - Advising - Commercial</fullName>
+                <default>false</default>
+                <label>Contracted Activity - Advising - Commercial</label>
+            </value>
+            <value>
+                <fullName>Contracted Activity - Speaking - Commercial</fullName>
+                <default>false</default>
+                <label>Contracted Activity - Speaking - Commercial</label>
+            </value>
+            <value>
+                <fullName>Contracted Activity - Speaking - Medical</fullName>
+                <default>false</default>
+                <label>Contracted Activity - Speaking - Medical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

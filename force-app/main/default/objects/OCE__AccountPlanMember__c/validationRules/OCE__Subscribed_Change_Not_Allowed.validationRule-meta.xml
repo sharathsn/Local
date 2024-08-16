@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Subscribed_Change_Not_Allowed</fullName>
+    <active>false</active>
+    <description>Prevents editing Global Team Member on subscriber org. (MVP)</description>
+    <errorConditionFormula>AND(NOT(ISNEW()), NOT($Permission.OCE__OCEx_Admin), NOT( $Permission.OCE__OCEx_SuperAdmin), OCE__IsSubscribed__c = TRUE)</errorConditionFormula>
+    <errorMessage>You cannot modify Global Team Member</errorMessage>
+</ValidationRule>

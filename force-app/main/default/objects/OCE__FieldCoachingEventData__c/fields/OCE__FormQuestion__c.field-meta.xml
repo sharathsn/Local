@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__FormQuestion__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Form Question for which the user response is recorded.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Form Question for which the user response is recorded.</inlineHelpText>
+    <label>Form Question</label>
+    <referenceTo>OCE__FieldCoachingFormQuestion__c</referenceTo>
+    <relationshipLabel>Question Responses</relationshipLabel>
+    <relationshipName>FormQuestionResponse</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Meeting__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Link to related Meeting.</description>
+    <externalId>false</externalId>
+    <label>Meeting</label>
+    <referenceTo>OCE__Meeting__c</referenceTo>
+    <relationshipLabel>To-Do</relationshipLabel>
+    <relationshipName>To_Do</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

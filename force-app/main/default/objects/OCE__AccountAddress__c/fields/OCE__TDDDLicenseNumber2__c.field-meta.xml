@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TDDDLicenseNumber2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>SDL number for current AccountAddress - SDL allows a business entity to purchase and possess dangerous drugs at a specific address for distribution to patients.</description>
+    <externalId>false</externalId>
+    <label>SDL #</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AbbreviatedName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Text field applicable to only HCO that will store the abbreviated name of the Japanese organization. Needed for INS-DOC records where the OOB SFDC name is a concatenation of HCP Kanji @ HCO Abbreviated name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Text field applicable to only HCO that will store the abbreviated name of the Japanese organization. Needed for INS-DOC records where the OOB SFDC name is a concatenation of HCP Kanji @ HCO Abbreviated name</inlineHelpText>
+    <label>Abbreviated Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

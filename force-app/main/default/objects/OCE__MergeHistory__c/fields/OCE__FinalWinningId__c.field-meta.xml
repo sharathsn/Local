@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__FinalWinningId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Internal SF id of the final winning record in the merging chain (when already merged record is re-merged with another one, kind of multiple level of merging).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Internal SF id of the final winning record in the merging chain (when already merged record is re-merged with another one, kind of multiple level of merging).</inlineHelpText>
+    <label>Final Winning Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

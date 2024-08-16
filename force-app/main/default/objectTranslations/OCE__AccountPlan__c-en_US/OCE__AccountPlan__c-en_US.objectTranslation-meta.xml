@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engagement Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Engagement Plans</value>
+    </caseValues>
+    <nameFieldLabel>Engagement Plan Name</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Engagement Plan --></label>
+        <name>Engagement_Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for planning of activities in accounts or ecosystems according to objectives, tactics and todos --></description>
+        <label>Engagement Plan</label>
+        <name>OCE1__AccountPlan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for planning of promotional activities that needs to occur in point of sales for one or many accounts --></description>
+        <label><!-- Promo Plan --></label>
+        <name>OCE1__PromoPlan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used as a source of activities to create other types of Promotional Plans --></description>
+        <label><!-- Promo Plan Template --></label>
+        <name>OCE1__PromoPlanTemplate</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account cannot be empty --></errorMessage>
+        <name>OCE__AccountPlan_Account_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, populate all fields in the SWOT analysis --></errorMessage>
+        <name>OCE__AccountPlan_SWOT_allOrNone</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Engagement_Plan_Load --></label>
+        <name>Engagement_Plan_Load</name>
+    </webLinks>
+</CustomObjectTranslation>

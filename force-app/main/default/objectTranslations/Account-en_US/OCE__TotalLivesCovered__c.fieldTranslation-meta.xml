@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total Lives Covered</help>
+    <label><!-- Total Lives Covered --></label>
+    <name>OCE__TotalLivesCovered__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the Account&apos;s status in the system, such as Active (default), Moved, Deceased, or Retired.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the Account&apos;s status in the system, such as Active (default), Moved, Deceased, or Retired.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Moved</fullName>
+                <default>false</default>
+                <label>Moved</label>
+            </value>
+            <value>
+                <fullName>Deceased</fullName>
+                <default>false</default>
+                <label>Deceased</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+            <value>
+                <fullName>InActive</fullName>
+                <default>false</default>
+                <label>InActive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

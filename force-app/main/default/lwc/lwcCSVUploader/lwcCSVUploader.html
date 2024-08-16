@@ -1,0 +1,14 @@
+<template>
+<lightning-card title="Process Meeting Request CSV File">
+<div class="file-uploader">
+<lightning-input label="" name="file uploader" onchange={handleFilesChange} type="file" multiple></lightning-input>
+<div class="error-message">{fileName}</div>
+<lightning-button class="upload-button" label={UploadFile} onclick={handleSave} variant="brand" disabled={isTrue}></lightning-button>
+</div>
+<div class="file">
+<template if:true={fileDownloadLink}>
+    <a href={fileDownloadLink} > Download Result File</a>
+</template>
+</div>
+</lightning-card>
+</template>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SizeOfPharmacyNetwork__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Size of the Pharmacy Network</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Size of the Pharmacy Network</inlineHelpText>
+    <label>Size of Pharmacy Network</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

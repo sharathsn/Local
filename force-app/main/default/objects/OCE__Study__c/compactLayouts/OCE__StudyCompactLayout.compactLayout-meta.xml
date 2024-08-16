@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__StudyCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>OCE__StudyID__c</fields>
+    <fields>OCE__StudyStatus__c</fields>
+    <fields>OCE__StartDate__c</fields>
+    <fields>OCE__EndDate__c</fields>
+    <label>Study Compact Layout</label>
+</CompactLayout>

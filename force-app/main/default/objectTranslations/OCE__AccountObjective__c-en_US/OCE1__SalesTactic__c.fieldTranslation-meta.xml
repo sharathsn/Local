@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Promotional activity tactic based on the selected sales driver --></help>
+    <label><!-- Sales Tactic --></label>
+    <name>OCE1__SalesTactic__c</name>
+    <picklistValues>
+        <masterLabel>1 + 1 to consumer</masterLabel>
+        <translation><!-- 1 + 1 to consumer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24H Vending Machine</masterLabel>
+        <translation><!-- 24H Vending Machine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertising on a monitor in POS</masterLabel>
+        <translation><!-- Advertising on a monitor in POS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assisted training</masterLabel>
+        <translation><!-- Assisted training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blockbuster products</masterLabel>
+        <translation><!-- Blockbuster products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Combined products promo sale</masterLabel>
+        <translation><!-- Combined products promo sale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer Educational Corner</masterLabel>
+        <translation><!-- Consumer Educational Corner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Signboard with product images</masterLabel>
+        <translation><!-- External Signboard with product images --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fidelity Card</masterLabel>
+        <translation><!-- Fidelity Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floor display / Occasional Price cut</masterLabel>
+        <translation><!-- Floor display / Occasional Price cut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Free Shelf Counter</masterLabel>
+        <translation><!-- Free Shelf Counter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Free unassisted on-line</masterLabel>
+        <translation><!-- Free unassisted on-line --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Magazine on the Pharmacy</masterLabel>
+        <translation><!-- Healthcare Magazine on the Pharmacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In store promotion</masterLabel>
+        <translation><!-- In store promotion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In store vent</masterLabel>
+        <translation><!-- In store vent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Magazine / Web / Fidelity Card Coupons</masterLabel>
+        <translation><!-- Magazine / Web / Fidelity Card Coupons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Information advisor</masterLabel>
+        <translation><!-- Medical Information advisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Poster on the Web Site</masterLabel>
+        <translation><!-- New Poster on the Web Site --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Shelf / Continuous price cut</masterLabel>
+        <translation><!-- On Shelf / Continuous price cut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On-line promo / through an app</masterLabel>
+        <translation><!-- On-line promo / through an app --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paper Poster</masterLabel>
+        <translation><!-- Paper Poster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist recommendation</masterLabel>
+        <translation><!-- Pharmacist recommendation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy / Chain Leaflet</masterLabel>
+        <translation><!-- Pharmacy / Chain Leaflet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poster</masterLabel>
+        <translation><!-- Poster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proactive advice with cross-selling</masterLabel>
+        <translation><!-- Proactive advice with cross-selling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remote learning</masterLabel>
+        <translation><!-- Remote learning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Rep / Trade Rep</masterLabel>
+        <translation><!-- Sales Rep / Trade Rep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sampling</masterLabel>
+        <translation><!-- Sampling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scored Fidelity Card</masterLabel>
+        <translation><!-- Scored Fidelity Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shelf Behind the counter</masterLabel>
+        <translation><!-- Shelf Behind the counter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Showcase</masterLabel>
+        <translation><!-- Showcase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Side pods or Pharmacy branded prods</masterLabel>
+        <translation><!-- Side pods or Pharmacy branded prods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special offer / Basket</masterLabel>
+        <translation><!-- Special offer / Basket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Throough consulting (e.g hair analysis)</masterLabel>
+        <translation><!-- Throough consulting (e.g hair analysis) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Topics of interest of the Pharmacist</masterLabel>
+        <translation><!-- Topics of interest of the Pharmacist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training events outside the POS</masterLabel>
+        <translation><!-- Training events outside the POS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Webinar</masterLabel>
+        <translation><!-- Webinar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>e-Commerce Web Site</masterLabel>
+        <translation><!-- e-Commerce Web Site --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

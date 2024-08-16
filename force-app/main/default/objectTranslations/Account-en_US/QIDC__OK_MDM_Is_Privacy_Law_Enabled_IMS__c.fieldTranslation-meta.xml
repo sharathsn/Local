@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, this account is flagged for Privacy Law regulations. --></help>
+    <label><!-- Is Privacy Law Enabled --></label>
+    <name>QIDC__OK_MDM_Is_Privacy_Law_Enabled_IMS__c</name>
+</CustomFieldTranslation>

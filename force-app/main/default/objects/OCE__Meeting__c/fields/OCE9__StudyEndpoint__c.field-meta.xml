@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__StudyEndpoint__c</fullName>
+    <deprecated>false</deprecated>
+    <description>An event or outcome that can be measured objectively to determine whether the intervention being studied is beneficial</description>
+    <externalId>false</externalId>
+    <inlineHelpText>An event or outcome that can be measured objectively to determine whether the intervention being studied is beneficial</inlineHelpText>
+    <label>Study Endpoint</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

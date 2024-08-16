@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>HCP_Segmentation_UpdatedDate__c</fields>
+    <fields>HCP_Segmentation_Segmentation__c</fields>
+    <fields>HCP_Segmentation_HcpUniqueId__c</fields>
+    <fields>HCP_Segmentation_HcpSegmentationId__c</fields>
+    <fields>HCP_Segmentation_EffectiveStartDate__c</fields>
+    <fields>HCP_Segmentation_EffectiveEndDate__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

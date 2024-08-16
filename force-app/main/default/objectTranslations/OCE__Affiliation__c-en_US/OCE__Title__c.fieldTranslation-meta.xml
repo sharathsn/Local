@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Doc Title</help>
+    <label><!-- Doc Title --></label>
+    <name>OCE__Title__c</name>
+    <picklistValues>
+        <masterLabel>Board Member</masterLabel>
+        <translation>Board Member</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chairman</masterLabel>
+        <translation>Chairman</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vice Chairman</masterLabel>
+        <translation>Vice Chairman</translation>
+    </picklistValues>
+</CustomFieldTranslation>

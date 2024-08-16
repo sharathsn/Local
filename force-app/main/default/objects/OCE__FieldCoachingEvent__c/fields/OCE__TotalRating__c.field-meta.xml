@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TotalRating__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total score &apos;ABC&apos; indicator.</description>
+    <externalId>false</externalId>
+    <formula>IF(OCE__TotalScore__c &lt; 40, &quot;C&quot;, IF(OCE__TotalScore__c &lt; 66, &quot;B&quot;, &quot;A&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

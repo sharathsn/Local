@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Address__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Address the Account is related to. This is used to show information at both an Account and Address level in this object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Address the Account is related to. This is used to show information at both an Account and Address level in this object.</inlineHelpText>
+    <label>Address</label>
+    <referenceTo>OCE__Address__c</referenceTo>
+    <relationshipLabel>Account Addresses (Address)</relationshipLabel>
+    <relationshipName>Account_Addresses</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

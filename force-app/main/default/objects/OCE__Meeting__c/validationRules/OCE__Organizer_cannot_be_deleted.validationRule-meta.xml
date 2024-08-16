@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Organizer_cannot_be_deleted</fullName>
+    <active>false</active>
+    <description>Meeting organizer cannot be deleted.</description>
+    <errorConditionFormula>AND(PRIORVALUE(OCE__NoOfOrganizer__c)&gt;0, OCE__NoOfOrganizer__c =0)</errorConditionFormula>
+    <errorMessage>Meeting organizer cannot be deleted.</errorMessage>
+</ValidationRule>

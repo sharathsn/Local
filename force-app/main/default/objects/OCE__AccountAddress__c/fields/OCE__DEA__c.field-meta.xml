@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DEA__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Drug Enforcement Administration number. This is required for addresses which will receive samples of controlled substances.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Drug Enforcement Administration number. This is required for addresses which will receive samples of controlled substances.</inlineHelpText>
+    <label>DEA</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

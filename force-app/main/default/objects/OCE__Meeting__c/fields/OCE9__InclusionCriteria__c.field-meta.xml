@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__InclusionCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Inclusion criteria are characteristics that the prospective subjects must have if they are to be included in the study. Exclusion criteria are those characteristics that disqualify prospective subjects from inclusion in the study.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Inclusion criteria are characteristics that the prospective subjects must have if they are to be included in the study. Exclusion criteria are those characteristics that disqualify prospective subjects from inclusion in the study.</inlineHelpText>
+    <label>Inclusion / Exclusion Criteria</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

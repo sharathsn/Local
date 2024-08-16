@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Users_should_not_edit_AccountName</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+
+OR(ISCHANGED( Name ),ISCHANGED(Salutation)), 
+
+NOT OR(($Profile.Name = &quot;System Administrator&quot;),
+($Profile.Name = &quot;OCE Admin&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>Account Name is not editable for users</errorMessage>
+</ValidationRule>

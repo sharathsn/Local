@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__LastStatusUpdatedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Last Status Updated Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Last Status Updated Date</inlineHelpText>
+    <label>Last Status Updated Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

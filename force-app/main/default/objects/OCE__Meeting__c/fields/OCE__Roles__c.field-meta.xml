@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Roles__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Auxiliary formula field with concatenated Colleagues roles.</description>
+    <externalId>false</externalId>
+    <formula>OCE__Roles1__c &amp; OCE__Roles2__c &amp; OCE__Roles3__c &amp; OCE__Roles4__c &amp; OCE__Roles5__c&amp; OCE__Roles6__c&amp; OCE__Roles7__c&amp; OCE__Roles8__c&amp; OCE__Roles9__c&amp; OCE__Roles10__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Roles</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

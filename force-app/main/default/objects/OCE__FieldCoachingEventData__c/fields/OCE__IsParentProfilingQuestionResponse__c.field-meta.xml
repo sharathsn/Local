@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsParentProfilingQuestionResponse__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies if the parent Form Response record was answered through the Profiling Question component.</description>
+    <externalId>false</externalId>
+    <formula>OCE__FormResponse__r.OCE__IsProfilingQuestionResponse__c</formula>
+    <inlineHelpText>Identifies if the parent Form Response record was answered through the Profiling Question component.</inlineHelpText>
+    <label>Is Parent Profiling Question Response</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type of enrollment</help>
+    <label><!-- Enrollment Type --></label>
+    <name>OCE__EnrollmentType__c</name>
+    <picklistValues>
+        <masterLabel>Exclusive Provider Organization (EPO)</masterLabel>
+        <translation>Exclusive Provider Organization (EPO)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Maintenance Organization (HMO)</masterLabel>
+        <translation>Health Maintenance Organization (HMO)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Point of Service (POS)</masterLabel>
+        <translation>Point of Service (POS)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preferred Provider Organization (PPO)</masterLabel>
+        <translation>Preferred Provider Organization (PPO)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

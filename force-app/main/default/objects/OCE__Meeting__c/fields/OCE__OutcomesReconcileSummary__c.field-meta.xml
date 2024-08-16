@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__OutcomesReconcileSummary__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enables User to leave the Outcomes reconcile summary</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enables User to leave the Outcomes reconcile summary</inlineHelpText>
+    <label>Outcomes Reconcile Summary</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

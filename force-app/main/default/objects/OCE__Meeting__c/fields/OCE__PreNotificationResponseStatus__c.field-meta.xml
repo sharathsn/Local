@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreNotificationResponseStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Response received by the external authority.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Status/type of response received from the external authority.</inlineHelpText>
+    <label>PreNotification Response Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Awaiting Response</fullName>
+                <default>false</default>
+                <label>Awaiting Response</label>
+            </value>
+            <value>
+                <fullName>Favorable</fullName>
+                <default>false</default>
+                <label>Favorable</label>
+            </value>
+            <value>
+                <fullName>Unfavorable</fullName>
+                <default>false</default>
+                <label>Unfavorable</label>
+            </value>
+            <value>
+                <fullName>No Response Received</fullName>
+                <default>false</default>
+                <label>No Response Received</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

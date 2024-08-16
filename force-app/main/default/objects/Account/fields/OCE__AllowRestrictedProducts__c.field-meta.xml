@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AllowRestrictedProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field is used to indicate that restrictions are to be ignored.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used to indicate that restrictions are to be ignored.</inlineHelpText>
+    <label>Allow Restricted Products</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

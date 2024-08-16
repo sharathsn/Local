@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TOTRule</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__AttachmentsSupport__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__DeltaDateField__c</field>
+        <value xsi:type="xsd:string">LastModifiedDate</value>
+    </values>
+    <values>
+        <field>OCE__EnableDataUploadNotification__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__Errors__c</field>
+        <value xsi:type="xsd:string">Summary: 10 warning(s) detected.
+
+1. [Medical Science Liaison]: No sync field OfflineUniqueId__c on object OCE__TOTRule__mdt
+
+2. [Medical Science Liaison]: No sync field OfflineCreatedById__c on object OCE__TOTRule__mdt
+
+3. [Medical Science Liaison]: No sync field OfflineCreatedDate__c on object OCE__TOTRule__mdt
+
+4. [Medical Science Liaison]: No sync field OfflineLastModifiedById__c on object OCE__TOTRule__mdt
+
+5. [Medical Science Liaison]: No sync field OfflineLastModifiedDate__c on object OCE__TOTRule__mdt
+
+6. [OCE Admin]: No sync field OfflineUniqueId__c on object OCE__TOTRule__mdt
+
+7. [OCE Admin]: No sync field OfflineCreatedById__c on object OCE__TOTRule__mdt
+
+8. [OCE Admin]: No sync field OfflineCreatedDate__c on object OCE__TOTRule__mdt
+
+9. [OCE Admin]: No sync field OfflineLastModifiedById__c on object OCE__TOTRule__mdt
+
+10. [OCE Admin]: No sync field OfflineLastModifiedDate__c on object OCE__TOTRule__mdt</value>
+    </values>
+    <values>
+        <field>OCE__Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__IsSync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__IsWeChatCompatible__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__MandatoryFields__c</field>
+        <value xsi:type="xsd:string">Id,DeveloperName,MasterLabel,Language,NamespacePrefix,Label,QualifiedApiName</value>
+    </values>
+    <values>
+        <field>OCE__OneWaySync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__PermissionSets__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__PermittedProfiles__c</field>
+        <value xsi:type="xsd:string">;Medical Science Liaison;OCE Admin;Sales Representative;District Manager;Regional Manager;National Account Manager;TLEE;Senior Executive;E&amp;C;TLCOE Admin;TL Operations;Lilly Stakeholder;</value>
+    </values>
+    <values>
+        <field>OCE__Profiles__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__SObject__c</field>
+        <value xsi:type="xsd:string">OCE__TOTRule__mdt</value>
+    </values>
+    <values>
+        <field>OCE__SobjectPlatformEvents__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Status__c</field>
+        <value xsi:type="xsd:string">Warning</value>
+    </values>
+    <values>
+        <field>OCE__Type__c</field>
+        <value xsi:type="xsd:string">Data</value>
+    </values>
+    <values>
+        <field>OCE__WhereSoql__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

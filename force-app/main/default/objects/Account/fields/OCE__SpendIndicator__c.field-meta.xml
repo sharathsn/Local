@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SpendIndicator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the spend limit placed on an Account (Below Limit, Below Monitor Limit, Monitor Spend, Cease Spend).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the spend limit placed on an Account (Below Limit, Below Monitor Limit, Monitor Spend, Cease Spend).</inlineHelpText>
+    <label>Spend Indicator</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Below Limit</fullName>
+                <default>false</default>
+                <label>Below Limit</label>
+            </value>
+            <value>
+                <fullName>Below Monitor Limit</fullName>
+                <default>false</default>
+                <label>Below Monitor Limit</label>
+            </value>
+            <value>
+                <fullName>Monitor Spend</fullName>
+                <default>false</default>
+                <label>Monitor Spend</label>
+            </value>
+            <value>
+                <fullName>Cease Spend</fullName>
+                <default>false</default>
+                <label>Cease Spend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

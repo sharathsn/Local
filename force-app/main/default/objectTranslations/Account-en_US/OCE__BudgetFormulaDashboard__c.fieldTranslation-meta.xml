@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stores pill image that is used on Dashboard</help>
+    <label><!-- Budget --></label>
+    <name>OCE__BudgetFormulaDashboard__c</name>
+</CustomFieldTranslation>

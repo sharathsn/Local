@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Age__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A type of eligibility criteria that indicates the age a person must be to participate in a clinical study. This may be indicated by a specific age or in an age group.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A type of eligibility criteria that indicates the age a person must be to participate in a clinical study. This may be indicated by a specific age or in an age group.</inlineHelpText>
+    <label>Age</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

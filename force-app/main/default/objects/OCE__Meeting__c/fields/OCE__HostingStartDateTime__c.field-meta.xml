@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__HostingStartDateTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Hosting Start Date/Time</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(OCE__FormattedHostingStartDateTime__c)), OCE__FormattedHostingStartDateTime__c, IF(ISPICKVAL(OCE__HostingTimeZone__c, &quot;&quot;),
+            &quot;&quot;,
+            LEFT(TEXT(OCE__StartDateTime__c + VALUE(LEFT(TEXT(OCE__HostingTimeZone__c), FIND(&apos;(GMT&apos;, TEXT(OCE__HostingTimeZone__c)) - 1)) / 1440), 11) +
+            IF(MOD((HOUR(TIMEVALUE(OCE__StartDateTime__c + VALUE(LEFT(TEXT(OCE__HostingTimeZone__c), FIND(&apos;(GMT&apos;, TEXT(OCE__HostingTimeZone__c)) - 1)) / 1440)) + 11), 12) + 1 &lt;= 9, &quot;0&quot;, &quot;&quot;) + TEXT(MOD((HOUR(TIMEVALUE(OCE__StartDateTime__c + VALUE(LEFT(TEXT(OCE__HostingTimeZone__c), FIND(&apos;(GMT&apos;, TEXT(OCE__HostingTimeZone__c)) - 1)) / 1440)) + 11), 12) + 1) +
+            MID(TEXT(OCE__StartDateTime__c + VALUE(LEFT(TEXT(OCE__HostingTimeZone__c), FIND(&apos;(GMT&apos;, TEXT(OCE__HostingTimeZone__c)) - 1)) / 1440), 14, 3) + &quot; &quot; +
+            IF(HOUR(TIMEVALUE(OCE__StartDateTime__c + VALUE(LEFT(TEXT(OCE__HostingTimeZone__c), FIND(&apos;(GMT&apos;, TEXT(OCE__HostingTimeZone__c)) - 1)) / 1440)) &lt; 12, &quot;AM&quot;, &quot;PM&quot;) + &quot; &quot; +
+            RIGHT(TEXT(OCE__HostingTimeZone__c), LEN(TEXT(OCE__HostingTimeZone__c)) - FIND(&quot;*&quot;, TEXT(OCE__HostingTimeZone__c)))
+            ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Hosting Start Date/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

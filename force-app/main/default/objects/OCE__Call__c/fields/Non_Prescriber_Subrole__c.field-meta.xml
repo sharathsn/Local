@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Prescriber_Subrole__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-Prescriber Subrole</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Non_Prescriber_Attendee_Role__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OA Option 1</fullName>
+                <default>false</default>
+                <label>OA Option 1</label>
+            </value>
+            <value>
+                <fullName>OA Option 2</fullName>
+                <default>false</default>
+                <label>OA Option 2</label>
+            </value>
+            <value>
+                <fullName>CC Option 1</fullName>
+                <default>false</default>
+                <label>CC Option 1</label>
+            </value>
+            <value>
+                <fullName>CC Option 2</fullName>
+                <default>false</default>
+                <label>CC Option 2</label>
+            </value>
+            <value>
+                <fullName>BM Option 1</fullName>
+                <default>false</default>
+                <label>BM Option 1</label>
+            </value>
+            <value>
+                <fullName>BM Option 2</fullName>
+                <default>false</default>
+                <label>BM Option 2</label>
+            </value>
+            <value>
+                <fullName>PT Option 1</fullName>
+                <default>false</default>
+                <label>PT Option 1</label>
+            </value>
+            <value>
+                <fullName>PT Option 2</fullName>
+                <default>false</default>
+                <label>PT Option 2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Office Admin</controllingFieldValue>
+            <valueName>OA Option 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Office Admin</controllingFieldValue>
+            <valueName>OA Option 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Coordinator</controllingFieldValue>
+            <valueName>CC Option 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Coordinator</controllingFieldValue>
+            <valueName>CC Option 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing Manager</controllingFieldValue>
+            <valueName>BM Option 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing Manager</controllingFieldValue>
+            <valueName>BM Option 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharmacy Technician</controllingFieldValue>
+            <valueName>PT Option 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharmacy Technician</controllingFieldValue>
+            <valueName>PT Option 2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

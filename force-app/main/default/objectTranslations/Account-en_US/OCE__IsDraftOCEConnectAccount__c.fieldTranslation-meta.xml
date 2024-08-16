@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifies whether validations to be triggered during OCE Connect account creation for registration with 3-rd party systems.</help>
+    <label><!-- Is Draft OCE Connect Account --></label>
+    <name>OCE__IsDraftOCEConnectAccount__c</name>
+</CustomFieldTranslation>

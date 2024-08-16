@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PatientsAdvocacy__c</fullName>
+    <description>Patients Advocacy</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Patients Advocacy</inlineHelpText>
+    <label>Patients Advocacy</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rising Star</fullName>
+                <default>false</default>
+                <label>Rising Star</label>
+            </value>
+            <value>
+                <fullName>High Impact</fullName>
+                <default>false</default>
+                <label>High Impact</label>
+            </value>
+            <value>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+                <label>Opportunity</label>
+            </value>
+            <value>
+                <fullName>Low Impact</fullName>
+                <default>false</default>
+                <label>Low Impact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

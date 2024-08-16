@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The Meeting the call was made from. This call is associated with this Meeting.</help>
+    <label><!-- Meeting --></label>
+    <name>OCE__Meeting__c</name>
+    <relationshipLabel><!-- Calls --></relationshipLabel>
+</CustomFieldTranslation>

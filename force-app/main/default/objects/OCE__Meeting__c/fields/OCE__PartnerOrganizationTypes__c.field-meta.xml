@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PartnerOrganizationTypes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies which partner types are engaged in the organization of the Meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies which partner types are engaged in the organization of the Meeting</inlineHelpText>
+    <label>Third-Party Types</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accreditor</fullName>
+                <default>false</default>
+                <label>Accreditor</label>
+            </value>
+            <value>
+                <fullName>Content Developer</fullName>
+                <default>false</default>
+                <label>Content Developer</label>
+            </value>
+            <value>
+                <fullName>Certifier</fullName>
+                <default>false</default>
+                <label>Certifier</label>
+            </value>
+            <value>
+                <fullName>Logistic Partners</fullName>
+                <default>false</default>
+                <label>Logistic Partners</label>
+            </value>
+            <value>
+                <fullName>Outcome Partners</fullName>
+                <default>false</default>
+                <label>Outcome Partners</label>
+            </value>
+            <value>
+                <fullName>Sub Investigators</fullName>
+                <default>false</default>
+                <label>Sub Investigators</label>
+            </value>
+            <value>
+                <fullName>Primary Investigators</fullName>
+                <default>false</default>
+                <label>Primary Investigators</label>
+            </value>
+            <value>
+                <fullName>Legal Contacts</fullName>
+                <default>false</default>
+                <label>Legal Contacts</label>
+            </value>
+            <value>
+                <fullName>Pharmacists</fullName>
+                <default>false</default>
+                <label>Pharmacists</label>
+            </value>
+            <value>
+                <fullName>Research Assistant</fullName>
+                <default>false</default>
+                <label>Research Assistant</label>
+            </value>
+            <value>
+                <fullName>Study Coordinator</fullName>
+                <default>false</default>
+                <label>Study Coordinator</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

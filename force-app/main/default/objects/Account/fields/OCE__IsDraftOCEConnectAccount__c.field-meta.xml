@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsDraftOCEConnectAccount__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies whether validations to be triggered during OCE Connect account creation for registration with 3-rd party systems.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies whether validations to be triggered during OCE Connect account creation for registration with 3-rd party systems.</inlineHelpText>
+    <label>Is Draft OCE Connect Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

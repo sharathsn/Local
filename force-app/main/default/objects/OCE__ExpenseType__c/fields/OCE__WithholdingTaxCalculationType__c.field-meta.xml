@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__WithholdingTaxCalculationType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Calculation type to be used for calculation of Withholding Tax Amount on Meeting Member Service record</description>
+    <externalId>false</externalId>
+    <label>Withholding Tax Calculation Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NA</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>NetAmount</fullName>
+                <default>false</default>
+                <label>Net Amount</label>
+            </value>
+            <value>
+                <fullName>NetAmountWithTax</fullName>
+                <default>false</default>
+                <label>Net Amount With Tax</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

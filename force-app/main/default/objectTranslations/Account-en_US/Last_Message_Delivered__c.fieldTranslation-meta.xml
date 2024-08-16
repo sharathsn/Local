@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Message Delivered --></label>
+    <name>Last_Message_Delivered__c</name>
+    <picklistValues>
+        <masterLabel>Easy to Maintain</masterLabel>
+        <translation><!-- Easy to Maintain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grow New Collagen</masterLabel>
+        <translation><!-- Grow New Collagen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immediate Results</masterLabel>
+        <translation><!-- Immediate Results --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long-Lasting Results</masterLabel>
+        <translation><!-- Long-Lasting Results --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural-Looking Results</masterLabel>
+        <translation><!-- Natural-Looking Results --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Versatile Treatment</masterLabel>
+        <translation><!-- Versatile Treatment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

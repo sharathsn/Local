@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Phase__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The stage of a clinical trial studying a drug or biological product, based on definitions developed by the U.S. Food and Drug Administration (FDA). The phase is based on the study&apos;s objective, the number of participants, and other characteristics.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The stage of a clinical trial studying a drug or biological product, based on definitions developed by the U.S. Food and Drug Administration (FDA). The phase is based on the study&apos;s objective, the number of participants, and other characteristics.</inlineHelpText>
+    <label>Phase</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Early Phase I</fullName>
+                <default>false</default>
+                <label>Early Phase I</label>
+            </value>
+            <value>
+                <fullName>Phase I</fullName>
+                <default>false</default>
+                <label>Phase I</label>
+            </value>
+            <value>
+                <fullName>Phase I/II</fullName>
+                <default>false</default>
+                <label>Phase I/II</label>
+            </value>
+            <value>
+                <fullName>Phase II</fullName>
+                <default>false</default>
+                <label>Phase II</label>
+            </value>
+            <value>
+                <fullName>Phase II/III</fullName>
+                <default>false</default>
+                <label>Phase II/III</label>
+            </value>
+            <value>
+                <fullName>Phase III</fullName>
+                <default>false</default>
+                <label>Phase III</label>
+            </value>
+            <value>
+                <fullName>Phase IV</fullName>
+                <default>false</default>
+                <label>Phase IV</label>
+            </value>
+            <value>
+                <fullName>Phase V</fullName>
+                <default>false</default>
+                <label>Phase V</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

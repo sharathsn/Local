@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SkipActualExpenseAutoCalc__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether Actual Expense Auto Calculation process has to be skipped for this Meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines whether Actual Expense Auto Calculation process has to be skipped for this Meeting</inlineHelpText>
+    <label>Skip Actual Expense Auto Calculation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

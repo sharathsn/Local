@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>National Provider Identifier number - U.S. specific number which every Provider receives.</help>
+    <label><!-- NPI --></label>
+    <name>OCE__NPI__c</name>
+</CustomFieldTranslation>

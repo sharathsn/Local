@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DeaLicenseAddress__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that the address is an address with a DEA License. This allows the Rep to easily identify if this address can receive controlled substances.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that the address is an address with a DEA License. This allows the Rep to easily identify if this address can receive controlled substances.</inlineHelpText>
+    <label>DEA License Address</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

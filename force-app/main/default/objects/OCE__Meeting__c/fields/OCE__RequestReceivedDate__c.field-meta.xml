@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__RequestReceivedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date that the request was originally received.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date that the request was originally received.</inlineHelpText>
+    <label>Request Received Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsActive__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicator whether Affiliation is active, i.e. not ended yet.</description>
+    <externalId>false</externalId>
+    <formula>(
+
+    /* open end date */
+    ISBLANK(OCE__EndDate__c)
+
+    ||
+
+    /* future end date */
+    OCE__EndDate__c &gt; TODAY()
+
+)</formula>
+    <inlineHelpText>Indicator whether affiliation is active, i.e. not ended yet.</inlineHelpText>
+    <label>Is Active</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ScientificDynamism__c</fullName>
+    <deprecated>false</deprecated>
+    <description>HCP activity dynamics in different area: Newcomer (Activity measured in the past 5 years; PubMed, Clinical Trials) Established (Activity measured in the past 6 -10 years; PubMed, Clinical Trials) Matured (Activity measured more than 10+ years ago; PubMed, Clinical Trials)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>HCP activity dynamics in different area: Newcomer (Activity measured in the past 5 years; PubMed, Clinical Trials) Established (Activity measured in the past 6 -10 years; PubMed, Clinical Trials) Matured (Activity measured more than 10+ years ago; PubMed, Clinical Trials)</inlineHelpText>
+    <label>Scientific Dynamism</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

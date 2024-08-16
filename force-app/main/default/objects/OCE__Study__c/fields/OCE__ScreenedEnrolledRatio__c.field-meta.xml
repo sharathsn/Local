@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ScreenedEnrolledRatio__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A formula that evaluates the total number of patients screened by the number of enrolled to determine recruitment progress.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(OCE__PatientsScreened__c)+ &apos;:&apos; + TEXT(OCE__PatientsEnrolled__c)</formula>
+    <inlineHelpText>A formula that evaluates the total number of patients screened by the number of enrolled to determine recruitment progress.</inlineHelpText>
+    <label>Screened/Enrolled Ratio</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

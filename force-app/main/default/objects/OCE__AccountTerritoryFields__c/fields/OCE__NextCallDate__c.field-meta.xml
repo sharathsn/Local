@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__NextCallDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When user saves a planned call in the future against the HCP/HCO the next Call Date field from the ATF record that corresponds with the territory of the call is set with the date of the next call.</description>
+    <externalId>false</externalId>
+    <label>Next Call Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

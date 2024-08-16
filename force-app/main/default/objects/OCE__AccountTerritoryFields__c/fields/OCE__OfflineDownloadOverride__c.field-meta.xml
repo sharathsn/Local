@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__OfflineDownloadOverride__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Offline Download Override flag for making the account available for offline even when AvailableOffline is set to false</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Offline Download Override flag for making the account available for offline even when AvailableOffline is set to false</inlineHelpText>
+    <label>Offline Download Override</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

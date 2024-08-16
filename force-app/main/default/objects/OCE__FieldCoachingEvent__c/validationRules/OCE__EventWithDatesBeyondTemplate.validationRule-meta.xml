@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EventWithDatesBeyondTemplate</fullName>
+    <active>true</active>
+    <description>If event dates go beyond template&apos; range it should not be allowed to create such an event</description>
+    <errorConditionFormula>AND(ISNEW(),OR(OCE__FieldCoachingForm__r.OCE__StartDate__c &gt; DATEVALUE(OCE__StartDate__c), OCE__FieldCoachingForm__r.OCE__EndDate__c &lt; DATEVALUE(OCE__EndDate__c)))</errorConditionFormula>
+    <errorDisplayField>OCE__FieldCoachingForm__c</errorDisplayField>
+    <errorMessage>You cannot save event with dates beyond the template</errorMessage>
+</ValidationRule>

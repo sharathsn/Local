@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__CspExpirationDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Expiration date of the state specific controlled substance number.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Expiration date of the state specific controlled substance number.</inlineHelpText>
+    <label>CSP Expiration Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

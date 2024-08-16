@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreventAffiliationToInsDocAccounts</fullName>
+    <active>true</active>
+    <description>InsDoc accounts should not be the From or To account for an Affiliation.</description>
+    <errorConditionFormula>OR(OCE__To__r.RecordType.DeveloperName = &apos;Ins_Doc&apos;,
+            OCE__From__r.RecordType.DeveloperName = &apos;Ins_Doc&apos;)</errorConditionFormula>
+    <errorMessage>Invalid Affiliation: You can not create Affiliation for an Account of type Ins-Doc</errorMessage>
+</ValidationRule>

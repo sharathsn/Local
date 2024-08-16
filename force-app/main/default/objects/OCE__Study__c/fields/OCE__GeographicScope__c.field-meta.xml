@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__GeographicScope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Countries in which research facilities for a study are located.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Countries in which research facilities for a study are located.</inlineHelpText>
+    <label>Geographic Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>OCE__Countries</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

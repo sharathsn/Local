@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KOL Status --></label>
+    <name>KOL_Status__c</name>
+    <picklistValues>
+        <masterLabel>International KOL</masterLabel>
+        <translation><!-- International KOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Speaker</masterLabel>
+        <translation><!-- Local Speaker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National KOL</masterLabel>
+        <translation><!-- National KOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional KOL</masterLabel>
+        <translation><!-- Regional KOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional Speaker</masterLabel>
+        <translation><!-- Regional Speaker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teds Test Value for Andrea</masterLabel>
+        <translation><!-- Teds Test Value for Andrea --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

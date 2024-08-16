@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ClinicalTrialsKeywords__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Keywords provides by the Investigator or the Sponsors</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Keywords provides by the Investigator or the Sponsors</inlineHelpText>
+    <label>ClinicalTrials Keywords</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

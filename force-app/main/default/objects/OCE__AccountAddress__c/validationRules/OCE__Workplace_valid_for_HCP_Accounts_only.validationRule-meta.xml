@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Workplace_valid_for_HCP_Accounts_only</fullName>
+    <active>false</active>
+    <description>Workplace field is valid for HCP accounts only</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(OCE__Workplace__c)),NOT(OCE__Account__r.IsPersonAccount))</errorConditionFormula>
+    <errorMessage>Workplace field is valid for HCP accounts only.</errorMessage>
+</ValidationRule>

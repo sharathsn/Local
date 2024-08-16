@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ChangeLinkedParentNotAllowed</fullName>
+    <active>false</active>
+    <description>Do not allow to change parent linked insight.</description>
+    <errorConditionFormula>ISCHANGED( OCE1__ParentLinkedInsight__c )
+&amp;&amp;
+NOT( ISBLANK( OCE1__ParentLinkedInsight__c) )
+&amp;&amp;
+NOT( ISBLANK ( PRIORVALUE(OCE1__ParentLinkedInsight__c) ) )</errorConditionFormula>
+    <errorMessage>This insight is parented. You cannot relink it.</errorMessage>
+</ValidationRule>

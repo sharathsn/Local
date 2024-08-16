@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Unchecking_is_speaker</fullName>
+    <active>true</active>
+    <description>Unchecking IsSpeaker__c is prohibited when a Speaker record exists</description>
+    <errorConditionFormula>AND(OCE__IsSpeaker__c = false,NOT(ISBLANK(OCE__SpeakerReference__c)))</errorConditionFormula>
+    <errorDisplayField>OCE__IsSpeaker__c</errorDisplayField>
+    <errorMessage>A Speaker record already exists for this Account.</errorMessage>
+</ValidationRule>

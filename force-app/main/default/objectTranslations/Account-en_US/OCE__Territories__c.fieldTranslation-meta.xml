@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The territories associated with this Account. This will be used in the Territory Assignment rules for aligning the Account.</help>
+    <label><!-- Territories --></label>
+    <name>OCE__Territories__c</name>
+</CustomFieldTranslation>

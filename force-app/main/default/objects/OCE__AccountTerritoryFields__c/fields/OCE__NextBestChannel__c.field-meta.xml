@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__NextBestChannel__c</fullName>
+    <complianceGroup>PII;GDPR</complianceGroup>
+    <deprecated>false</deprecated>
+    <description>Ada suggestion on the best channel to be used to interact with the account, as the top ranked channel.</description>
+    <externalId>false</externalId>
+    <label>Next Best Channel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CallFacetoface</fullName>
+                <default>false</default>
+                <label>Call Face-to-face</label>
+            </value>
+            <value>
+                <fullName>CallRemote</fullName>
+                <default>false</default>
+                <label>Call Remote</label>
+            </value>
+            <value>
+                <fullName>CallPhone</fullName>
+                <default>false</default>
+                <label>Call Phone</label>
+            </value>
+            <value>
+                <fullName>CallSample</fullName>
+                <default>false</default>
+                <label>Call Sample</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <label>Meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

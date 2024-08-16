@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Link to an active formal Account Group where Lead Account is the plan Account --></help>
+    <label><!-- Purchasing Group --></label>
+    <name>OCE1__PurchasingGroup__c</name>
+    <relationshipLabel><!-- Account Plans --></relationshipLabel>
+</CustomFieldTranslation>

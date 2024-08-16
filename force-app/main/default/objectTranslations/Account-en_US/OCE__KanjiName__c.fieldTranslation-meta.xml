@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Text field applicable to only HCP that will store the chinese character name of the organization. Needed for INS-DOC records where the OOB SFDC name is a concatenation of HCP Kanji @ HCO Abbreviated name</help>
+    <label><!-- Kanji Name --></label>
+    <name>OCE__KanjiName__c</name>
+</CustomFieldTranslation>

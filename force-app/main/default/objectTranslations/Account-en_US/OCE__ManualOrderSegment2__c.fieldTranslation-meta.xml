@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Contains all of the Pricelist and Rule information that is used when calculated discounts for an Order for this Account</help>
+    <label><!-- Manual Order Segments --></label>
+    <name>OCE__ManualOrderSegment2__c</name>
+</CustomFieldTranslation>

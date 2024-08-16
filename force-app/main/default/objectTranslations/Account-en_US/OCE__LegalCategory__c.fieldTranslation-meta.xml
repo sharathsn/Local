@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Legal Category --></label>
+    <name>OCE__LegalCategory__c</name>
+    <picklistValues>
+        <masterLabel>Academic Establishment</masterLabel>
+        <translation>Academic Establishment</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Addiction Services/Unit</masterLabel>
+        <translation>Addiction Services/Unit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administration Center</masterLabel>
+        <translation>Administration Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulance Service</masterLabel>
+        <translation>Ambulance Service</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Transfusion Center</masterLabel>
+        <translation>Blood Transfusion Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cash &amp; Carry</masterLabel>
+        <translation>Cash &amp; Carry</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemist</masterLabel>
+        <translation>Chemist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client Specific Address</masterLabel>
+        <translation>Client Specific Address</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinic</masterLabel>
+        <translation>Clinic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Unit</masterLabel>
+        <translation>Community Unit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting Rooms</masterLabel>
+        <translation>Consulting Rooms</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Day Hospital</masterLabel>
+        <translation>Day Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diagnostic &amp; Treatment Center</masterLabel>
+        <translation>Diagnostic &amp; Treatment Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drugstore</masterLabel>
+        <translation>Drugstore</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dual Registered Nursing Home</masterLabel>
+        <translation>Dual Registered Nursing Home</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GP/Community Hospital</masterLabel>
+        <translation>GP/Community Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Office</masterLabel>
+        <translation>Government Office</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grocery Store</masterLabel>
+        <translation>Grocery Store</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Authority</masterLabel>
+        <translation>Health Authority</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Center</masterLabel>
+        <translation>Health Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice/Palliative Care Unit</masterLabel>
+        <translation>Hospice/Palliative Care Unit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital Type Clinic</masterLabel>
+        <translation>Hospital Type Clinic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Independent/Private Hospital</masterLabel>
+        <translation>Independent/Private Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial Medical Center</masterLabel>
+        <translation>Industrial Medical Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Learning Disability Center</masterLabel>
+        <translation>Learning Disability Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturer</masterLabel>
+        <translation>Manufacturer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mental Health Unit</masterLabel>
+        <translation>Mental Health Unit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Military Establishment</masterLabel>
+        <translation>Military Establishment</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing Home</masterLabel>
+        <translation>Nursing Home</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Occupational Health Center</masterLabel>
+        <translation>Occupational Health Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Call/Drop in Center</masterLabel>
+        <translation>On Call/Drop in Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Organisation</masterLabel>
+        <translation>Primary Care Organisation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prison</masterLabel>
+        <translation>Prison</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Address</masterLabel>
+        <translation>Private Address</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Surgery</masterLabel>
+        <translation>Private Surgery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rehabilitation Center</masterLabel>
+        <translation>Rehabilitation Center</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Residential Home</masterLabel>
+        <translation>Residential Home</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Group Head Office</masterLabel>
+        <translation>Retail Group Head Office</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supplies Depot</masterLabel>
+        <translation>Supplies Depot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery</masterLabel>
+        <translation>Surgery</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trust Hospital</masterLabel>
+        <translation>Trust Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wholesaler</masterLabel>
+        <translation>Wholesaler</translation>
+    </picklistValues>
+</CustomFieldTranslation>

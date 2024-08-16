@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Functional_Owner__c</fullName>
+    <externalId>false</externalId>
+    <label>Functional Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clinical Development</fullName>
+                <default>false</default>
+                <label>Clinical Development</label>
+            </value>
+            <value>
+                <fullName>Corporate Affairs</fullName>
+                <default>false</default>
+                <label>Corporate Affairs</label>
+            </value>
+            <value>
+                <fullName>Early Phase</fullName>
+                <default>false</default>
+                <label>Early Phase</label>
+            </value>
+            <value>
+                <fullName>GPORWE</fullName>
+                <default>false</default>
+                <label>GPORWE</label>
+            </value>
+            <value>
+                <fullName>LRL</fullName>
+                <default>false</default>
+                <label>LRL</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>PRA</fullName>
+                <default>false</default>
+                <label>PRA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contracted Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contracted Activities</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Account Plan Tree View Columns --></label>
+        <name>OCE__AccountPlanTreeViewColumns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Plan Tree View Info --></label>
+        <name>OCE__AccountPlanTreeViewInfo</name>
+    </fieldSets>
+    <layouts>
+        <layout>Lilly Account Tactic Layout</layout>
+        <sections>
+            <label><!-- Post Execution Details(Integration or Manual Entry) --></label>
+            <section>Post Execution Details(Integration or Manual Entry)</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Contracted Activity Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account Tactics cannot be changed when Account Objective Approved Status is Pending or Approved --></errorMessage>
+        <name>OCE__Pending_Or_Approved_Change_Not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contracted Activity cannot be changed when Engagement Plan status is not Draft --></errorMessage>
+        <name>TLEE_EP_Draft_Contracted_Activity</name>
+    </validationRules>
+</CustomObjectTranslation>

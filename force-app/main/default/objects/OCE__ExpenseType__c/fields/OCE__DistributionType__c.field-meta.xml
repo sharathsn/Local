@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DistributionType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how an expense can be distributed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines how an expense can be distributed.</inlineHelpText>
+    <label>Distribution Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Multiple</fullName>
+                <default>false</default>
+                <label>Multiple</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Global</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

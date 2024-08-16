@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__PreviouslySubmittedProtocolDetails__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Provide details of the previously submitted full protocol request</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide details of the previously submitted full protocol request</inlineHelpText>
+    <label>Previously Submitted Protocol Details</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

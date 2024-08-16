@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Lilly_H1_HCP_Id__c</columns>
+    <columns>Lilly_Total_Works__c</columns>
+    <columns>Lilly_Publications_Count__c</columns>
+    <columns>Lilly_Clinical_Trials_Count__c</columns>
+    <columns>Lilly_Congresses_Count__c</columns>
+    <columns>Lilly_Citations_Per_Pub__c</columns>
+    <columns>Lilly_Referrals_Sent_Total__c</columns>
+    <columns>Lilly_Referrals_Received_Total__c</columns>
+    <columns>Lilly_Social_Media_Mention_Total__c</columns>
+    <columns>Lilly_Payments_Total__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

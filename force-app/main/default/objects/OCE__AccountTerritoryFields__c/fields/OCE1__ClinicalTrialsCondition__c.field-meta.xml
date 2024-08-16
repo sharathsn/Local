@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ClinicalTrialsCondition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The disease, disorder, syndrome, illness, or injury that is being studied</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The disease, disorder, syndrome, illness, or injury that is being studied</inlineHelpText>
+    <label>ClinicalTrials Condition or Disease</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

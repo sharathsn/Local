@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__InterestArea__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED In which therapeutic HCP works/focus (text format): Mesh Term assigned to their publications</description>
+    <externalId>false</externalId>
+    <label>DEPRECATED Interest Area</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

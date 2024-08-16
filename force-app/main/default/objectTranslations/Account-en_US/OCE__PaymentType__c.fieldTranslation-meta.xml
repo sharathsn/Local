@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type of Payment</help>
+    <label><!-- Payment Type --></label>
+    <name>OCE__PaymentType__c</name>
+    <picklistValues>
+        <masterLabel>Cash</masterLabel>
+        <translation>Cash</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial</masterLabel>
+        <translation>Commercial</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MGD Medicaids</masterLabel>
+        <translation>MGD Medicaids</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicare Part D</masterLabel>
+        <translation>Medicare Part D</translation>
+    </picklistValues>
+</CustomFieldTranslation>

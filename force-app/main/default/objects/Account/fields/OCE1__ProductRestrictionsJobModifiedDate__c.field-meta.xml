@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ProductRestrictionsJobModifiedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>It is a DateTime when restrictions of the products were last modified or updated. This timestamp is essential for supporting the run of the Product Restrictions Job on delta records.</description>
+    <externalId>false</externalId>
+    <label>Product Restrictions Job Modified Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

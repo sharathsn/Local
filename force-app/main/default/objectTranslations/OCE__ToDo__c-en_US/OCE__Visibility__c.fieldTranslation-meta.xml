@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Defines who should see this comment.</help>
+    <label><!-- Visibility --></label>
+    <name>OCE__Visibility__c</name>
+    <picklistValues>
+        <masterLabel>All Users</masterLabel>
+        <translation>All Users</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Users</masterLabel>
+        <translation>Internal Users</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private</masterLabel>
+        <translation>Private</translation>
+    </picklistValues>
+</CustomFieldTranslation>

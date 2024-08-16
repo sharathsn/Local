@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Is KOL</help>
+    <label><!-- Is KOL --></label>
+    <name>OCE__IsKOL__c</name>
+</CustomFieldTranslation>

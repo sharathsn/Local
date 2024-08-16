@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indicates the spend limit placed on an Account (Below Limit, Below Monitor Limit, Monitor Spend, Cease Spend).</help>
+    <label><!-- Spend Indicator --></label>
+    <name>OCE__SpendIndicator__c</name>
+    <picklistValues>
+        <masterLabel>Below Limit</masterLabel>
+        <translation>Below Limit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Below Monitor Limit</masterLabel>
+        <translation>Below Monitor Limit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cease Spend</masterLabel>
+        <translation>Cease Spend</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monitor Spend</masterLabel>
+        <translation>Monitor Spend</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__DigitalScore__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Combination of: 3 x Presence + 2 x Activity + 1 x Audience</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Combination of: 3 x Presence + 2 x Activity + 1 x Audience</inlineHelpText>
+    <label>Digital Score</label>
+    <length>32</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

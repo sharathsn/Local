@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ExpenseReportApprovalStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Approval Status of Expense Report from external system.</description>
+    <externalId>false</externalId>
+    <label>Expense Report Approval Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A_AAFH</fullName>
+                <default>false</default>
+                <label>Anomaly and fraud check</label>
+            </value>
+            <value>
+                <fullName>A_ACCO</fullName>
+                <default>false</default>
+                <label>Pending reviews</label>
+            </value>
+            <value>
+                <fullName>A_APPR</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>A_EXTV</fullName>
+                <default>false</default>
+                <label>Pending external validation</label>
+            </value>
+            <value>
+                <fullName>A_FILE</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>A_NOTF</fullName>
+                <default>false</default>
+                <label>Not submitted</label>
+            </value>
+            <value>
+                <fullName>A_PBDG</fullName>
+                <default>false</default>
+                <label>Pending Budget approval</label>
+            </value>
+            <value>
+                <fullName>A_PECO</fullName>
+                <default>false</default>
+                <label>Pending Cost object approval</label>
+            </value>
+            <value>
+                <fullName>A_PEND</fullName>
+                <default>false</default>
+                <label>Pending manager approval</label>
+            </value>
+            <value>
+                <fullName>A_PVAL</fullName>
+                <default>false</default>
+                <label>Pending prepayment validation</label>
+            </value>
+            <value>
+                <fullName>A_RESU</fullName>
+                <default>false</default>
+                <label>Needs to be resubmitted</label>
+            </value>
+            <value>
+                <fullName>A_RHLD</fullName>
+                <default>false</default>
+                <label>Pending receipt images</label>
+            </value>
+            <value>
+                <fullName>A_TEXP</fullName>
+                <default>false</default>
+                <label>Expired in approval queue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

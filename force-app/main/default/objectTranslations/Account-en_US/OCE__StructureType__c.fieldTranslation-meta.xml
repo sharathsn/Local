@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Structure type</help>
+    <label><!-- Structure type --></label>
+    <name>OCE__StructureType__c</name>
+    <picklistValues>
+        <masterLabel>Care Network</masterLabel>
+        <translation>Care Network</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Committees</masterLabel>
+        <translation>Committees</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Department</masterLabel>
+        <translation>Department</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional Unit</masterLabel>
+        <translation>Functional Unit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group of Services</masterLabel>
+        <translation>Group of Services</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hub</masterLabel>
+        <translation>Hub</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instances</masterLabel>
+        <translation>Instances</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juridical Group - National Organisation - Juridical Entities</masterLabel>
+        <translation>Juridical Group - National Organisation - Juridical Entities</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous</masterLabel>
+        <translation>Miscellaneous</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National Group of Organisations</masterLabel>
+        <translation>National Group of Organisations</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National or Regional Instance</masterLabel>
+        <translation>National or Regional Instance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organisation</masterLabel>
+        <translation>Organisation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional Group of Institutions</masterLabel>
+        <translation>Regional Group of Institutions</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unqualified</masterLabel>
+        <translation>Unqualified</translation>
+    </picklistValues>
+</CustomFieldTranslation>

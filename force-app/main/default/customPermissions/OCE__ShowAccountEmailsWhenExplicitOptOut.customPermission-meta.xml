@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Show emails from account if there is Opt Out or Opt In and explicit opt out feature is enabled</description>
+    <isLicensed>false</isLicensed>
+    <label>Show Account Emails When Explicit Opt Out</label>
+</CustomPermission>

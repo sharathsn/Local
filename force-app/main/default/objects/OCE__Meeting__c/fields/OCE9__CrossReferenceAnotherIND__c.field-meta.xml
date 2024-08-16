@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__CrossReferenceAnotherIND__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether or not the Investigator plans to cross reference another Investigational New Drug (IND) application with this one</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether or not the Investigator plans to cross reference another Investigational New Drug (IND) application with this one</inlineHelpText>
+    <label>Cross Reference Another IND?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EmployeeMandatoryQuestionsRequired</fullName>
+    <active>false</active>
+    <description>Validate if all mandatory questions are scored by Employee and trigger warning/error</description>
+    <errorConditionFormula>AND(ISPICKVAL(OCE__Status__c,&quot;In Review&quot;), ISPICKVAL(PRIORVALUE(OCE__Status__c),&quot;Self Evaluation&quot;), OCE__AllMandatoryQuestionsEmployeeAnswered__c = FALSE)</errorConditionFormula>
+    <errorMessage>You should answer all mandatory questions, before you can change status to In Review</errorMessage>
+</ValidationRule>

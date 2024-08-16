@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KOL_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>KOL Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Teds Test Value</fullName>
+                <default>false</default>
+                <label>Teds Test Value for Andrea</label>
+            </value>
+            <value>
+                <fullName>International KOL</fullName>
+                <default>false</default>
+                <label>International KOL</label>
+            </value>
+            <value>
+                <fullName>National KOL</fullName>
+                <default>false</default>
+                <label>National KOL</label>
+            </value>
+            <value>
+                <fullName>Regional KOL</fullName>
+                <default>false</default>
+                <label>Regional KOL</label>
+            </value>
+            <value>
+                <fullName>Regional Speaker</fullName>
+                <default>false</default>
+                <label>Regional Speaker</label>
+            </value>
+            <value>
+                <fullName>Local Speaker</fullName>
+                <default>false</default>
+                <label>Local Speaker</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

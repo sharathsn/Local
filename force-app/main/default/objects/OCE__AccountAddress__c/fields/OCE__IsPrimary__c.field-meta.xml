@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsPrimary__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if the address serves as the Primary Address for the associated Account. This allows the Rep to understand if an address is primary vs. secondary, etc. There can only be one Primary address for an Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if the address serves as the Primary Address for the associated Account. This allows the Rep to understand if an address is primary vs. secondary, etc. There can only be one Primary address for an Account.</inlineHelpText>
+    <label>Primary</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

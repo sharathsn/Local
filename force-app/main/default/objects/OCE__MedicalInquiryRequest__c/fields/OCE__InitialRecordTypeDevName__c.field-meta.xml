@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__InitialRecordTypeDevName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field holds value of initial RecordType developer name</description>
+    <externalId>false</externalId>
+    <label>Initial RecordType DevName</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ProductRestrictionsSKU__c</fullName>
+    <deprecated>false</deprecated>
+    <description>External Ids of products which are restricted for this account.</description>
+    <externalId>false</externalId>
+    <label>Restricted Product External IDs</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

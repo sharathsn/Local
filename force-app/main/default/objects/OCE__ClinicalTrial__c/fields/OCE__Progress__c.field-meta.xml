@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Progress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If End date less than today, shows Completed. If Started Date less than now shows Starded, else - not started.</description>
+    <externalId>false</externalId>
+    <formula>if (
+    NOT(ISNULL(OCE__EndDate__c)) &amp;&amp; OCE__EndDate__c &lt;= NOW(),
+    &quot;Completed&quot;,
+    if (
+        OCE__StartDate__c &lt;= NOW(),
+        &quot;Started&quot;,
+        &quot;Not Started&quot;
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Progress</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

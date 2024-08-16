@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__DataManagementPlan__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A comprehensive plan of how research data will be managed throughout the lifecycle of the research project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A comprehensive plan of how research data will be managed throughout the lifecycle of the research project</inlineHelpText>
+    <label>Data Management Plan</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

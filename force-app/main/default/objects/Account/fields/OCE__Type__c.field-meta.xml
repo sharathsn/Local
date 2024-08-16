@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analyst</fullName>
+                <default>false</default>
+                <label>Analyst</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Integrator</fullName>
+                <default>false</default>
+                <label>Integrator</label>
+            </value>
+            <value>
+                <fullName>Investor</fullName>
+                <default>false</default>
+                <label>Investor</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Press</fullName>
+                <default>false</default>
+                <label>Press</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Clinic</fullName>
+                <default>false</default>
+                <label>Clinic</label>
+            </value>
+            <value>
+                <fullName>Correctional Facility</fullName>
+                <default>false</default>
+                <label>Correctional Facility</label>
+            </value>
+            <value>
+                <fullName>Home Health</fullName>
+                <default>false</default>
+                <label>Home Health</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Hospice</fullName>
+                <default>false</default>
+                <label>Hospice</label>
+            </value>
+            <value>
+                <fullName>Long term acute care</fullName>
+                <default>false</default>
+                <label>Long term acute care</label>
+            </value>
+            <value>
+                <fullName>Nursing Home</fullName>
+                <default>false</default>
+                <label>Nursing Home</label>
+            </value>
+            <value>
+                <fullName>Others &lt; {0}%</fullName>
+                <default>false</default>
+                <label>Others &lt; {0}%</label>
+            </value>
+            <value>
+                <fullName>Prison</fullName>
+                <default>false</default>
+                <label>Prison</label>
+            </value>
+            <value>
+                <fullName>Psychiatric Facility</fullName>
+                <default>false</default>
+                <label>Psychiatric Facility</label>
+            </value>
+            <value>
+                <fullName>Surgery Center</fullName>
+                <default>false</default>
+                <label>Surgery Center</label>
+            </value>
+            <value>
+                <fullName>VA/Military</fullName>
+                <default>false</default>
+                <label>VA/Military</label>
+            </value>
+            <value>
+                <fullName>NICU</fullName>
+                <default>false</default>
+                <label>NICU</label>
+            </value>
+            <value>
+                <fullName>Occupational Therapy</fullName>
+                <default>false</default>
+                <label>Occupational Therapy</label>
+            </value>
+            <value>
+                <fullName>Oncology</fullName>
+                <default>false</default>
+                <label>Oncology</label>
+            </value>
+            <value>
+                <fullName>Operating Room</fullName>
+                <default>false</default>
+                <label>Operating Room</label>
+            </value>
+            <value>
+                <fullName>Outpatient Care</fullName>
+                <default>false</default>
+                <label>Outpatient Care</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Physical Therapy</fullName>
+                <default>false</default>
+                <label>Physical Therapy</label>
+            </value>
+            <value>
+                <fullName>Pulmonology</fullName>
+                <default>false</default>
+                <label>Pulmonology</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Radiology</fullName>
+                <default>false</default>
+                <label>Radiology</label>
+            </value>
+            <value>
+                <fullName>Respiratory Therapy</fullName>
+                <default>false</default>
+                <label>Respiratory Therapy</label>
+            </value>
+            <value>
+                <fullName>Surgical Services</fullName>
+                <default>false</default>
+                <label>Surgical Services</label>
+            </value>
+            <value>
+                <fullName>Trauma</fullName>
+                <default>false</default>
+                <label>Trauma</label>
+            </value>
+            <value>
+                <fullName>Accounting/Business Office</fullName>
+                <default>false</default>
+                <label>Accounting/Business Office</label>
+            </value>
+            <value>
+                <fullName>Administrative</fullName>
+                <default>false</default>
+                <label>Administrative</label>
+            </value>
+            <value>
+                <fullName>Audiology</fullName>
+                <default>false</default>
+                <label>Audiology</label>
+            </value>
+            <value>
+                <fullName>Cardiology</fullName>
+                <default>false</default>
+                <label>Cardiology</label>
+            </value>
+            <value>
+                <fullName>Central Supply</fullName>
+                <default>false</default>
+                <label>Central Supply</label>
+            </value>
+            <value>
+                <fullName>Emergency</fullName>
+                <default>false</default>
+                <label>Emergency</label>
+            </value>
+            <value>
+                <fullName>Family Medicine</fullName>
+                <default>false</default>
+                <label>Family Medicine</label>
+            </value>
+            <value>
+                <fullName>GI Lab</fullName>
+                <default>false</default>
+                <label>GI Lab</label>
+            </value>
+            <value>
+                <fullName>ICU</fullName>
+                <default>false</default>
+                <label>ICU</label>
+            </value>
+            <value>
+                <fullName>Immunology</fullName>
+                <default>false</default>
+                <label>Immunology</label>
+            </value>
+            <value>
+                <fullName>Infectious Disease</fullName>
+                <default>false</default>
+                <label>Infectious Disease</label>
+            </value>
+            <value>
+                <fullName>Internal Medicine</fullName>
+                <default>false</default>
+                <label>Internal Medicine</label>
+            </value>
+            <value>
+                <fullName>Lab</fullName>
+                <default>false</default>
+                <label>Lab</label>
+            </value>
+            <value>
+                <fullName>L&amp;D</fullName>
+                <default>false</default>
+                <label>L&amp;D</label>
+            </value>
+            <value>
+                <fullName>Maternity</fullName>
+                <default>false</default>
+                <label>Maternity</label>
+            </value>
+            <value>
+                <fullName>Medical Staff Office</fullName>
+                <default>false</default>
+                <label>Medical Staff Office</label>
+            </value>
+            <value>
+                <fullName>Corporate Chains</fullName>
+                <default>false</default>
+                <label>Corporate Chains</label>
+            </value>
+            <value>
+                <fullName>Corporate Parent</fullName>
+                <default>false</default>
+                <label>Corporate Parent</label>
+            </value>
+            <value>
+                <fullName>Hospital Campus</fullName>
+                <default>false</default>
+                <label>Hospital Campus</label>
+            </value>
+            <value>
+                <fullName>IDN</fullName>
+                <default>false</default>
+                <label>IDN</label>
+            </value>
+            <value>
+                <fullName>IHS</fullName>
+                <default>false</default>
+                <label>IHS</label>
+            </value>
+            <value>
+                <fullName>Management Company</fullName>
+                <default>false</default>
+                <label>Management Company</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

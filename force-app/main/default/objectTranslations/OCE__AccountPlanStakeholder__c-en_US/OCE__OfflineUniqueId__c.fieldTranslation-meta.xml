@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Globally unique string that identifies an offline created record.</help>
+    <label><!-- Offline Unique Id --></label>
+    <name>OCE__OfflineUniqueId__c</name>
+</CustomFieldTranslation>

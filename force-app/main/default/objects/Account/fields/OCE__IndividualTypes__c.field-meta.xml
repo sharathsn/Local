@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IndividualTypes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores Individual Types</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores Individual Types</inlineHelpText>
+    <label>Individual Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Contacts</fullName>
+                <default>false</default>
+                <label>Business Contacts</label>
+            </value>
+            <value>
+                <fullName>Medical Professionals</fullName>
+                <default>false</default>
+                <label>Medical Professionals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

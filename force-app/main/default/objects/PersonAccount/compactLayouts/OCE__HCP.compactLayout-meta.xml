@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__HCP</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>OCE__ParentAccount__c</fields>
+    <fields>OCE__Specialty__c</fields>
+    <fields>Phone</fields>
+    <fields>PersonEmail</fields>
+    <label>HCP</label>
+</CompactLayout>

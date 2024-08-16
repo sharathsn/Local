@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__StartEndType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Engagement duration type - either dates-driven or time-bound.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Engagement duration type - either dates-driven or time-bound.</inlineHelpText>
+    <label>Start/End Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TimeBound</fullName>
+                <default>false</default>
+                <label>I need start and end times for my engagement (time of day is important)</label>
+            </value>
+            <value>
+                <fullName>DatesDriven</fullName>
+                <default>false</default>
+                <label>I only need start and end dates (time of day is immaterial)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

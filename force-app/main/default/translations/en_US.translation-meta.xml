@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <customTabs>
+        <label><!-- Engagement Plan Load --></label>
+        <name>Engagement_Plan_Load</name>
+    </customTabs>
+    <customTabs>
+        <label>H1 Search</label>
+        <name>H1_Profile</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Orders Dashboard --></label>
+        <name>OrdersDashboard</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Update_CA_sttaus</fullName>
+    </flowDefinitions>
+    <reportTypes>
+        <description><!-- Calls with Meetings and Insights --></description>
+        <label><!-- Calls with Meetings and Insights --></label>
+        <name>Calls_with_Meetings_and_Meeting_Members</name>
+        <sections>
+            <label><!-- Calls --></label>
+            <name>Calls</name>
+        </sections>
+        <sections>
+            <label><!-- Insights --></label>
+            <name>Insights</name>
+        </sections>
+        <sections>
+            <label><!-- Meetings --></label>
+            <name>Meetings</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Survey Question Responses with Survey Question --></description>
+        <label><!-- Survey Question Responses with Survey Question --></label>
+        <name>Lilly_Survey_QuestionResponses_with_SurveyQuestion</name>
+        <sections>
+            <columns>
+                <label><!-- TL --></label>
+                <name>TL</name>
+            </columns>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Question Responses --></label>
+            <name>Survey Question Responses</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Responses --></label>
+            <name>Survey Responses</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Tactics with Account Plans --></description>
+        <label><!-- Tactics with Account Plans --></label>
+        <name>Tactics_with_Account_Plans</name>
+        <sections>
+            <label><!-- Account Plan --></label>
+            <name>Account Plan</name>
+        </sections>
+        <sections>
+            <label><!-- Account Tactics --></label>
+            <name>Account Tactics</name>
+        </sections>
+        <sections>
+            <label><!-- Contracted Engagements --></label>
+            <name>Contracted Engagements</name>
+        </sections>
+    </reportTypes>
+</Translations>

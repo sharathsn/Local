@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ExternalRanking__c</fullName>
+    <deprecated>false</deprecated>
+    <description>HCP’s rank / rating from government or non-government sources  (not calculated by OneKey, just copy-paste from external source)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>HCP’s rank / rating from government or non-government sources  (not calculated by OneKey, just copy-paste from external source)</inlineHelpText>
+    <label>External Ranking</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TDDDLicenseValidationIcon__c</fullName>
+    <deprecated>false</deprecated>
+    <description>SDL validation icon</description>
+    <externalId>false</externalId>
+    <formula>IF(
+                OCE__IsTDDDLicenseExemption2__c,
+                IMAGE(&quot;/resource/OCE__ApolloIcons/png/TDDD-Exempt.png&quot;, &quot;&quot;, 14, 68),
+                IF(
+                    NOT(OCE__TDDDLicenseValidation__c),
+                    IMAGE(&quot;/resource/OCE__ApolloIcons/png/TDDD-None.png&quot;, &quot;&quot;, 14, 68),
+                    CASE(
+                        OCE__TDDDSubcategory2__c,
+                        &quot;02&quot;, IMAGE(&quot;/resource/OCE__ApolloIcons/png/TDDD-C2.png&quot;, &quot;&quot;, 14, 68),
+                        &quot;03&quot;, IMAGE(&quot;/resource/OCE__ApolloIcons/png/TDDD-C3.png&quot;, &quot;&quot;, 14, 68),
+                        &quot;12&quot;, IMAGE(&quot;/resource/OCE__ApolloIcons/png/TDDD-LC2.png&quot;, &quot;&quot;, 14, 68),
+                        &quot;13&quot;, IMAGE(&quot;/resource/OCE__ApolloIcons/png/TDDD-LC3.png&quot;, &quot;&quot;, 14, 68),
+                        &quot;&quot;
+                    )
+                )
+            )</formula>
+    <label>SDL Validation Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

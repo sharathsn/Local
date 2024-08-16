@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TDDDSubcategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies subtype of SDL</description>
+    <externalId>false</externalId>
+    <formula>IF(
+            OCE__IsCopyTDDDData__c ,
+            IF( ISBLANK( OCE__Address__r.OCE__TDDDLicense__c ),
+                TEXT( OCE__TDDDSubcategory2__c ) ,
+                TEXT( OCE__Address__r.OCE__TDDDSubcategory__c )
+            ),
+            TEXT( OCE__TDDDSubcategory2__c )
+        )</formula>
+    <label>SDL Subcategory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

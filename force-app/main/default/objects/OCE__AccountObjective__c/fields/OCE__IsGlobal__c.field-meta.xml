@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsGlobal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines whether record has to be synced to the OCEx related orgs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines whether record has to be synced to the OCEx related orgs.</inlineHelpText>
+    <label>Is Global</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

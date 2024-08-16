@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__UniqueMeetingID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Format (abbr Meeting Type - Year - Record Id e.g. SM-2018-a3i7A0000005qvoQAA)</description>
+    <externalId>false</externalId>
+    <formula>CASE( RecordType.DeveloperName , &apos;Displays_Exhibits&apos;, &apos;DE&apos;, &apos;HCP_Sponsorship&apos;, &apos;HP&apos;,&apos;Rep_Presentation&apos;,&apos;OP&apos;,&apos;Speaker_Meeting&apos;, &apos;SM&apos;,&apos;MT&apos;)
+            &amp;
+            &apos;-&apos;
+            &amp;
+            TEXT(YEAR((DATEVALUE( OCE__StartDateTime__c )) ))
+            &amp;
+            &apos;-&apos;
+            &amp;
+            Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Unique Meeting ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

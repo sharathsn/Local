@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>License number assigned to Account from College of Physicians.
+            Canada specific.</help>
+    <label><!-- College Of Physicians License Number --></label>
+    <name>OCE__CollegeOfPhysiciansLicenseNumber__c</name>
+</CustomFieldTranslation>

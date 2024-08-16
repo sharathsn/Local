@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ProfessionalDesignation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The professional designation of the doctor.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The professional designation of the doctor.</inlineHelpText>
+    <label>Professional Designation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DO</fullName>
+                <default>false</default>
+                <label>DO</label>
+            </value>
+            <value>
+                <fullName>MBBS</fullName>
+                <default>false</default>
+                <label>MBBS</label>
+            </value>
+            <value>
+                <fullName>MD</fullName>
+                <default>false</default>
+                <label>MD</label>
+            </value>
+            <value>
+                <fullName>NP</fullName>
+                <default>false</default>
+                <label>NP</label>
+            </value>
+            <value>
+                <fullName>OD</fullName>
+                <default>false</default>
+                <label>OD</label>
+            </value>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

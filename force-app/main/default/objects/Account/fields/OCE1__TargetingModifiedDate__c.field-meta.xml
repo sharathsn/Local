@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__TargetingModifiedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Time when Account, Targeted Presentations External Ids or Territory is changed. (MVP)</description>
+    <externalId>false</externalId>
+    <label>Targeting Modified Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

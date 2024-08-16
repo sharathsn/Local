@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__Max_Sat_Can_Not_Be_Less_Sat_Count2</fullName>
+    <active>true</active>
+    <description>Max satellite value can&apos;t be less then satellite count.</description>
+    <errorConditionFormula>IF(AND(ISCHANGED(OCE__MaxSatellites__c),NOT(ISNULL(OCE__MaxSatellites__c)),ISPICKVAL(OCE__MeetingStructure__c, &apos;Host&apos;)), OCE__SatellitesCount__c &gt; OCE__MaxSatellites__c, false)</errorConditionFormula>
+    <errorMessage>Max Satellites cannot be less than current Satellites Count.</errorMessage>
+</ValidationRule>

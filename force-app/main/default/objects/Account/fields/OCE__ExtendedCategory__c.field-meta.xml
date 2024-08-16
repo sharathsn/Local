@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ExtendedCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Attributes of an Account to categorize them in different ways.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Attributes of an Account to categorize them in different ways.</inlineHelpText>
+    <label>Extended Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bermuda</fullName>
+                <default>false</default>
+                <label>Bermuda</label>
+            </value>
+            <value>
+                <fullName>Chiropractors/Chiropractic Clinics</fullName>
+                <default>false</default>
+                <label>Chiropractors/Chiropractic Clinics</label>
+            </value>
+            <value>
+                <fullName>Dentists</fullName>
+                <default>false</default>
+                <label>Dentists</label>
+            </value>
+            <value>
+                <fullName>Department or Grocery Stores with a Retail Pharmacy</fullName>
+                <default>false</default>
+                <label>Department or Grocery Stores with a Retail Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Doctors/Doctor Clinics</fullName>
+                <default>false</default>
+                <label>Doctors/Doctor Clinics</label>
+            </value>
+            <value>
+                <fullName>Family Planning Clinics</fullName>
+                <default>false</default>
+                <label>Family Planning Clinics</label>
+            </value>
+            <value>
+                <fullName>Government Accounts</fullName>
+                <default>false</default>
+                <label>Government Accounts</label>
+            </value>
+            <value>
+                <fullName>Government Redistribution</fullName>
+                <default>false</default>
+                <label>Government Redistribution</label>
+            </value>
+            <value>
+                <fullName>Head Office</fullName>
+                <default>false</default>
+                <label>Head Office</label>
+            </value>
+            <value>
+                <fullName>Hospitals</fullName>
+                <default>false</default>
+                <label>Hospitals</label>
+            </value>
+            <value>
+                <fullName>Medical Associations and Societies</fullName>
+                <default>false</default>
+                <label>Medical Associations and Societies</label>
+            </value>
+            <value>
+                <fullName>Medical Labs</fullName>
+                <default>false</default>
+                <label>Medical Labs</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Others</fullName>
+                <default>false</default>
+                <label>Miscellaneous Others</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Redistribution</fullName>
+                <default>false</default>
+                <label>Miscellaneous Redistribution</label>
+            </value>
+            <value>
+                <fullName>New Reporting Warehouses</fullName>
+                <default>false</default>
+                <label>New Reporting Warehouses</label>
+            </value>
+            <value>
+                <fullName>Non-Reporting Wholesalers</fullName>
+                <default>false</default>
+                <label>Non-Reporting Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Nursing Homes</fullName>
+                <default>false</default>
+                <label>Nursing Homes</label>
+            </value>
+            <value>
+                <fullName>Ophthalmologists</fullName>
+                <default>false</default>
+                <label>Ophthalmologists</label>
+            </value>
+            <value>
+                <fullName>Optometrists, Opticians and Optical Labs</fullName>
+                <default>false</default>
+                <label>Optometrists, Opticians and Optical Labs</label>
+            </value>
+            <value>
+                <fullName>Reporting Wholesalers</fullName>
+                <default>false</default>
+                <label>Reporting Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Retail Pharmacies</fullName>
+                <default>false</default>
+                <label>Retail Pharmacies</label>
+            </value>
+            <value>
+                <fullName>Retail Pharmacies (Redistribution)</fullName>
+                <default>false</default>
+                <label>Retail Pharmacies (Redistribution)</label>
+            </value>
+            <value>
+                <fullName>Retail Store (No pharmacy)</fullName>
+                <default>false</default>
+                <label>Retail Store (No pharmacy)</label>
+            </value>
+            <value>
+                <fullName>Universities/Colleges/Schools</fullName>
+                <default>false</default>
+                <label>Universities/Colleges/Schools</label>
+            </value>
+            <value>
+                <fullName>Veterinarians</fullName>
+                <default>false</default>
+                <label>Veterinarians</label>
+            </value>
+            <value>
+                <fullName>Wal-Mart Stores</fullName>
+                <default>false</default>
+                <label>Wal-Mart Stores</label>
+            </value>
+            <value>
+                <fullName>Warehouse Inventory</fullName>
+                <default>false</default>
+                <label>Warehouse Inventory</label>
+            </value>
+            <value>
+                <fullName>Warehouse Transfers</fullName>
+                <default>false</default>
+                <label>Warehouse Transfers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

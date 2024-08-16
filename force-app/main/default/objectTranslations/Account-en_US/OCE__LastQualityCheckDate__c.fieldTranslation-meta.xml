@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Last Quality Check Date</help>
+    <label><!-- Last Quality Check Date --></label>
+    <name>OCE__LastQualityCheckDate__c</name>
+</CustomFieldTranslation>

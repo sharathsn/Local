@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Role__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Role of this member on Account Plan.</description>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>KAM</fullName>
+                <default>true</default>
+                <label>KAM</label>
+            </value>
+            <value>
+                <fullName>Sales Rep</fullName>
+                <default>false</default>
+                <label>Sales Rep</label>
+            </value>
+            <value>
+                <fullName>MSL</fullName>
+                <default>false</default>
+                <label>MSL</label>
+            </value>
+            <value>
+                <fullName>NAM</fullName>
+                <default>false</default>
+                <label>NAM</label>
+            </value>
+            <value>
+                <fullName>DM</fullName>
+                <default>false</default>
+                <label>DM</label>
+            </value>
+            <value>
+                <fullName>Role 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Role 1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

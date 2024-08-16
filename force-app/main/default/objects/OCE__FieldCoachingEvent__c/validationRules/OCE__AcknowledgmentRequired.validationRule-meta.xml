@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AcknowledgmentRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($Setup.OCE__FieldCoachingEventSettings__c.OCE__AcknowledgementEnabled__c = TRUE, $Setup.OCE__FieldCoachingEventSettings__c.OCE__AcknowledgementRequired__c = TRUE,  ISPICKVAL(OCE__Status__c,&quot;Finished&quot;), ISBLANK(OCE__AcknowledgedDate__c))</errorConditionFormula>
+    <errorMessage>You cannot finish event before it was Acknowledged</errorMessage>
+</ValidationRule>

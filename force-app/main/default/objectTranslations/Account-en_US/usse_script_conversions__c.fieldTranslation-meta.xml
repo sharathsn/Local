@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How many script conversions from competitor product to our product --></help>
+    <label><!-- Script Conversions --></label>
+    <name>usse_script_conversions__c</name>
+</CustomFieldTranslation>

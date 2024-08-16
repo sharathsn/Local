@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Category of the record. Example: Approve</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Category of the record. Example: Approve</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submit for Approval</fullName>
+                <default>false</default>
+                <label>Submit for Approval</label>
+            </value>
+            <value>
+                <fullName>Claim</fullName>
+                <default>false</default>
+                <label>Claim</label>
+            </value>
+            <value>
+                <fullName>Approve</fullName>
+                <default>false</default>
+                <label>Approve</label>
+            </value>
+            <value>
+                <fullName>Execute</fullName>
+                <default>false</default>
+                <label>Execute</label>
+            </value>
+            <value>
+                <fullName>Conclude</fullName>
+                <default>false</default>
+                <label>Conclude</label>
+            </value>
+            <value>
+                <fullName>Reject</fullName>
+                <default>false</default>
+                <label>Reject</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>RAI</fullName>
+                <default>false</default>
+                <label>RAI</label>
+            </value>
+            <value>
+                <fullName>Abandon</fullName>
+                <default>false</default>
+                <label>Abandon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

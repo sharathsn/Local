@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Business Need</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Business Needs</value>
+    </caseValues>
+    <layouts>
+        <layout>Lilly Account Objective Layout</layout>
+        <sections>
+            <label><!-- Engagement Plan Information --></label>
+            <section>Engagement Plan Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Business Need</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Not able to save the changes as Engagement Plan status is not Draft --></errorMessage>
+        <name>TLEE_EP_Draft</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ActualAmountUsedRollup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to define the actual amount spent for the meeting to allow comparison between Requested Amount and Actual one. Calculates a total based on the sum of Actual Amount Used in Unit/Group Cost records</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to define the actual amount spent for the meeting to allow comparison between Requested Amount and Actual one. Calculates a total based on the sum of Actual Amount Used in Unit/Group Cost records</inlineHelpText>
+    <label>Actual Amount Used</label>
+    <summarizedField>OCE__MeetingDetail__c.OCE__ActualAmountUsed__c</summarizedField>
+    <summaryFilterItems>
+        <field>OCE__MeetingDetail__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Group Cost, Unit Cost</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OCE__MeetingDetail__c.OCE__Meeting__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

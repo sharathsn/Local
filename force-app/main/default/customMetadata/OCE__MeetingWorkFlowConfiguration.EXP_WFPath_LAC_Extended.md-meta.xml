@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>EXP_WFPath LAC Extended</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__ContextType__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__ControllingField__c</field>
+        <value xsi:type="xsd:string">OCE__Status__c</value>
+    </values>
+    <values>
+        <field>OCE__CreateManagerAsApprover__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__MeetingRecordTypeName__c</field>
+        <value xsi:type="xsd:string">OCE__Call__c-Extended_Layout_Options-1718108049081</value>
+    </values>
+    <values>
+        <field>OCE__Parameters__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__StaticResourceName__c</field>
+        <value xsi:type="xsd:string">EXP_WFPath_LAC_Extended</value>
+    </values>
+    <values>
+        <field>OCE__StatusToCalculateActuals__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Status__c</field>
+        <value xsi:type="xsd:string">Inactive</value>
+    </values>
+</CustomMetadata>

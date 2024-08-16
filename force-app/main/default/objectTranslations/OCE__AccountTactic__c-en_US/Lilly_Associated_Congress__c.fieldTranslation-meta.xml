@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Associated Congress --></label>
+    <name>Lilly_Associated_Congress__c</name>
+    <picklistValues>
+        <masterLabel>(AAAAI) Americal Academy of Allergy, Asthma and Immunology</masterLabel>
+        <translation><!-- (AAAAI) Americal Academy of Allergy, Asthma and Immunology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AACE) American Association of Clinical Endocrinologists</masterLabel>
+        <translation><!-- (AACE) American Association of Clinical Endocrinologists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AACR) American Association for Cancer Research</masterLabel>
+        <translation><!-- (AACR) American Association for Cancer Research --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AAD) American Academy of Dermatology</masterLabel>
+        <translation><!-- (AAD) American Academy of Dermatology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AADE) American Association of Diabetes Educators</masterLabel>
+        <translation><!-- (AADE) American Association of Diabetes Educators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AAN) Americal Academy of Neurology</masterLabel>
+        <translation><!-- (AAN) Americal Academy of Neurology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AANP) American Association of Nurse Practitioners</masterLabel>
+        <translation><!-- (AANP) American Association of Nurse Practitioners --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

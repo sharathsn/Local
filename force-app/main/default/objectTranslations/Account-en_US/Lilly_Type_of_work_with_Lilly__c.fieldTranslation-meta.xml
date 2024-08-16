@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of work with Lilly --></label>
+    <name>Lilly_Type_of_work_with_Lilly__c</name>
+    <picklistValues>
+        <masterLabel>Author</masterLabel>
+        <translation><!-- Author --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Faculty</masterLabel>
+        <translation><!-- Faculty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PI</masterLabel>
+        <translation><!-- PI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaker</masterLabel>
+        <translation><!-- Speaker --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

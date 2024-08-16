@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__OfflineCreatedById__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>User initiated record creation from mobile. Differ from standard SF CreatedById field, which holds user actually conducting operation in SF (could be the same as mobile, but not necessary)</description>
+    <externalId>false</externalId>
+    <label>Offline Created By Id</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>OfflineCreatedById</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

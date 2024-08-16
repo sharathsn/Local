@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Record Type name for a Promo Plan created from the template --></help>
+    <label><!-- Promo Plan Record Type --></label>
+    <name>OCE1__PromoPlanRecordType__c</name>
+    <picklistValues>
+        <masterLabel>Promo Plan</masterLabel>
+        <translation><!-- Promo Plan --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

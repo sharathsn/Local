@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Satellite_Cannot_Update_MeetingStr</fullName>
+    <active>false</active>
+    <description>Prevents updating the Meeting Structure field for the Satellite Meeting</description>
+    <errorConditionFormula>AND(
+            ISCHANGED(OCE__MeetingStructure__c),
+            AND(ISPICKVAL(PRIORVALUE(OCE__MeetingStructure__c),&quot;Satellite&quot;)
+            ))</errorConditionFormula>
+    <errorDisplayField>OCE__MeetingStructure__c</errorDisplayField>
+    <errorMessage>This field comes from the Host Meeting and cannot be modified.</errorMessage>
+</ValidationRule>

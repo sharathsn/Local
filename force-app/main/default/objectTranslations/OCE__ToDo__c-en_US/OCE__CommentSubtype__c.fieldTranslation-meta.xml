@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Subtype of the comment.</help>
+    <label><!-- Comment Subtype --></label>
+    <name>OCE__CommentSubtype__c</name>
+    <picklistValues>
+        <masterLabel>Clarification Request</masterLabel>
+        <translation>Clarification Request</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feedback Request</masterLabel>
+        <translation>Feedback Request</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>How-to</masterLabel>
+        <translation>How-to</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing Information</masterLabel>
+        <translation>Missing Information</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question</masterLabel>
+        <translation>Question</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revision Request</masterLabel>
+        <translation>Revision Request</translation>
+    </picklistValues>
+</CustomFieldTranslation>

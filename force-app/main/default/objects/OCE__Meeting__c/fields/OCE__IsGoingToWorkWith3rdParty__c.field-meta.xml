@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsGoingToWorkWith3rdParty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines whether the requestor will work with the third party (parties)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines whether the requestor will work with the third party (parties)</inlineHelpText>
+    <label>Will you be working with a 3rd party?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

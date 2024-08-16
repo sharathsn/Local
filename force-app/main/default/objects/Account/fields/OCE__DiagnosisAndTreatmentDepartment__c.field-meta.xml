@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DiagnosisAndTreatmentDepartment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The department the HCP is part of.
+            Appears on HCP-JP page layout.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The department the HCP is part of.
+            Appears on HCP-JP page layout.</inlineHelpText>
+    <label>Diagnosis and Treatment Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal Medicine</fullName>
+                <default>false</default>
+                <label>Internal Medicine</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Orthopedics</fullName>
+                <default>false</default>
+                <label>Orthopedics</label>
+            </value>
+            <value>
+                <fullName>Cerebral Surgery</fullName>
+                <default>false</default>
+                <label>Cerebral Surgery</label>
+            </value>
+            <value>
+                <fullName>Radiology Department</fullName>
+                <default>false</default>
+                <label>Radiology Department</label>
+            </value>
+            <value>
+                <fullName>Anesthesiology</fullName>
+                <default>false</default>
+                <label>Anesthesiology</label>
+            </value>
+            <value>
+                <fullName>Surgery, emergency</fullName>
+                <default>false</default>
+                <label>Surgery, emergency</label>
+            </value>
+            <value>
+                <fullName>Department of Obstetrics and Gynecology</fullName>
+                <default>false</default>
+                <label>Department of Obstetrics and Gynecology</label>
+            </value>
+            <value>
+                <fullName>Dermatology</fullName>
+                <default>false</default>
+                <label>Dermatology</label>
+            </value>
+            <value>
+                <fullName>Plastic Surgery</fullName>
+                <default>false</default>
+                <label>Plastic Surgery</label>
+            </value>
+            <value>
+                <fullName>Urology</fullName>
+                <default>false</default>
+                <label>Urology</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology</fullName>
+                <default>false</default>
+                <label>Ophthalmology</label>
+            </value>
+            <value>
+                <fullName>Ear, Nose and Throat</fullName>
+                <default>false</default>
+                <label>Ear, Nose and Throat</label>
+            </value>
+            <value>
+                <fullName>Department of Neurology and Psychiatry</fullName>
+                <default>false</default>
+                <label>Department of Neurology and Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Deer oral surgery</fullName>
+                <default>false</default>
+                <label>Deer oral surgery</label>
+            </value>
+            <value>
+                <fullName>Hygiene inspection</fullName>
+                <default>false</default>
+                <label>Hygiene inspection</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

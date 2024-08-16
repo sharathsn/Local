@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DiseaseState__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The disease state(s) related to the therapeutic area</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The disease state(s) related to the therapeutic area</inlineHelpText>
+    <label>Disease State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>OCE__TherapeuticArea__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>OCE__DiseaseStates</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Vaccines</controllingFieldValue>
+            <valueName>Polio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vaccines</controllingFieldValue>
+            <valueName>Tetanus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vaccines</controllingFieldValue>
+            <valueName>Hepatitis B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardiovascular</controllingFieldValue>
+            <valueName>Coronary Artery Disease (CAD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardiovascular</controllingFieldValue>
+            <valueName>Heart Attack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardiovascular</controllingFieldValue>
+            <valueName>Arrhythmia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <valueName>Eczema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <valueName>Psoriasis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <valueName>Acne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <valueName>General Dermatology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <valueName>Atopic Dermatitis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <valueName>Psoriatic Arthritis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dermatology</controllingFieldValue>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>COVID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>Acid Reflux, Heartburn, GERD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>Dyspepsia/Indigestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>Nausea and Vomiting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>IBD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>Crohn&apos;s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>Ulcerative Colitis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastroenterology</controllingFieldValue>
+            <valueName>General Gastroenterology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunology</controllingFieldValue>
+            <valueName>Type-1 Diabetes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunology</controllingFieldValue>
+            <valueName>Rheumatoid Arthritis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immunology</controllingFieldValue>
+            <valueName>Lupus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectious diseases</controllingFieldValue>
+            <valueName>HIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectious diseases</controllingFieldValue>
+            <valueName>Measles, Mumps, and Rubella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infectious diseases</controllingFieldValue>
+            <valueName>Influenza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metabolic diseases</controllingFieldValue>
+            <valueName>Diabetes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metabolic diseases</controllingFieldValue>
+            <valueName>Liver Cirrhosis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metabolic diseases</controllingFieldValue>
+            <valueName>Heart Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neurology</controllingFieldValue>
+            <valueName>Parkinson’s Disease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neurology</controllingFieldValue>
+            <valueName>Stroke</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neurology</controllingFieldValue>
+            <valueName>Headache</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neurology</controllingFieldValue>
+            <valueName>Multiple Sclerosis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>Breast Cancer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>Acute Myelogenous Leukemia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>Hodgkin’s Lymphoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>CLL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>AML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oncology</controllingFieldValue>
+            <valueName>Multiple Myeloma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Respiratory</controllingFieldValue>
+            <valueName>Asthma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Respiratory</controllingFieldValue>
+            <valueName>Chronic Obstructive Pulmonary Disease (COPD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Respiratory</controllingFieldValue>
+            <valueName>Emphysema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urology</controllingFieldValue>
+            <valueName>Urinary Tract Infections (UTI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urology</controllingFieldValue>
+            <valueName>Kidney and Ureteral Stones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Urology</controllingFieldValue>
+            <valueName>Benign Prostatic Hyperplasia (BPH)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

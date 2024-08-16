@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EmployeeCanNotBeChanged</fullName>
+    <active>false</active>
+    <description>Employee can&apos;t be changed after the record was created.</description>
+    <errorConditionFormula>AND( NOT( ISNEW() ), ISCHANGED( OCE__User__c ) )</errorConditionFormula>
+    <errorDisplayField>OCE__User__c</errorDisplayField>
+    <errorMessage>You cannot change employee for ongoing evaluation</errorMessage>
+</ValidationRule>

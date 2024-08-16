@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>(Double byte Kana) Text field applicable to both HCP and HCO that will store the Japanese phonetic name used for sorting and text searching.</help>
+    <label><!-- Double Byte Kana Name --></label>
+    <name>OCE__DoubleByteKanaName__c</name>
+</CustomFieldTranslation>

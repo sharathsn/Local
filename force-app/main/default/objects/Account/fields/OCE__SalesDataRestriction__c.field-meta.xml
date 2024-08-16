@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SalesDataRestriction__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores Sales Data Restriction</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores Sales Data Restriction</inlineHelpText>
+    <label>Sales Data Restriction</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

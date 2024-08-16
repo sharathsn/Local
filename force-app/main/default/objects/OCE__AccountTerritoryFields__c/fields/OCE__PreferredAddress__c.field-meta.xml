@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreferredAddress__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Account Address relation. Link Account Territory Fields to Account Address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account Address relation. Link Account Territory Fields to Account Address</inlineHelpText>
+    <label>Preferred Address</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>OCE__AccountAddress__c.OCE__Account__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.OCE__Account__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>OCE__AccountAddress__c</referenceTo>
+    <relationshipLabel>Account Territory Fields</relationshipLabel>
+    <relationshipName>AccountTerritoryFields</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

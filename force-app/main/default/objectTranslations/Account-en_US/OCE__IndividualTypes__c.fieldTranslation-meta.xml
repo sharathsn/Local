@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stores Individual Types</help>
+    <label><!-- Individual Types --></label>
+    <name>OCE__IndividualTypes__c</name>
+    <picklistValues>
+        <masterLabel>Business Contacts</masterLabel>
+        <translation>Business Contacts</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Professionals</masterLabel>
+        <translation>Medical Professionals</translation>
+    </picklistValues>
+</CustomFieldTranslation>

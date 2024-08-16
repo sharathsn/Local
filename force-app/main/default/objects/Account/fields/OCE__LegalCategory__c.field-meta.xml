@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__LegalCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Legal Category</description>
+    <externalId>false</externalId>
+    <label>Legal Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Specific Address</fullName>
+                <default>false</default>
+                <label>Client Specific Address</label>
+            </value>
+            <value>
+                <fullName>Government Office</fullName>
+                <default>false</default>
+                <label>Government Office</label>
+            </value>
+            <value>
+                <fullName>Health Authority</fullName>
+                <default>false</default>
+                <label>Health Authority</label>
+            </value>
+            <value>
+                <fullName>Academic Establishment</fullName>
+                <default>false</default>
+                <label>Academic Establishment</label>
+            </value>
+            <value>
+                <fullName>Dual Registered Nursing Home</fullName>
+                <default>false</default>
+                <label>Dual Registered Nursing Home</label>
+            </value>
+            <value>
+                <fullName>Residential Home</fullName>
+                <default>false</default>
+                <label>Residential Home</label>
+            </value>
+            <value>
+                <fullName>Nursing Home</fullName>
+                <default>false</default>
+                <label>Nursing Home</label>
+            </value>
+            <value>
+                <fullName>Manufacturer</fullName>
+                <default>false</default>
+                <label>Manufacturer</label>
+            </value>
+            <value>
+                <fullName>Grocery Store</fullName>
+                <default>false</default>
+                <label>Grocery Store</label>
+            </value>
+            <value>
+                <fullName>Drugstore</fullName>
+                <default>false</default>
+                <label>Drugstore</label>
+            </value>
+            <value>
+                <fullName>Cash &amp; Carry</fullName>
+                <default>false</default>
+                <label>Cash &amp; Carry</label>
+            </value>
+            <value>
+                <fullName>Retail Group Head Office</fullName>
+                <default>false</default>
+                <label>Retail Group Head Office</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Chemist</fullName>
+                <default>false</default>
+                <label>Chemist</label>
+            </value>
+            <value>
+                <fullName>Primary Care Organisation</fullName>
+                <default>false</default>
+                <label>Primary Care Organisation</label>
+            </value>
+            <value>
+                <fullName>Private Address</fullName>
+                <default>false</default>
+                <label>Private Address</label>
+            </value>
+            <value>
+                <fullName>Rehabilitation Center</fullName>
+                <default>false</default>
+                <label>Rehabilitation Center</label>
+            </value>
+            <value>
+                <fullName>Diagnostic &amp; Treatment Center</fullName>
+                <default>false</default>
+                <label>Diagnostic &amp; Treatment Center</label>
+            </value>
+            <value>
+                <fullName>Hospital Type Clinic</fullName>
+                <default>false</default>
+                <label>Hospital Type Clinic</label>
+            </value>
+            <value>
+                <fullName>Day Hospital</fullName>
+                <default>false</default>
+                <label>Day Hospital</label>
+            </value>
+            <value>
+                <fullName>GP/Community Hospital</fullName>
+                <default>false</default>
+                <label>GP/Community Hospital</label>
+            </value>
+            <value>
+                <fullName>Trust Hospital</fullName>
+                <default>false</default>
+                <label>Trust Hospital</label>
+            </value>
+            <value>
+                <fullName>Hospice/Palliative Care Unit</fullName>
+                <default>false</default>
+                <label>Hospice/Palliative Care Unit</label>
+            </value>
+            <value>
+                <fullName>Independent/Private Hospital</fullName>
+                <default>false</default>
+                <label>Independent/Private Hospital</label>
+            </value>
+            <value>
+                <fullName>Administration Center</fullName>
+                <default>false</default>
+                <label>Administration Center</label>
+            </value>
+            <value>
+                <fullName>Consulting Rooms</fullName>
+                <default>false</default>
+                <label>Consulting Rooms</label>
+            </value>
+            <value>
+                <fullName>Learning Disability Center</fullName>
+                <default>false</default>
+                <label>Learning Disability Center</label>
+            </value>
+            <value>
+                <fullName>Blood Transfusion Center</fullName>
+                <default>false</default>
+                <label>Blood Transfusion Center</label>
+            </value>
+            <value>
+                <fullName>Mental Health Unit</fullName>
+                <default>false</default>
+                <label>Mental Health Unit</label>
+            </value>
+            <value>
+                <fullName>Ambulance Service</fullName>
+                <default>false</default>
+                <label>Ambulance Service</label>
+            </value>
+            <value>
+                <fullName>Occupational Health Center</fullName>
+                <default>false</default>
+                <label>Occupational Health Center</label>
+            </value>
+            <value>
+                <fullName>Supplies Depot</fullName>
+                <default>false</default>
+                <label>Supplies Depot</label>
+            </value>
+            <value>
+                <fullName>On Call/Drop in Center</fullName>
+                <default>false</default>
+                <label>On Call/Drop in Center</label>
+            </value>
+            <value>
+                <fullName>Community Unit</fullName>
+                <default>false</default>
+                <label>Community Unit</label>
+            </value>
+            <value>
+                <fullName>Prison</fullName>
+                <default>false</default>
+                <label>Prison</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Private Surgery</fullName>
+                <default>false</default>
+                <label>Private Surgery</label>
+            </value>
+            <value>
+                <fullName>Industrial Medical Center</fullName>
+                <default>false</default>
+                <label>Industrial Medical Center</label>
+            </value>
+            <value>
+                <fullName>Military Establishment</fullName>
+                <default>false</default>
+                <label>Military Establishment</label>
+            </value>
+            <value>
+                <fullName>Health Center</fullName>
+                <default>false</default>
+                <label>Health Center</label>
+            </value>
+            <value>
+                <fullName>Clinic</fullName>
+                <default>false</default>
+                <label>Clinic</label>
+            </value>
+            <value>
+                <fullName>Addiction Services/Unit</fullName>
+                <default>false</default>
+                <label>Addiction Services/Unit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

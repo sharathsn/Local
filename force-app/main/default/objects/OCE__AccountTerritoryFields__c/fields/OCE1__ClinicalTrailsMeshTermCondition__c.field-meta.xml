@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ClinicalTrailsMeshTermCondition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of Mesh Terms</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of Mesh Terms</inlineHelpText>
+    <label>ClinicalTrails Mesh Term Condition</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

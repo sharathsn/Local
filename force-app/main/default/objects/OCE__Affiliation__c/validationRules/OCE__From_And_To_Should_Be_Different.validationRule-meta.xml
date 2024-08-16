@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__From_And_To_Should_Be_Different</fullName>
+    <active>true</active>
+    <description>Different entities should be used as From and To.</description>
+    <errorConditionFormula>AND(
+                                OCE__From__c = OCE__To__c,  
+                                NOT(ISBLANK(OCE__From__c)),
+                                NOT(ISBLANK(OCE__To__c))
+                               )</errorConditionFormula>
+    <errorMessage>From and To should be different in Affiliation.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsUnpaid__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula that indicates if time off event is paid or not</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(OCE__Type__c) = &quot;Disciplinary&quot;, TRUE,
+IF(TEXT(OCE__Type__c) = &quot;Unexcused&quot;, TRUE,
+IF(TEXT(OCE__Type__c) = &quot;Vacation&quot;, TRUE,
+FALSE
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Unpaid</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

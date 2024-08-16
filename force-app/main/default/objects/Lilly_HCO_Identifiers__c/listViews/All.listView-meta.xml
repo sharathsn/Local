@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>HCO_Identifiers_HcoReferenceId__c</columns>
+    <columns>HCO_Identifiers_ValidationReasonCode__c</columns>
+    <columns>HCO_Identifiers_UpdatedDate__c</columns>
+    <columns>HCO_Identifiers_Type__c</columns>
+    <columns>HCO_Identifiers_Subtype__c</columns>
+    <columns>HCO_Identifiers_Status__c</columns>
+    <columns>HCO_Identifiers_SourceBlockStatus__c</columns>
+    <columns>HCO_Identifiers_Rank__c</columns>
+    <columns>HCO_Identifiers_PrivacyStatus__c</columns>
+    <columns>HCO_Identifiers_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

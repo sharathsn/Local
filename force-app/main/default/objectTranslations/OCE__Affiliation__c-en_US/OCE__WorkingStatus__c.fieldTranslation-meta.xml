@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Working Status</help>
+    <label><!-- Working Status --></label>
+    <name>OCE__WorkingStatus__c</name>
+    <picklistValues>
+        <masterLabel>Associate</masterLabel>
+        <translation>Associate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Career Soldier</masterLabel>
+        <translation>Career Soldier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employee</masterLabel>
+        <translation>Employee</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Time</masterLabel>
+        <translation>Full Time</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home</masterLabel>
+        <translation>Home</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intern</masterLabel>
+        <translation>Intern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Market Access</masterLabel>
+        <translation>Market Access</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Military Hospital Intern</masterLabel>
+        <translation>Military Hospital Intern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous</masterLabel>
+        <translation>Miscellaneous</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out Consultation</masterLabel>
+        <translation>Out Consultation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Part Time</masterLabel>
+        <translation>Part Time</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provisional Substitute</masterLabel>
+        <translation>Provisional Substitute</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular Substitute</masterLabel>
+        <translation>Regular Substitute</translation>
+    </picklistValues>
+</CustomFieldTranslation>

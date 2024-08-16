@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>H1 Profile</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__AppName__c</field>
+        <value xsi:type="xsd:string">H1 Profile</value>
+    </values>
+    <values>
+        <field>OCE__ApplicationId__c</field>
+        <value xsi:type="xsd:string">923</value>
+    </values>
+    <values>
+        <field>OCE__Author__c</field>
+        <value xsi:type="xsd:string">Iqvia</value>
+    </values>
+    <values>
+        <field>OCE__Category__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Description__c</field>
+        <value xsi:type="xsd:string">H1 Profile: redirects to a login page.</value>
+    </values>
+    <values>
+        <field>OCE__IconPath__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__Parameters__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Profiles__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__ReactNativeVersion__c</field>
+        <value xsi:type="xsd:string">0.72.9</value>
+    </values>
+    <values>
+        <field>OCE__SortOrder__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>OCE__SourcePath__c</field>
+        <value xsi:type="xsd:string">1460/923/2650/build/bundle.zip</value>
+    </values>
+    <values>
+        <field>OCE__SupportedDeviceType__c</field>
+        <value xsi:type="xsd:string">;iPad;iPhone;Web;</value>
+    </values>
+    <values>
+        <field>OCE__Type__c</field>
+        <value xsi:type="xsd:string">OCEWidget</value>
+    </values>
+    <values>
+        <field>OCE__VersionId__c</field>
+        <value xsi:type="xsd:string">2650</value>
+    </values>
+    <values>
+        <field>OCE__Version__c</field>
+        <value xsi:type="xsd:string">2.3</value>
+    </values>
+</CustomMetadata>

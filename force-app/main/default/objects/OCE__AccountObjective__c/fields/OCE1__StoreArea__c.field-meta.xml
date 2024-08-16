@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__StoreArea__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Promoted product location in a store (MVP)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Promoted product location in a store</inlineHelpText>
+    <label>Store Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Category Shelf</fullName>
+                <default>false</default>
+                <label>Category Shelf</label>
+            </value>
+            <value>
+                <fullName>Primary Display</fullName>
+                <default>false</default>
+                <label>Primary Display</label>
+            </value>
+            <value>
+                <fullName>Secondary Display</fullName>
+                <default>false</default>
+                <label>Secondary Display</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

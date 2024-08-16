@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__CalculatedPromoPlanType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the Promo Plan calculated based on populated fields (MVP)</description>
+    <externalId>false</externalId>
+    <formula>IF(
+     OR(
+        AND ( NOT( ISBLANK( OCE__Account__c ) ), ISBLANK(  OCE1__PurchasingGroup__c ), NOT( ISBLANK(  OCE1__ClusterAttributes__c  ) ) ),
+        AND ( ISBLANK( OCE__Account__c ), NOT( ISBLANK(  OCE1__PurchasingGroup__c ) ), ISBLANK(  OCE1__ClusterAttributes__c  ) ),
+        AND ( ISBLANK( OCE__Account__c ), NOT( ISBLANK(  OCE1__PurchasingGroup__c ) ), NOT( ISBLANK(  OCE1__ClusterAttributes__c  ) ) ),
+        AND ( ISBLANK( OCE__Account__c ), ISBLANK(  OCE1__PurchasingGroup__c ), ISBLANK(  OCE1__ClusterAttributes__c  ) )
+     ), 
+     &quot;&quot;, 
+     IF(
+        AND ( NOT( ISBLANK( OCE__Account__c ) ), ISBLANK(  OCE1__PurchasingGroup__c ),  ISBLANK(  OCE1__ClusterAttributes__c  ) ), 
+        &quot;Pharmacy Promo Plan&quot;, 
+        IF(
+           OR(
+              AND ( NOT( ISBLANK( OCE__Account__c ) ), NOT ( ISBLANK(  OCE1__PurchasingGroup__c ) ), ISBLANK(  OCE1__ClusterAttributes__c  ) ),
+              AND ( NOT( ISBLANK( OCE__Account__c ) ), NOT ( ISBLANK(  OCE1__PurchasingGroup__c ) ), NOT( ISBLANK(  OCE1__ClusterAttributes__c  ) ) )
+           ), 
+           &quot;Purchasing Group Promo Plan&quot;, 
+           IF(
+              AND ( ISBLANK( OCE__Account__c ), ISBLANK(  OCE1__PurchasingGroup__c ), NOT( ISBLANK(  OCE1__ClusterAttributes__c  ) ) ), 
+              &quot;Cycle Promo Plan&quot;,
+              &quot;&quot;
+           ) 
+        ) 
+     ) 
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Type of the Promo Plan calculated based on populated fields</inlineHelpText>
+    <label>Promo Plan Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

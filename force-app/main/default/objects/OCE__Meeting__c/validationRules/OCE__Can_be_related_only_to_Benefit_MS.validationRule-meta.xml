@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Can_be_related_only_to_Benefit_MS</fullName>
+    <active>true</active>
+    <description>Meeting can have a relation with Meeting Services via lookup only with Benefit Meeting Services</description>
+    <errorConditionFormula>AND(OCE__MeetingService__c != null, OCE__MeetingService__r.RecordType.DeveloperName !=&apos;Benefit&apos;)</errorConditionFormula>
+    <errorDisplayField>OCE__MeetingService__c</errorDisplayField>
+    <errorMessage>Meeting can not be related to selected Meeting Service. Only Benefit Meeting Services are allowed</errorMessage>
+</ValidationRule>

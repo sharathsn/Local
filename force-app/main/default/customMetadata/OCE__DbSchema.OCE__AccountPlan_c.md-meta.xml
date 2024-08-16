@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AccountPlan</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__AttachmentsSupport__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__DeltaDateField__c</field>
+        <value xsi:type="xsd:string">LastModifiedDate</value>
+    </values>
+    <values>
+        <field>OCE__EnableDataUploadNotification__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__Errors__c</field>
+        <value xsi:type="xsd:string">Summary: 6 warning(s) detected.
+
+1. [TLEE]: Not accessible sync field OfflineUniqueId__c on object OCE__AccountPlan__c
+
+2. [Senior Executive]: Not accessible sync field OfflineUniqueId__c on object OCE__AccountPlan__c
+
+3. [E&amp;C]: Not accessible sync field OfflineUniqueId__c on object OCE__AccountPlan__c
+
+4. [TLCOE Admin]: Not accessible sync field OfflineUniqueId__c on object OCE__AccountPlan__c
+
+5. [TL Operations]: Not accessible sync field OfflineUniqueId__c on object OCE__AccountPlan__c
+
+6. [Lilly Stakeholder]: Not accessible sync field OfflineUniqueId__c on object OCE__AccountPlan__c</value>
+    </values>
+    <values>
+        <field>OCE__Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__IsSync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__IsWeChatCompatible__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__MandatoryFields__c</field>
+        <value xsi:type="xsd:string">CreatedDate,Id,CreatedById,LastModifiedById,LastModifiedDate,Name,UserRecordAccess.HasReadAccess,UserRecordAccess.HasEditAccess,UserRecordAccess.HasDeleteAccess,UserRecordAccess.HasAllAccess,UserRecordAccess.MaxAccessLevel,OwnerId</value>
+    </values>
+    <values>
+        <field>OCE__OneWaySync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__PermissionSets__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__PermittedProfiles__c</field>
+        <value xsi:type="xsd:string">;;Medical Science Liaison;OCE Admin;Key Account Manager;National Account Manager;TLEE;Senior Executive;E&amp;C;TLCOE Admin;TL Operations;Lilly Stakeholder;</value>
+    </values>
+    <values>
+        <field>OCE__Profiles__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__SObject__c</field>
+        <value xsi:type="xsd:string">OCE__AccountPlan__c</value>
+    </values>
+    <values>
+        <field>OCE__SobjectPlatformEvents__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Status__c</field>
+        <value xsi:type="xsd:string">Warning</value>
+    </values>
+    <values>
+        <field>OCE__Type__c</field>
+        <value xsi:type="xsd:string">Data</value>
+    </values>
+    <values>
+        <field>OCE__WhereSoql__c</field>
+        <value xsi:type="xsd:string">OCE__Account__c IN ({ACCOUNT.IDS}) AND OCE__Account__c IN (SELECT OCE__Account__c FROM OCE__AccountTerritoryFields__c WHERE (OCE__AvailableOffline__c = true OR OCE__OfflineDownloadOverride__c = true) AND OCE__Territory__c = &apos;{USER.TERRITORY}&apos;)</value>
+    </values>
+</CustomMetadata>

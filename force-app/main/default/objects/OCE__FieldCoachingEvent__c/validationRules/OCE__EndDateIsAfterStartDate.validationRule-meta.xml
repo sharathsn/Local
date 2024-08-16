@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EndDateIsAfterStartDate</fullName>
+    <active>true</active>
+    <description>Validate if end date is after start date</description>
+    <errorConditionFormula>OCE__EndDate__c &lt; OCE__StartDate__c</errorConditionFormula>
+    <errorMessage>You should set end date after start date</errorMessage>
+</ValidationRule>

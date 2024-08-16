@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__RestrictAffiliation_OnGlobalToAccount</fullName>
+    <active>false</active>
+    <description>In Affiliation creation, this validation rule will block the creation of Affiliation with a Global Subscribed Account (from or to).</description>
+    <errorConditionFormula>AND(OCE__To__r.OCE__IsGlobal__c , OCE__To__r.OCE__IsSubscribed__c )</errorConditionFormula>
+    <errorDisplayField>OCE__To__c</errorDisplayField>
+    <errorMessage>Affiliation cannot be created for Global Subscribed Accounts.</errorMessage>
+</ValidationRule>

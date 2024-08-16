@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Text field applicable to only HCO that will store the Japanese official name of an organization.</help>
+    <label><!-- Official Name --></label>
+    <name>OCE__OfficialName__c</name>
+</CustomFieldTranslation>

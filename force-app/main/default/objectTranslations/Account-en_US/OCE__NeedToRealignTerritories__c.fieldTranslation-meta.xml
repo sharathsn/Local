@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indicator whether territories need to be re-aligned for current account. Populated at trigger level when Territories__c field is changed and used further by external service to apply Territory Alignment Rules as a part of standard SF functionality.</help>
+    <label><!-- Need To Realign Territories --></label>
+    <name>OCE__NeedToRealignTerritories__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Not Matching Accounts --></label>
+        <name>ENGAGE__NotMatchingAccounts</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Lilly Workday Account --></label>
+        <name>Lilly_Workday_Account</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OCE Bulk Update Allowed Fields --></label>
+        <name>OCE_BulkUpdate_AllowedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Info Dashboard --></label>
+        <name>OCE__CustomerInfoDashboard</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OCE Connect Account Create --></label>
+        <name>OCE__HCPPortalAccCreation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OCE Connect Account Register --></label>
+        <name>OCE__HCPPortalAccRegistration</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ins Doc Account --></label>
+        <name>OCE__InsDocAccount</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OCEx Global Accounts Table --></label>
+        <name>OCE__OCExGlobalAccountsTable</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBC DEFAULT BUSINESS ACCOUNT --></label>
+        <name>OCE__SBC_DEFAULT_BUSINESS_ACCOUNT</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBC DEFAULT PERSON ACCOUNT --></label>
+        <name>OCE__SBC_DEFAULT_PERSON_ACCOUNT</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBC RESULTS BUSINESS ACCOUNT --></label>
+        <name>OCE__SBC_RESULTS_BUSINESS_ACCOUNT</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBC RESULTS PERSON ACCOUNT --></label>
+        <name>OCE__SBC_RESULTS_PERSON_ACCOUNT</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SEARCH HCO ACCOUNT FIELDSET --></label>
+        <name>OCE__SEARCH_HCO_ACCOUNT_FIELDSET</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SEARCH HCP ACCOUNT FIELDSET --></label>
+        <name>OCE__SEARCH_HCP_ACCOUNT_FIELDSET</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Searchable Fields --></label>
+        <name>OCE__SearchableFields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Aesthetic Sold To</layout>
+        <sections>
+            <label><!-- External Identifiers --></label>
+            <section>External Identifiers</section>
+        </sections>
+        <sections>
+            <label><!-- Institution Information --></label>
+            <section>Institution Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HCP Page Layout TLEE</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Education Details --></label>
+            <section>Education Details</section>
+        </sections>
+        <sections>
+            <label><!-- Social Summary --></label>
+            <section>Social Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lilly HCO Layout</layout>
+        <sections>
+            <label>External Identifiers</label>
+            <section>External Identifiers</section>
+        </sections>
+        <sections>
+            <label>Institution Information</label>
+            <section>Institution Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lilly HCP Page Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- External Identifiers --></label>
+            <section>External Identifiers</section>
+        </sections>
+        <sections>
+            <label><!-- Profile Details --></label>
+            <section>Profile Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Feature --></description>
+        <label><!-- Business Account --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For the SF Support --></description>
+        <label><!-- Business Account --></label>
+        <name>ENGAGE__Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HTC (Hemophilia Treatment Center) --></label>
+        <name>HTC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LAB --></label>
+        <name>LAB</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The department of a health care organization like a hospital that is responsible for the provisioning of certain specialty of medical care like cardiology, radiology and gastroenterology. --></description>
+        <label><!-- Department --></label>
+        <name>OCE__Department</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An entity that helps healthcare providers-such as hospitals, nursing homes and home health agencies to realize savings by aggregating purchasing volume and using that leverage to negotiate discounts with manufacturers, distributors and other vendors. --></description>
+        <label><!-- GPO (Group Purchasing Organization) --></label>
+        <name>OCE__GPO</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Parent organization in which healthcare providers are strategically aligned, forming a local network to provide a continuum of care and services in a geographic area or market in order to improve care and control costs. --></description>
+        <label><!-- IDN (Integrated Delivery Network) --></label>
+        <name>OCE__IDN</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Institution Doctor --></description>
+        <label><!-- Ins-Doc --></label>
+        <name>OCE__Ins_Doc</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A health care organization providing patient treatment with specialized medical and nursing staff and medical equipment. --></description>
+        <label><!-- Institution --></label>
+        <name>OCE__Institution</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- These are organizations that contract with MCOs to administer pharmacy benefits to members. In many cases, the MCO delegates the pharmacy benefit management to the PBM. --></description>
+        <label><!-- Pharmacy Benefits Manager --></label>
+        <name>OCE__PBM</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A managed care organization (MCO) is a health care provider or a group or organization of medical service providers who offers managed care health plans. It is a health organization that contracts with insurers or self-insured employers. --></description>
+        <label><!-- Payer --></label>
+        <name>OCE__Payer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A business that compounds and dispenses medications and modern services related to healthcare including clinical services, reviewing medications for safety and efficacy, and providing drug information. --></description>
+        <label><!-- Pharmacy --></label>
+        <name>OCE__Pharmacy</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Managed care plans are a type of health insurance. They have contracts with health care providers and medical facilities to provide care for members at reduced costs. --></description>
+        <label><!-- Plan --></label>
+        <name>OCE__Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An organization in which medical professionals work together as legal partners to provide healthcare. --></description>
+        <label><!-- Practice --></label>
+        <name>OCE__Practices</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An organization that procures, stores and distributes pharmaceutical products in large quantities at low prices, typically to pharmacies or hospitals. --></description>
+        <label><!-- Wholesaler --></label>
+        <name>OCE__Wholesaler</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Aesthetics Demo Record Type --></description>
+        <label><!-- Sold To --></label>
+        <name>Sold_To</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Account Name is not editable for users --></errorMessage>
+        <name>Lilly_Users_should_not_edit_AccountName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot edit or create subscribed accounts --></errorMessage>
+        <name>OCE__Disable_OCEx_subscribed_accounts_edit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot assign a Global Account as Parent Account. --></errorMessage>
+        <name>OCE__Prevent_Global_Parent_Account_Selection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Speaker record already exists for this Account. --></errorMessage>
+        <name>OCE__Unchecking_is_speaker</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Account_Search --></label>
+        <name>Account_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>OCE__AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>OCE__GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>OCE__GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>OCE__GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>OCE__HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>OCE__YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

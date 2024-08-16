@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ZipCode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Zip code of the address.</description>
+    <externalId>false</externalId>
+    <formula>OCE__Address__r.OCE__ZipCode__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Zip code of the address.</inlineHelpText>
+    <label>Zip Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

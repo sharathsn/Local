@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DefaultPaymentTerm__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Default payment term for an Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default payment term for an Account.</inlineHelpText>
+    <label>Default Payment Term</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>OCE__PaymentTerm</valueSetName>
+    </valueSet>
+</CustomField>

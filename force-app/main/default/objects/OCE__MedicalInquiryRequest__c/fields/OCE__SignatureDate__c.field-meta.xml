@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SignatureDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Date and Time that the Account signed for the Medical Inquiry.</description>
+    <externalId>false</externalId>
+    <label>Signature Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

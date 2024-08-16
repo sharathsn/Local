@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ProgressDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If progress completed, shows End Date.If status Started -shows Started Date else - CreatedProgress Date.</description>
+    <externalId>false</externalId>
+    <formula>if (
+    OCE__Progress__c = &quot;Completed&quot;,
+    OCE__EndDate__c,
+    if (
+        OCE__Progress__c = &quot;Started&quot;,
+        OCE__StartDate__c, 
+        CreatedDate
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ProgressDate</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

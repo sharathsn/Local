@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__SalesTactic__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Promotional activity tactic based on the selected sales driver (MVP)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Promotional activity tactic based on the selected sales driver</inlineHelpText>
+    <label>Sales Tactic</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>OCE1__SalesDriver__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Topics of interest of the Pharmacist</fullName>
+                <default>false</default>
+                <label>Topics of interest of the Pharmacist</label>
+            </value>
+            <value>
+                <fullName>Sales Rep / Trade Rep</fullName>
+                <default>false</default>
+                <label>Sales Rep / Trade Rep</label>
+            </value>
+            <value>
+                <fullName>Medical Information advisor</fullName>
+                <default>false</default>
+                <label>Medical Information advisor</label>
+            </value>
+            <value>
+                <fullName>Remote learning</fullName>
+                <default>false</default>
+                <label>Remote learning</label>
+            </value>
+            <value>
+                <fullName>Training events outside the POS</fullName>
+                <default>false</default>
+                <label>Training events outside the POS</label>
+            </value>
+            <value>
+                <fullName>Free unassisted on-line</fullName>
+                <default>false</default>
+                <label>Free unassisted on-line</label>
+            </value>
+            <value>
+                <fullName>Assisted training</fullName>
+                <default>false</default>
+                <label>Assisted training</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>On Shelf / Continuous price cut</fullName>
+                <default>false</default>
+                <label>On Shelf / Continuous price cut</label>
+            </value>
+            <value>
+                <fullName>Floor display / Occasional Price cut</fullName>
+                <default>false</default>
+                <label>Floor display / Occasional Price cut</label>
+            </value>
+            <value>
+                <fullName>Magazine / Web / Fidelity Card Coupons</fullName>
+                <default>false</default>
+                <label>Magazine / Web / Fidelity Card Coupons</label>
+            </value>
+            <value>
+                <fullName>On-line promo / through an app</fullName>
+                <default>false</default>
+                <label>On-line promo / through an app</label>
+            </value>
+            <value>
+                <fullName>Pharmacy / Chain Leaflet</fullName>
+                <default>false</default>
+                <label>Pharmacy / Chain Leaflet</label>
+            </value>
+            <value>
+                <fullName>Proactive advice with cross-selling</fullName>
+                <default>false</default>
+                <label>Proactive advice with cross-selling</label>
+            </value>
+            <value>
+                <fullName>Poster</fullName>
+                <default>false</default>
+                <label>Poster</label>
+            </value>
+            <value>
+                <fullName>Pharmacist recommendation</fullName>
+                <default>false</default>
+                <label>Pharmacist recommendation</label>
+            </value>
+            <value>
+                <fullName>In store promotion</fullName>
+                <default>false</default>
+                <label>In store promotion</label>
+            </value>
+            <value>
+                <fullName>Throough consulting (e.g hair analysis)</fullName>
+                <default>false</default>
+                <label>Throough consulting (e.g hair analysis)</label>
+            </value>
+            <value>
+                <fullName>Sampling</fullName>
+                <default>false</default>
+                <label>Sampling</label>
+            </value>
+            <value>
+                <fullName>Combined products promo sale</fullName>
+                <default>false</default>
+                <label>Combined products promo sale</label>
+            </value>
+            <value>
+                <fullName>Blockbuster products</fullName>
+                <default>false</default>
+                <label>Blockbuster products</label>
+            </value>
+            <value>
+                <fullName>Side pods or Pharmacy branded prods</fullName>
+                <default>false</default>
+                <label>Side pods or Pharmacy branded prods</label>
+            </value>
+            <value>
+                <fullName>Special offer / Basket</fullName>
+                <default>false</default>
+                <label>Special offer / Basket</label>
+            </value>
+            <value>
+                <fullName>1 + 1 to consumer</fullName>
+                <default>false</default>
+                <label>1 + 1 to consumer</label>
+            </value>
+            <value>
+                <fullName>Fidelity Card</fullName>
+                <default>false</default>
+                <label>Fidelity Card</label>
+            </value>
+            <value>
+                <fullName>Shelf Behind the counter</fullName>
+                <default>false</default>
+                <label>Shelf Behind the counter</label>
+            </value>
+            <value>
+                <fullName>Free Shelf Counter</fullName>
+                <default>false</default>
+                <label>Free Shelf Counter</label>
+            </value>
+            <value>
+                <fullName>Showcase</fullName>
+                <default>false</default>
+                <label>Showcase</label>
+            </value>
+            <value>
+                <fullName>Paper Poster</fullName>
+                <default>false</default>
+                <label>Paper Poster</label>
+            </value>
+            <value>
+                <fullName>New Poster on the Web Site</fullName>
+                <default>false</default>
+                <label>New Poster on the Web Site</label>
+            </value>
+            <value>
+                <fullName>Healthcare Magazine on the Pharmacy</fullName>
+                <default>false</default>
+                <label>Healthcare Magazine on the Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Scored Fidelity Card</fullName>
+                <default>false</default>
+                <label>Scored Fidelity Card</label>
+            </value>
+            <value>
+                <fullName>24H Vending Machine</fullName>
+                <default>false</default>
+                <label>24H Vending Machine</label>
+            </value>
+            <value>
+                <fullName>Advertising on a monitor in POS</fullName>
+                <default>false</default>
+                <label>Advertising on a monitor in POS</label>
+            </value>
+            <value>
+                <fullName>Consumer Educational Corner</fullName>
+                <default>false</default>
+                <label>Consumer Educational Corner</label>
+            </value>
+            <value>
+                <fullName>External Signboard with product images</fullName>
+                <default>false</default>
+                <label>External Signboard with product images</label>
+            </value>
+            <value>
+                <fullName>e-Commerce Web Site</fullName>
+                <default>false</default>
+                <label>e-Commerce Web Site</label>
+            </value>
+            <value>
+                <fullName>In store vent</fullName>
+                <default>false</default>
+                <label>In store vent</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Shelf Behind the counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Free Shelf Counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Showcase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Paper Poster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>New Poster on the Web Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Healthcare Magazine on the Pharmacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Scored Fidelity Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>24H Vending Machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Advertising on a monitor in POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>Consumer Educational Corner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>External Signboard with product images</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>e-Commerce Web Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Visibility</controllingFieldValue>
+            <valueName>In store vent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>On Shelf / Continuous price cut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Floor display / Occasional Price cut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Magazine / Web / Fidelity Card Coupons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>On-line promo / through an app</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Pharmacy / Chain Leaflet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Proactive advice with cross-selling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Poster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Pharmacist recommendation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>In store promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Throough consulting (e.g hair analysis)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Combined products promo sale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Blockbuster products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Side pods or Pharmacy branded prods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Special offer / Basket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>1 + 1 to consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <valueName>Fidelity Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Topics of interest of the Pharmacist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Sales Rep / Trade Rep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Medical Information advisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Remote learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Training events outside the POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Free unassisted on-line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Assisted training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

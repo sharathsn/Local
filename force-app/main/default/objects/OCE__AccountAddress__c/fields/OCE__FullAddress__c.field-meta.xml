@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__FullAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Displays a concatenated address to show the entire address for an Account.</description>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(
+            SUBSTITUTE(
+IF(OCE__Workplace__c!=&apos;&apos;, OCE__Workplace__r.OCE__AccountFullName__c&amp;&apos;, &apos;,&apos;&apos;)&amp;
+OCE__AddressLine1__c&amp;
+IF(OCE__AddressLine2__c!=&apos;&apos;,&apos;, &apos;&amp; OCE__AddressLine2__c,&apos;&apos;)&amp;
+IF(OCE__AddressLine3__c!=&apos;&apos;,&apos;, &apos;&amp; OCE__AddressLine3__c,&apos;&apos;)&amp;
+IF(OCE__AddressLine4__c!=&apos;&apos;,&apos;, &apos;&amp; OCE__AddressLine4__c,&apos;&apos;)&amp;
+IF(OR(OCE__City__c !=&apos;&apos;, OCE__State__c !=&apos;&apos;, OCE__Country__c !=&apos;&apos;, OCE__ZipCode__c !=&apos;&apos;), &apos;,&apos;, &apos;&apos;)&amp;
+&apos;&lt;br/&gt;&apos;&amp;
+IF(OCE__City__c !=&apos;&apos;,&apos;, &apos;&amp; OCE__City__c,&apos;&apos;)&amp;
+IF(OCE__State__c !=&apos;&apos;,&apos;, &apos;&amp; OCE__State__c,&apos;&apos;)&amp;
+IF(OCE__Country__c !=&apos;&apos;,&apos;, &apos;&amp; OCE__Country__c,&apos;&apos;)&amp;
+IF(OCE__ZipCode__c !=&apos;&apos;,&apos;, &apos;&amp; OCE__ZipCode__c,&apos;&apos;),
+&apos;&lt;br/&gt;,&apos;,&apos;&lt;br/&gt;&apos;),
+&apos;&lt;br/&gt;&apos;,&apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Displays a concatenated address to show the entire address for an Account.</inlineHelpText>
+    <label>Preferred Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

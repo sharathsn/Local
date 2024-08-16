@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stores Professional Title</help>
+    <label><!-- Professional Title --></label>
+    <name>OCE__ProfessionalTitle__c</name>
+    <picklistValues>
+        <masterLabel>Alternative Medicine</masterLabel>
+        <translation>Alternative Medicine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audiologist</masterLabel>
+        <translation>Audiologist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chiropractor</masterLabel>
+        <translation>Chiropractor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Counselor</masterLabel>
+        <translation>Counselor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentists</masterLabel>
+        <translation>Dentists</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctors of Osteopathy</masterLabel>
+        <translation>Doctors of Osteopathy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Administrator</masterLabel>
+        <translation>Healthcare Administrator</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Assistant</masterLabel>
+        <translation>Medical Assistant</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Doctors</masterLabel>
+        <translation>Medical Doctors</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Naturopathic Doctor</masterLabel>
+        <translation>Naturopathic Doctor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation>Nurse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nutritionist</masterLabel>
+        <translation>Nutritionist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Occupational Therapist</masterLabel>
+        <translation>Occupational Therapist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optometrists</masterLabel>
+        <translation>Optometrists</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Service Provider</masterLabel>
+        <translation>Other Service Provider</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation>Pharmacist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Therapist</masterLabel>
+        <translation>Physical Therapist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physician Assistants</masterLabel>
+        <translation>Physician Assistants</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Podiatrists</masterLabel>
+        <translation>Podiatrists</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychologist</masterLabel>
+        <translation>Psychologist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Worker</masterLabel>
+        <translation>Social Worker</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician/Technologist</masterLabel>
+        <translation>Technician/Technologist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unspecified Profession</masterLabel>
+        <translation>Unspecified Profession</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veterinarians</masterLabel>
+        <translation>Veterinarians</translation>
+    </picklistValues>
+</CustomFieldTranslation>

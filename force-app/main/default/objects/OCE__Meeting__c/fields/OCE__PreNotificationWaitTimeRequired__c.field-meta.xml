@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreNotificationWaitTimeRequired__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of days that must be waited AFTER Pre-Notification was submitted to the external authority BEFORE authority can be deemed non-responsive and use of Plan Member can continue.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of days that must be waited after the external authority was notified before the authority can be non-responsive.</inlineHelpText>
+    <label>PreNotification Wait Time Reqd (days)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

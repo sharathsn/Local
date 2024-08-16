@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__WorkplaceAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Workplace Address.</description>
+    <externalId>false</externalId>
+    <formula>OCE__Workplace__r.Name
+            + IF (ISBLANK(OCE__Workplace__r.OCE__BuildingLabel__c)
+            ,&apos;&apos;
+            ,&apos; (&apos;+ OCE__Workplace__r.OCE__BuildingLabel__c + &apos;)&apos;
+            )
+            + IF (ISBLANK(OCE__Workplace__r.OCE__PrimaryAccountAddress__r.OCE__AddressLine1__c)
+            ,&apos;&apos;
+            ,&apos;, &apos; + OCE__Workplace__r.OCE__PrimaryAccountAddress__r.OCE__AddressLine1__c
+            )
+            + IF( ISBLANK(OCE__Workplace__r.OCE__PrimaryAccountAddress__r.OCE__Brick__c)
+            ,&apos;&apos;
+            ,&apos;, &apos; + OCE__Workplace__r.OCE__PrimaryAccountAddress__r.OCE__Brick__c
+            )
+            + IF( ISBLANK(OCE__Workplace__r.OCE__PrimaryAccountAddress__r.OCE__City__c)
+            ,&apos;&apos;
+            ,&apos;, &apos; + OCE__Workplace__r.OCE__PrimaryAccountAddress__r.OCE__City__c
+            )</formula>
+    <label>Workplace Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Citations Per Pub --></label>
+    <name>Lilly_Citations_Per_Pub__c</name>
+</CustomFieldTranslation>

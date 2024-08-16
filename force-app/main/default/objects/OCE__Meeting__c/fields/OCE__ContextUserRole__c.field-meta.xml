@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ContextUserRole__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents current User role based on Colleagues in related Meeting Members.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+            CONTAINS(OCE__Roles__c, $User.Id),
+            MID(
+            RIGHT(OCE__Roles__c,LEN(OCE__Roles__c)-FIND($User.Id, OCE__Roles__c)+1),
+            FIND(&apos;-&apos;,RIGHT(OCE__Roles__c,LEN(OCE__Roles__c)-FIND($User.Id, OCE__Roles__c)+1))+1,
+            FIND(&apos;,&apos;,RIGHT(OCE__Roles__c,LEN(OCE__Roles__c)-FIND($User.Id, OCE__Roles__c)+1))-FIND(&apos;-&apos;,RIGHT(OCE__Roles__c,LEN(OCE__Roles__c)-FIND($User.Id, OCE__Roles__c)+1))-1
+            )
+            , IF($Permission.OCE__Meetings_Super_User, &apos;Super User&apos; 
+            , IF($Permission.OCE__AgencyMember, &apos;Agency Member&apos;
+            , IF($Permission.OCE__EngagePortalUser, &apos;Engage Portal User&apos;
+            , IF($Permission.OCE__EngagePortalGuestUser, &apos;Engage Portal Guest User&apos;, &apos;&apos;
+            )))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Represents current User role based on Colleagues in related Meeting Members.</inlineHelpText>
+    <label>Context User Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

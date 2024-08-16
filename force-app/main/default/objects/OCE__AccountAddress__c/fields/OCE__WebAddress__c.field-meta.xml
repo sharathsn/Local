@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__WebAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores Web Address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores Web Address</inlineHelpText>
+    <label>Web Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

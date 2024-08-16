@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__FormattedHostingEndDateTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>End Date/Time in an international format (by default uses `EEE, d MMM yyyy HH:mm zzz` mask).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>End Date/Time in an international format (by default uses `EEE, d MMM yyyy HH:mm zzz` mask).</inlineHelpText>
+    <label>Formatted End Date/Time</label>
+    <length>50</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

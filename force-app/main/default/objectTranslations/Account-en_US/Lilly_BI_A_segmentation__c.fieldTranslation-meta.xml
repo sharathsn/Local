@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BI&amp;A segmentation --></label>
+    <name>Lilly_BI_A_segmentation__c</name>
+    <picklistValues>
+        <masterLabel>Segment 1</masterLabel>
+        <translation><!-- Segment 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Segment 2</masterLabel>
+        <translation><!-- Segment 2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

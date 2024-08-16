@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supporting_Medical_Letters_Docs__c</fullName>
+    <externalId>false</externalId>
+    <label>Supporting Medical Letters/Docs</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ML - IQVAMAB 001</fullName>
+                <default>false</default>
+                <label>ML - IQVAMAB 001</label>
+            </value>
+            <value>
+                <fullName>ML - IQVAMAB 002</fullName>
+                <default>false</default>
+                <label>ML - IQVAMAB 002</label>
+            </value>
+            <value>
+                <fullName>ML - IQVAMAB 003</fullName>
+                <default>false</default>
+                <label>ML - IQVAMAB 003</label>
+            </value>
+            <value>
+                <fullName>ML - IQVAMAB 004</fullName>
+                <default>false</default>
+                <label>ML - IQVAMAB 004</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

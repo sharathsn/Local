@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Associated Congress (if applicable) --></label>
+    <name>Lilly_Associated_Congress_if_applicable__c</name>
+    <picklistValues>
+        <masterLabel>(ADA) American Diabetes Association</masterLabel>
+        <translation><!-- (ADA) American Diabetes Association --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(AHA) American Heart Association</masterLabel>
+        <translation><!-- (AHA) American Heart Association --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(ATTD) Advanced Technologies &amp; Treatments for Diabetes</masterLabel>
+        <translation><!-- (ATTD) Advanced Technologies &amp; Treatments for Diabetes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(ECO) European Congress on Obesity</masterLabel>
+        <translation><!-- (ECO) European Congress on Obesity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(OW) Obesity Week</masterLabel>
+        <translation><!-- (OW) Obesity Week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(WCIRDC) - World Congress on Insulin Resistance, Diabetes &amp; Cardiovascular Disease</masterLabel>
+        <translation><!-- (WCIRDC) - World Congress on Insulin Resistance, Diabetes &amp; Cardiovascular Disease --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

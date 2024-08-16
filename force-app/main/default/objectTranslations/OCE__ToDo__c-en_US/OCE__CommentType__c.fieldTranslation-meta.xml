@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type of the comment.</help>
+    <label><!-- Comment Type --></label>
+    <name>OCE__CommentType__c</name>
+    <picklistValues>
+        <masterLabel>Requestor Comment</masterLabel>
+        <translation>Requestor Comment</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reviewer Comment</masterLabel>
+        <translation>Reviewer Comment</translation>
+    </picklistValues>
+</CustomFieldTranslation>

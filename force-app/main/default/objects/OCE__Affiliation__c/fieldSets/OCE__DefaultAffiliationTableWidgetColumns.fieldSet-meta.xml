@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DefaultAffiliationTableWidgetColumns</fullName>
+    <description>Used as a source of columns to be displayed on Affiliation table widget. Be reasonable regarding the number of columns included here.</description>
+    <displayedFields>
+        <field>OCE__Roles__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>OCE__Influence__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>OCE__Strength__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Default Affiliation Table Widget Columns</label>
+</FieldSet>

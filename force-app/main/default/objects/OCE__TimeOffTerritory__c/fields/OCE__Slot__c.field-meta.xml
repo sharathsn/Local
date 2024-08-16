@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Slot__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Part of the day for which time off will be picked</description>
+    <externalId>false</externalId>
+    <label>Slot</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Morning</fullName>
+                <default>false</default>
+                <label>Morning</label>
+            </value>
+            <value>
+                <fullName>Afternoon</fullName>
+                <default>false</default>
+                <label>Afternoon</label>
+            </value>
+            <value>
+                <fullName>Evening</fullName>
+                <default>false</default>
+                <label>Evening</label>
+            </value>
+            <value>
+                <fullName>AllDay</fullName>
+                <default>false</default>
+                <label>All Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

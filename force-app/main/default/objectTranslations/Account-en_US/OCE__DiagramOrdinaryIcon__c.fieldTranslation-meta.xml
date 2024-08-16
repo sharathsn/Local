@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Icon to represent account on affiliation diagram in normal state, i.e. no selection.</help>
+    <label><!-- DEPRECATED Diagram Ordinary Icon --></label>
+    <name>OCE__DiagramOrdinaryIcon__c</name>
+</CustomFieldTranslation>

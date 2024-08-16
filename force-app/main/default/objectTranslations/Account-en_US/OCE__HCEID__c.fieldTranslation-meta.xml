@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>HCE ID</help>
+    <label><!-- HCE ID --></label>
+    <name>OCE__HCEID__c</name>
+</CustomFieldTranslation>

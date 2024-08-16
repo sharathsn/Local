@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The name of the Territory the Account belongs to. This is used so Reps can view information at both an Account and Territory level in this object.</help>
+    <label><!-- Territory --></label>
+    <name>OCE__Territory__c</name>
+</CustomFieldTranslation>

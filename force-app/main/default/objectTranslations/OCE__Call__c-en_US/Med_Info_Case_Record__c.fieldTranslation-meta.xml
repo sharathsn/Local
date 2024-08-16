@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Med Info Case Record --></label>
+    <name>Med_Info_Case_Record__c</name>
+    <picklistValues>
+        <masterLabel>MedInfoCase 001</masterLabel>
+        <translation><!-- MedInfoCase 001 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedInfoCase 002</masterLabel>
+        <translation><!-- MedInfoCase 002 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedInfoCase 003</masterLabel>
+        <translation><!-- MedInfoCase 003 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedInfoCase 004</masterLabel>
+        <translation><!-- MedInfoCase 004 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedInfoCase 005</masterLabel>
+        <translation><!-- MedInfoCase 005 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedInfoCase 006</masterLabel>
+        <translation><!-- MedInfoCase 006 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MedInfoCase 007</masterLabel>
+        <translation><!-- MedInfoCase 007 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

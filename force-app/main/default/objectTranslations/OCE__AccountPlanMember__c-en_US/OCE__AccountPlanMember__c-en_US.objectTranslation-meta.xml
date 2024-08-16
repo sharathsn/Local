@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plan Members</value>
+    </caseValues>
+    <layouts>
+        <layout>Lilly Account Plan Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Plan Member Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot modify Global Team Member --></errorMessage>
+        <name>OCE__Subscribed_Change_Not_Allowed</name>
+    </validationRules>
+</CustomObjectTranslation>

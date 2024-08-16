@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__OwnerAndEmployeeIsSameUser</fullName>
+    <active>false</active>
+    <description>Prevent a case when Owner and Employee is the same User</description>
+    <errorConditionFormula>OwnerId = OCE__User__c</errorConditionFormula>
+    <errorMessage>Event Owner and Employee cannot be the same User</errorMessage>
+</ValidationRule>

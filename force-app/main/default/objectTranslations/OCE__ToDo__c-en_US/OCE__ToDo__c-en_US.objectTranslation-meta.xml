@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TL</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TL</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- AT ToDo Fieldset --></label>
+        <name>OCE__AT_ToDo_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Compliance View Field set --></label>
+        <name>OCE__AccountComplianceViewFieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Plan Tree View Columns --></label>
+        <name>OCE__AccountPlanTreeViewColumns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Plan Tree View Info --></label>
+        <name>OCE__AccountPlanTreeViewInfo</name>
+    </fieldSets>
+    <layouts>
+        <layout>Lilly To-Do Master Page Layout</layout>
+        <sections>
+            <label><!-- Accept Plan Information --></label>
+            <section>Accept Plan Information</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Plan Stats --></label>
+            <section>Engagement Plan Stats</section>
+        </sections>
+        <sections>
+            <label><!-- Post Execution Details (Integration or Manual Entry) --></label>
+            <section>Post Execution Details (Integration or Manual Entry)</section>
+        </sections>
+        <sections>
+            <label><!-- Profile Metrics --></label>
+            <section>Profile Metrics</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>TL Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- TL cannot be changed when Contracted Activity status is Completed --></errorMessage>
+        <name>CA_Status_Not_Executed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account should match current Account Objective&apos;s Account Plan&apos;s Account. --></errorMessage>
+        <name>OCE__AccountMatchAccountPlanAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account should match current Account Objective&apos;s Account Plan&apos;s Account. --></errorMessage>
+        <name>OCE__AccountMatchAccountPlanAccountDigital</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ToDo cannot be changed when Account Objective Approved Status is Pending or Approved --></errorMessage>
+        <name>OCE__Pending_Or_Approved_Change_Not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot modify Global To-Do --></errorMessage>
+        <name>OCE__Subscribed_Change_Not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tactic field cannot be blank. --></errorMessage>
+        <name>OCE__TacticIsNotBlank</name>
+    </validationRules>
+</CustomObjectTranslation>

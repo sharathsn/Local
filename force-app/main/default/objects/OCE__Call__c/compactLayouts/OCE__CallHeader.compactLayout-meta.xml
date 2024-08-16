@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__CallHeader</fullName>
+    <fields>OCE__Account__c</fields>
+    <fields>OCE__LocationName__c</fields>
+    <fields>OCE__CallDateTime__c</fields>
+    <fields>OCE__Channel__c</fields>
+    <fields>OCE__Territory__c</fields>
+    <fields>OCE__DurationPicklist__c</fields>
+    <fields>OCE__IsConfirmed__c</fields>
+    <label>CallHeader</label>
+</CompactLayout>

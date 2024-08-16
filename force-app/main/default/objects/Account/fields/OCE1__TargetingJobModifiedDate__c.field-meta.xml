@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__TargetingJobModifiedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date and time when Account was processed by Presentation Targeting batch job. (MVP)</description>
+    <externalId>false</externalId>
+    <label>Targeting Job Modified Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

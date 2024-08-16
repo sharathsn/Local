@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nurse_Educator_Standard</fullName>
+    <active>true</active>
+    <description>Standard HCP/HCO record type</description>
+    <label>HCP/HCO Base</label>
+    <picklistValues>
+        <picklist>Lilly_Associated_Congress_if_applicable__c</picklist>
+        <values>
+            <fullName>%28ADA%29 American Diabetes Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28AHA%29 American Heart Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28ATTD%29 Advanced Technologies %26 Treatments for Diabetes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28ECO%29 European Congress on Obesity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28OW%29 Obesity Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28WCIRDC%29 - World Congress on Insulin Resistance%2C Diabetes %26 Cardiovascular Disease</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lilly_Disease_Area__c</picklist>
+        <values>
+            <fullName>Cardiometabolic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glycemic Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obesity%2FNILEX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lilly_Engagement_Title__c</picklist>
+        <values>
+            <fullName>Contracted Activity - Advising - Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracted Activity - Advising - Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracted Activity - Speaking - Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracted Activity - Speaking - Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Insights Gathering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership with Lilly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lilly_Engagement_Type__c</picklist>
+        <values>
+            <fullName>Contracted Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Contracted Engagement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lilly_Meeting_Type__c</picklist>
+        <values>
+            <fullName>General Insights Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Med_Info_Case_Record__c</picklist>
+        <values>
+            <fullName>MedInfoCase 001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedInfoCase 002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedInfoCase 003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedInfoCase 004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedInfoCase 005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedInfoCase 006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedInfoCase 007</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_Prescriber_Attendee_Role__c</picklist>
+        <values>
+            <fullName>Billing Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Care Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy Technician</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_Prescriber_Subrole__c</picklist>
+        <values>
+            <fullName>BM Option 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BM Option 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC Option 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC Option 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OA Option 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OA Option 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT Option 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT Option 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__BookingStatus__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retrieved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Record_Type__c</picklist>
+        <values>
+            <fullName>Branded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Branded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Responded_to_Unsolicited_Request__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

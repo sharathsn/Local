@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__FinalParticipants__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of all Meeting Members who attended the Meeting (Attendance Status = Attended-eSigned, Attended-QR Code, Attended-Paper Signed, Attended-Did Not Sign).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of all Meeting Members who attended the Meeting (Attendance Status = Attended-eSigned, Attended-Paper Signed, Attended-Did Not Sign).</inlineHelpText>
+    <label>Final Participants</label>
+    <summaryFilterItems>
+        <field>OCE__MeetingMember__c.OCE__AttendanceStatus__c</field>
+        <operation>equals</operation>
+        <value>Attended-eSigned, Attended-Paper Signed, Attended-Did Not Sign, Attended-QR Code</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OCE__MeetingMember__c.OCE__Meeting__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

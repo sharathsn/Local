@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Account</fullName>
+    <active>true</active>
+    <label>Account</label>
+    <picklistValues>
+        <picklist>OCE__Department__c</picklist>
+        <values>
+            <fullName>Department 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__InfluenceType__c</picklist>
+        <values>
+            <fullName>Influence Type 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__Role__c</picklist>
+        <values>
+            <fullName>Role 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__Strength__c</picklist>
+        <values>
+            <fullName>Strength 1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

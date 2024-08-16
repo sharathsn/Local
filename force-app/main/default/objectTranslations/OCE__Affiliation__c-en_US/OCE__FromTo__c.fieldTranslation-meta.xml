@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Key based on from and to ids, e.g. to help dealing with uniqueness.</help>
+    <label><!-- From To --></label>
+    <name>OCE__FromTo__c</name>
+</CustomFieldTranslation>

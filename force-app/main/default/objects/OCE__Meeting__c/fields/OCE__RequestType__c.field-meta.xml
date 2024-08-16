@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__RequestType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the form of value transfer to the beneficiary.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the form of value transfer to the beneficiary.</inlineHelpText>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>OCE__Subtype__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accredited Continuing Education</fullName>
+                <default>false</default>
+                <label>Accredited Continuing Education</label>
+            </value>
+            <value>
+                <fullName>Non-Accredited Professional Education</fullName>
+                <default>false</default>
+                <label>Non-Accredited Professional Education</label>
+            </value>
+            <value>
+                <fullName>Non-Medical</fullName>
+                <default>false</default>
+                <label>Non-Medical</label>
+            </value>
+            <value>
+                <fullName>Charitable Contribution</fullName>
+                <default>false</default>
+                <label>Charitable Contribution</label>
+            </value>
+            <value>
+                <fullName>Community Initiative</fullName>
+                <default>false</default>
+                <label>Community Initiative</label>
+            </value>
+            <value>
+                <fullName>Medical Mission</fullName>
+                <default>false</default>
+                <label>Medical Mission</label>
+            </value>
+            <value>
+                <fullName>Social Services</fullName>
+                <default>false</default>
+                <label>Social Services</label>
+            </value>
+            <value>
+                <fullName>Scholarship</fullName>
+                <default>false</default>
+                <label>Scholarship</label>
+            </value>
+            <value>
+                <fullName>Salary</fullName>
+                <default>false</default>
+                <label>Salary</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Patient Advocacy</fullName>
+                <default>false</default>
+                <label>Patient Advocacy</label>
+            </value>
+            <value>
+                <fullName>Social Advocacy</fullName>
+                <default>false</default>
+                <label>Social Advocacy</label>
+            </value>
+            <value>
+                <fullName>Scientific Conference</fullName>
+                <default>false</default>
+                <label>Scientific Conference</label>
+            </value>
+            <value>
+                <fullName>Scientific Research</fullName>
+                <default>false</default>
+                <label>Scientific Research</label>
+            </value>
+            <value>
+                <fullName>Full Protocol</fullName>
+                <default>false</default>
+                <label>Full Protocol</label>
+            </value>
+            <value>
+                <fullName>Concept</fullName>
+                <default>false</default>
+                <label>Concept</label>
+            </value>
+            <value>
+                <fullName>Full Proposal</fullName>
+                <default>false</default>
+                <label>Full Proposal</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Non-interventional</controllingFieldValue>
+            <controllingFieldValue>Observational</controllingFieldValue>
+            <controllingFieldValue>Registry</controllingFieldValue>
+            <controllingFieldValue>Pre-Clinical</controllingFieldValue>
+            <controllingFieldValue>Clinical</controllingFieldValue>
+            <controllingFieldValue>Non-Clinical</controllingFieldValue>
+            <controllingFieldValue>Interventional</controllingFieldValue>
+            <valueName>Full Protocol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-interventional</controllingFieldValue>
+            <controllingFieldValue>Observational</controllingFieldValue>
+            <controllingFieldValue>Registry</controllingFieldValue>
+            <controllingFieldValue>Pre-Clinical</controllingFieldValue>
+            <controllingFieldValue>Clinical</controllingFieldValue>
+            <controllingFieldValue>Non-Clinical</controllingFieldValue>
+            <controllingFieldValue>Interventional</controllingFieldValue>
+            <valueName>Concept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education Grant</controllingFieldValue>
+            <valueName>Accredited Continuing Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education Grant</controllingFieldValue>
+            <controllingFieldValue>Non Accredited Medical Education</controllingFieldValue>
+            <valueName>Non-Accredited Professional Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education Grant</controllingFieldValue>
+            <valueName>Non-Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donation</controllingFieldValue>
+            <valueName>Charitable Contribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donation</controllingFieldValue>
+            <valueName>Community Initiative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donation</controllingFieldValue>
+            <valueName>Medical Mission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donation</controllingFieldValue>
+            <valueName>Social Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fellowship</controllingFieldValue>
+            <valueName>Scholarship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fellowship</controllingFieldValue>
+            <valueName>Salary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fellowship</controllingFieldValue>
+            <valueName>Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Patient Advocacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advocacy</controllingFieldValue>
+            <valueName>Social Advocacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scientific</controllingFieldValue>
+            <valueName>Scientific Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scientific</controllingFieldValue>
+            <valueName>Scientific Research</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__FormattedAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formatted Address</description>
+    <externalId>false</externalId>
+    <formula>OCE__Account__r.OCE__AccountFullName__c &amp; 
+&apos;, &apos; 
+&amp;
+OCE__AddressLine1__c
+&amp;
+IF( ISBLANK(OCE__AddressLine2__c), &apos;&apos; , &apos;, &apos;&amp; OCE__AddressLine2__c )
+&amp;
+IF( ISBLANK(OCE__AddressLine3__c), &apos;&apos; , &apos;, &apos;&amp; OCE__AddressLine3__c )
+&amp;
+IF( ISBLANK(OCE__AddressLine4__c), &apos;&apos; , &apos;, &apos;&amp; OCE__AddressLine4__c )
+&amp;
+IF( ISBLANK(OCE__City__c), &apos;&apos;, &apos;, &apos;&amp; OCE__City__c )
+&amp; 
+IF( ISBLANK(OCE__State__c), &apos;&apos; , &apos;, &apos;&amp; OCE__State__c )
+&amp; 
+IF( ISBLANK(OCE__Country__c), &apos;&apos; , &apos;, &apos;&amp; OCE__Country__c ) 
+&amp; 
+IF( ISBLANK(OCE__ZipCode__c), &apos;&apos; , &apos;, &apos;&amp; OCE__ZipCode__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Formatted Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

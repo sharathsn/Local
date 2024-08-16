@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ReasonForUpdate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reason For Update</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reason For Update</inlineHelpText>
+    <label>Reason For Update</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Reactivation</fullName>
+                <default>false</default>
+                <label>Reactivation</label>
+            </value>
+            <value>
+                <fullName>No longer working</fullName>
+                <default>false</default>
+                <label>No longer working</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+            <value>
+                <fullName>Associate</fullName>
+                <default>false</default>
+                <label>Associate</label>
+            </value>
+            <value>
+                <fullName>Quality control</fullName>
+                <default>false</default>
+                <label>Quality control</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Moved to another country</fullName>
+                <default>false</default>
+                <label>Moved to another country</label>
+            </value>
+            <value>
+                <fullName>Simple modification</fullName>
+                <default>false</default>
+                <label>Simple modification</label>
+            </value>
+            <value>
+                <fullName>Data Privacy Law</fullName>
+                <default>false</default>
+                <label>Data Privacy Law</label>
+            </value>
+            <value>
+                <fullName>Relation suppression</fullName>
+                <default>false</default>
+                <label>Relation suppression</label>
+            </value>
+            <value>
+                <fullName>Relation creation</fullName>
+                <default>false</default>
+                <label>Relation creation</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Duplicate Reversal</fullName>
+                <default>false</default>
+                <label>Duplicate Reversal</label>
+            </value>
+            <value>
+                <fullName>Deceased</fullName>
+                <default>false</default>
+                <label>Deceased</label>
+            </value>
+            <value>
+                <fullName>Creation</fullName>
+                <default>false</default>
+                <label>Creation</label>
+            </value>
+            <value>
+                <fullName>Invalidation</fullName>
+                <default>false</default>
+                <label>Invalidation</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>Relation : Creation / Suppression / Checking</fullName>
+                <default>false</default>
+                <label>Relation : Creation / Suppression / Checking</label>
+            </value>
+            <value>
+                <fullName>Initial Loading</fullName>
+                <default>false</default>
+                <label>Initial Loading</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

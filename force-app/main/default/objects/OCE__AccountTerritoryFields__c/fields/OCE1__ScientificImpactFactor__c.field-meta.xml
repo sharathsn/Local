@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ScientificImpactFactor__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A,B,С,D,E,F,0 grade, HCPs’ presence in scientific channels: automatically calculated category, basing on the sum of the channels, which the HCP has been identified on. Where F is “low” presence, and A is “high” presence.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A,B,С,D,E,F,0 grade, HCPs’ presence in scientific channels: automatically calculated category, basing on the sum of the channels, which the HCP has been identified on. Where F is “low” presence, and A is “high” presence.</inlineHelpText>
+    <label>Scientific Impact Factor</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

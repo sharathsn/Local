@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PaymentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of Payment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Payment</inlineHelpText>
+    <label>Payment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Medicare Part D</fullName>
+                <default>false</default>
+                <label>Medicare Part D</label>
+            </value>
+            <value>
+                <fullName>MGD Medicaid</fullName>
+                <default>false</default>
+                <label>MGD Medicaids</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

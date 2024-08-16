@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__CompanyObjectives__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Objectives which will be achieved by sponsoring this program</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe the objectives we will be achieving by sponsoring this program</inlineHelpText>
+    <label>Company Objectives</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

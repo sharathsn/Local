@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SearchResultLabel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Searchs lookup label.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(OCE__Specialty__c) + &quot; (NPI:&quot; +  OCE__NPI__c + &quot;)&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Searchs lookup label.</inlineHelpText>
+    <label>Search Result Label</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

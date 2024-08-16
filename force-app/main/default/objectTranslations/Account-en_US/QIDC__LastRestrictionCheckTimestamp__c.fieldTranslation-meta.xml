@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Timestamp for when this record was matched against the restriction (inclusion/exclusion) lists last time. --></help>
+    <label><!-- Last Restriction Check Timestamp --></label>
+    <name>QIDC__LastRestrictionCheckTimestamp__c</name>
+</CustomFieldTranslation>

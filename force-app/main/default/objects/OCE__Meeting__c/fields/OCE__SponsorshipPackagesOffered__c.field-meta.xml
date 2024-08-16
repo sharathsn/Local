@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SponsorshipPackagesOffered__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Various sponsorship packages the organizers offer and the benefits it includes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe the various sponsorship packages the organizers offer and the benefits it includes</inlineHelpText>
+    <label>Sponsorship Packages Offered</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

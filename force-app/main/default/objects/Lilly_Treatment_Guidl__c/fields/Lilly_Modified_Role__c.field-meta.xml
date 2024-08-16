@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Modified_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Modified Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Author</fullName>
+                <default>false</default>
+                <label>Author</label>
+            </value>
+            <value>
+                <fullName>Contributor</fullName>
+                <default>false</default>
+                <label>Contributor</label>
+            </value>
+            <value>
+                <fullName>Adjunct Writer</fullName>
+                <default>false</default>
+                <label>Adjunct Writer</label>
+            </value>
+            <value>
+                <fullName>Reviewer</fullName>
+                <default>false</default>
+                <label>Reviewer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Form Template for which the Response is recorded --></help>
+    <label><!-- Form Template --></label>
+    <name>OCE1__FormTemplate__c</name>
+    <relationshipLabel><!-- Account Objectives --></relationshipLabel>
+</CustomFieldTranslation>

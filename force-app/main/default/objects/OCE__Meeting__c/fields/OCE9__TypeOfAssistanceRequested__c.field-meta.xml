@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__TypeOfAssistanceRequested__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What type of assistance are you requesting for enrolling patients in this study</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What type of assistance are you requesting for enrolling patients in this study</inlineHelpText>
+    <label>Type of Assistance Requested</label>
+    <length>1000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

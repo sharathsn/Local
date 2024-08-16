@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Contains information about sObject that it belongs to (Account and its supported direct relations for Account Multi-sObject Dynamic List View).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains information about sObject that it belongs to (Account and its supported direct relations for Account Multi-sObject Dynamic List View).</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>AccountAddress__c</fullName>
+                <default>false</default>
+                <label>Account Address</label>
+            </value>
+            <value>
+                <fullName>AccountTerritoryFields__c</fullName>
+                <default>false</default>
+                <label>Account Territory Fields</label>
+            </value>
+            <value>
+                <fullName>AccountTerritoryProduct__c</fullName>
+                <default>false</default>
+                <label>Account Territory Product</label>
+            </value>
+            <value>
+                <fullName>AccountEventX__c</fullName>
+                <default>false</default>
+                <label>Account Activities</label>
+            </value>
+            <value>
+                <fullName>Lilly_Tag_Assignment__c</fullName>
+                <default>false</default>
+                <label>Tag Assignment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Non-Prescriber Attendee Role --></label>
+    <name>Non_Prescriber_Attendee_Role__c</name>
+    <picklistValues>
+        <masterLabel>Billing Manager</masterLabel>
+        <translation><!-- Billing Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Care Coordinator</masterLabel>
+        <translation><!-- Care Coordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Admin</masterLabel>
+        <translation><!-- Office Admin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy Technician</masterLabel>
+        <translation><!-- Pharmacy Technician --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

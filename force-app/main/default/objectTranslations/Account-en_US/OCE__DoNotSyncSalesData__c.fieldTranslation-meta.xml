@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>If checked, sales data will not sync.
+            This will help avoid unnecessary data traffic between mobile and online.
+            Appears on Hospital, Institution, Pharmacy, Wholesaler,
+            and HCP page layouts.</help>
+    <label><!-- Do Not Sync Sales Data --></label>
+    <name>OCE__DoNotSyncSalesData__c</name>
+</CustomFieldTranslation>

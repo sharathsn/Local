@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.OCE__SurveyResponses__r$OCE__Survey__c</field>
+    </columns>
+    <columns>
+        <field>Account.OCE__SurveyResponses__r.OCE__SurveyQuestionResponses6__r$OCE__SurveyQuestion__c</field>
+    </columns>
+    <columns>
+        <field>Account.OCE__SurveyResponses__r.OCE__SurveyQuestionResponses6__r$OCE__Response__c</field>
+    </columns>
+    <columns>
+        <field>Account.OCE__SurveyResponses__r$OCE__Status__c</field>
+    </columns>
+    <columns>
+        <field>Account.OCE__SurveyResponses__r$OCE__Completion__c</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>Survey Question Responses with Survey</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Lilly_Survey_QuestionResponses_with_SurveyQuestion__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

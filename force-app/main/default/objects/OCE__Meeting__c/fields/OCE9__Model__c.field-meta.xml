@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__Model__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The testing method by which the pre-clinical study will be conducted.Only displayed for pre-clinical studies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The testing method by which the pre-clinical study will be conducted.Only displayed for pre-clinical studies.</inlineHelpText>
+    <label>Model</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In-Vitro</fullName>
+                <default>false</default>
+                <label>In-Vitro</label>
+            </value>
+            <value>
+                <fullName>Ex-Vivo</fullName>
+                <default>false</default>
+                <label>Ex-Vivo</label>
+            </value>
+            <value>
+                <fullName>In-Vivo</fullName>
+                <default>false</default>
+                <label>In-Vivo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

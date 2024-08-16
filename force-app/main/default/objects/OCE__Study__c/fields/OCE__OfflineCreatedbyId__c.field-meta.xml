@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__OfflineCreatedbyId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Globally unique string that identifies an offline created record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Globally unique string that identifies an offline created record.</inlineHelpText>
+    <label>Offline Created by Id</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>OfflineStudyCreatedBy</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

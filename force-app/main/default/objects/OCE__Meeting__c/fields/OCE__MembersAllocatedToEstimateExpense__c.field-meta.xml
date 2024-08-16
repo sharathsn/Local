@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__MembersAllocatedToEstimateExpense__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED. Number of Meeting Members which have been allocated to Estimate Expense</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of Meeting Members which have been allocated to Estimate Expense</inlineHelpText>
+    <label>DEPRECATEDMemb. alloc. to estim. expense</label>
+    <summaryFilterItems>
+        <field>OCE__MeetingMember__c.OCE__IsAllocatedToEstimateExpense__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OCE__MeetingMember__c.OCE__Meeting__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

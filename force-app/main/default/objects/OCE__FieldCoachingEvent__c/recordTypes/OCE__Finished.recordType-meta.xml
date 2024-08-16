@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Finished</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>OCE__FC_Event</compactLayoutAssignment>
+    <description>Coaching Event finished phase.</description>
+    <label>Finished</label>
+    <picklistValues>
+        <picklist>OCE__Status__c</picklist>
+        <values>
+            <fullName>Acknowledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Evaluation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

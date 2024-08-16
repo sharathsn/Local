@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- WeChat Subscription Captured By --></label>
+    <name>OCE__WeChatSubscriptionCapturedBy__c</name>
+    <relationshipLabel><!-- Accounts (WeChat Subscription Captured By) --></relationshipLabel>
+</CustomFieldTranslation>

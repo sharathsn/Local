@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Attributes of an Account to categorize them in different ways.</help>
+    <label><!-- Extended Category --></label>
+    <name>OCE__ExtendedCategory__c</name>
+    <picklistValues>
+        <masterLabel>Bermuda</masterLabel>
+        <translation>Bermuda</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chiropractors/Chiropractic Clinics</masterLabel>
+        <translation>Chiropractors/Chiropractic Clinics</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentists</masterLabel>
+        <translation>Dentists</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Department or Grocery Stores with a Retail Pharmacy</masterLabel>
+        <translation>Department or Grocery Stores with a Retail Pharmacy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctors/Doctor Clinics</masterLabel>
+        <translation>Doctors/Doctor Clinics</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Planning Clinics</masterLabel>
+        <translation>Family Planning Clinics</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Accounts</masterLabel>
+        <translation>Government Accounts</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Redistribution</masterLabel>
+        <translation>Government Redistribution</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head Office</masterLabel>
+        <translation>Head Office</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitals</masterLabel>
+        <translation>Hospitals</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Associations and Societies</masterLabel>
+        <translation>Medical Associations and Societies</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Labs</masterLabel>
+        <translation>Medical Labs</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous Others</masterLabel>
+        <translation>Miscellaneous Others</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous Redistribution</masterLabel>
+        <translation>Miscellaneous Redistribution</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Reporting Warehouses</masterLabel>
+        <translation>New Reporting Warehouses</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Reporting Wholesalers</masterLabel>
+        <translation>Non-Reporting Wholesalers</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing Homes</masterLabel>
+        <translation>Nursing Homes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ophthalmologists</masterLabel>
+        <translation>Ophthalmologists</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optometrists, Opticians and Optical Labs</masterLabel>
+        <translation>Optometrists, Opticians and Optical Labs</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reporting Wholesalers</masterLabel>
+        <translation>Reporting Wholesalers</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Pharmacies</masterLabel>
+        <translation>Retail Pharmacies</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Pharmacies (Redistribution)</masterLabel>
+        <translation>Retail Pharmacies (Redistribution)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Store (No pharmacy)</masterLabel>
+        <translation>Retail Store (No pharmacy)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universities/Colleges/Schools</masterLabel>
+        <translation>Universities/Colleges/Schools</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Veterinarians</masterLabel>
+        <translation>Veterinarians</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wal-Mart Stores</masterLabel>
+        <translation>Wal-Mart Stores</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Inventory</masterLabel>
+        <translation>Warehouse Inventory</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse Transfers</masterLabel>
+        <translation>Warehouse Transfers</translation>
+    </picklistValues>
+</CustomFieldTranslation>

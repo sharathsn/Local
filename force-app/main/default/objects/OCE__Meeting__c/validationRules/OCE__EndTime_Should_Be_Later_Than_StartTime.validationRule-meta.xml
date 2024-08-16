@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__EndTime_Should_Be_Later_Than_StartTime</fullName>
+    <active>false</active>
+    <description>End Date/Time Should Be Later Than Start Date/Time.</description>
+    <errorConditionFormula>OCE__EndDateTime__c  &lt; OCE__StartDateTime__c</errorConditionFormula>
+    <errorMessage>End Date/Time Should Be Later Than Start Date/Time.</errorMessage>
+</ValidationRule>

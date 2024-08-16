@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AccountCountry__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field is used as default filter for Topics</description>
+    <externalId>false</externalId>
+    <formula>TEXT(OCE__Account__r.OCE__CountryCode__c)</formula>
+    <label>Account Country</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

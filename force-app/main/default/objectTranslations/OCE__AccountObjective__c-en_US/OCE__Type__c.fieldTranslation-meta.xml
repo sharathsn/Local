@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>OCE__Type__c</name>
+    <picklistValues>
+        <masterLabel>Competitive Response</masterLabel>
+        <translation>Competitive Response</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create New Business</masterLabel>
+        <translation>Create New Business</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drive Market Share</masterLabel>
+        <translation>Drive Market Share</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formulary Access</masterLabel>
+        <translation>Formulary Access</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grow Existing Business</masterLabel>
+        <translation>Grow Existing Business</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pull-Thru Program</masterLabel>
+        <translation>Pull-Thru Program</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reduce Rebates</masterLabel>
+        <translation>Reduce Rebates</translation>
+    </picklistValues>
+</CustomFieldTranslation>

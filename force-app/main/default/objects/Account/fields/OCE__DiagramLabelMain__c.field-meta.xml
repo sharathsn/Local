@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DiagramLabelMain__c</fullName>
+    <deprecated>false</deprecated>
+    <description>(DEPRECATED) Label to be used on affiliation diagram as node title (first line).</description>
+    <externalId>false</externalId>
+    <formula>IF(
+            IsPersonAccount,
+            FirstName + &apos; &apos; + LastName,
+            Name
+            )</formula>
+    <inlineHelpText>Label to be used on affiliation diagram as node title (first line).</inlineHelpText>
+    <label>DEPRECATED Diagram Label Main</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

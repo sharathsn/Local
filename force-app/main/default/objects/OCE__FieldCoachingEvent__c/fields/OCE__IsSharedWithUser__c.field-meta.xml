@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__IsSharedWithUser__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Controls if Coaching Event should be shared with Employee.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls if Coaching Event should be shared with Employee.</inlineHelpText>
+    <label>Is Shared With User</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

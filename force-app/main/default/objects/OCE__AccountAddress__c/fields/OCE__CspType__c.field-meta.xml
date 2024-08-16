@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__CspType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Controlled Substances Privilege Type. There are multiple schedules of controlled substances and this signifies the type of controlled substance privilege that is available at this HCP/Address.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controlled Substances Privilege Type. There are multiple schedules of controlled substances and this signifies the type of controlled substance privilege that is available at this HCP/Address.</inlineHelpText>
+    <label>CSP Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DiagramHasChildrenIcon__c</fullName>
+    <deprecated>false</deprecated>
+    <description>(DEPRECATED) Marker-icon to indicate on affiliation diagram that account has actually more children than it&apos;s shown.</description>
+    <externalId>false</externalId>
+    <formula>&apos;/resource/&apos;
+            +
+            IF (
+            ISBLANK($Setup.OCE__PackageConfig__c.OCE__Namespace__c), &apos;&apos;, $Setup.OCE__PackageConfig__c.OCE__Namespace__c + &apos;__&apos;
+            )
+            +
+            &apos;Affiliation/images/icons/has-children-nodes.png&apos;</formula>
+    <inlineHelpText>Marker-icon to indicate on affiliation diagram that account has actually more children than it&apos;s shown.</inlineHelpText>
+    <label>DEPRECATED Diagram Has Children Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

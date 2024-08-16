@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PaidBy__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores whom is paying for the Meeting Expense.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores whom is paying for the Meeting Expense.</inlineHelpText>
+    <label>Paid By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rep</fullName>
+                <default>true</default>
+                <label>Rep</label>
+            </value>
+            <value>
+                <fullName>DM</fullName>
+                <default>false</default>
+                <label>DM</label>
+            </value>
+            <value>
+                <fullName>HO</fullName>
+                <default>false</default>
+                <label>HO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AbsNumberLastAuthorProfile__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sum of the number of cases, when HCP has been LAST Author publications</description>
+    <externalId>false</externalId>
+    <label>Last Author Profile Number</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TerritoryBusinessObjective</fullName>
+    <active>true</active>
+    <label>Territory Business Objective</label>
+    <picklistValues>
+        <picklist>OCE__ApproverStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__Category__c</picklist>
+        <values>
+            <fullName>Library</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__Measure__c</picklist>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Units</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OCE__Type__c</picklist>
+        <values>
+            <fullName>Competitive Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive Market Share</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulary Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pull-Thru Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reduce Rebates</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

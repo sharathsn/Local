@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Expiration_Date_Not_Before_Start</fullName>
+    <active>true</active>
+    <description>Validation for the Expiration Date not to be set before the Start Date</description>
+    <errorConditionFormula>OCE__ExpirationDate__c &lt; OCE__StartDate__c</errorConditionFormula>
+    <errorDisplayField>OCE__ExpirationDate__c</errorDisplayField>
+    <errorMessage>Message cannot expire before Start Date.</errorMessage>
+</ValidationRule>

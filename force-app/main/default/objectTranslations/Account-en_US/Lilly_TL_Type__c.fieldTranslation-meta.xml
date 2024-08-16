@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TL Type --></label>
+    <name>Lilly_TL_Type__c</name>
+    <picklistValues>
+        <masterLabel>Expert</masterLabel>
+        <translation><!-- Expert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prescriber</masterLabel>
+        <translation><!-- Prescriber --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

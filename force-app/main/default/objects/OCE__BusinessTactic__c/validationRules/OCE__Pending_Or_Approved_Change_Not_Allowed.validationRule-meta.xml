@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Pending_Or_Approved_Change_Not_Allowed</fullName>
+    <active>false</active>
+    <description>If Business Objective Approved Status is Pending or Approved - Business Tactic cannot be changed</description>
+    <errorConditionFormula>AND(NOT(ISNEW()), OR(ISPICKVAL(OCE__BusinessObjective__r.OCE__ApproverStatus__c, &apos;Pending Approval&apos;),ISPICKVAL(OCE__BusinessObjective__r.OCE__ApproverStatus__c, &apos;Approved&apos;)))</errorConditionFormula>
+    <errorMessage>Business Tactic cannot be changed when Business Objective Approved Status is Pending or Approved</errorMessage>
+</ValidationRule>

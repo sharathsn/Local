@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__ThirdPartyProductsCompanies__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If any third-party products will be used to conduct this study, list their name and the company that manufactures them</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If any third-party products will be used to conduct this study, list their name and the company that manufactures them</inlineHelpText>
+    <label>Third-Party Products And Companies</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

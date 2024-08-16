@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DiagramOrdinaryIcon__c</fullName>
+    <deprecated>false</deprecated>
+    <description>(DEPRECATED) Icon to represent account on affiliation diagram in normal state, i.e. no selection.</description>
+    <externalId>false</externalId>
+    <formula>&apos;/resource/&apos; +
+
+/* package prefix (if any) */
+IF ( ISBLANK($Setup.OCE__PackageConfig__c.OCE__Namespace__c),
+    &apos;&apos;,
+    $Setup.OCE__PackageConfig__c.OCE__Namespace__c + &apos;__&apos;
+)
+
++ &apos;Affiliation/images/icons/&apos; +
+
+/* resource itself */
+IF ( IsPersonAccount,
+    IF( RecordType.DeveloperName = &apos;MP&apos;,
+        &apos;medical-professional-ordinary-node.jpg&apos;,
+        &apos;business-contact-ordinary-node.jpg&apos;
+    ),
+    &apos;organization-ordinary-node.png&apos;
+)</formula>
+    <inlineHelpText>Icon to represent account on affiliation diagram in normal state, i.e. no selection.</inlineHelpText>
+    <label>DEPRECATED Diagram Ordinary Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>HCP_Segmentation_ValidationReasonCode__c</columns>
+    <columns>HCP_Segmentation_UpdatedDate__c</columns>
+    <columns>HCP_Segmentation_Type__c</columns>
+    <columns>HCP_Segmentation_SourceBlockStatus__c</columns>
+    <columns>HCP_Segmentation_Segmentation__c</columns>
+    <columns>HCP_Segmentation_PrivacyStatus__c</columns>
+    <columns>HCP_Segmentation_HcpUniqueId__c</columns>
+    <columns>HCP_Segmentation_HcpSegmentationId__c</columns>
+    <columns>HCP_Segmentation_EffectiveStartDate__c</columns>
+    <columns>HCP_Segmentation_EffectiveEndDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

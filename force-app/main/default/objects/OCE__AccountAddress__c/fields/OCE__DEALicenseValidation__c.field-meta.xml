@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DEALicenseValidation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Copy DEA Validation from Address.</description>
+    <externalId>false</externalId>
+    <formula>OCE__Address__r.OCE__DEALicenseValidation__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DEA License Validation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

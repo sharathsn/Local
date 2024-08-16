@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Is Data Export Allowed</help>
+    <label><!-- Is Data Export Allowed --></label>
+    <name>OCE__IsDataExportAllowed__c</name>
+</CustomFieldTranslation>

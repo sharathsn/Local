@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prescriber Type --></label>
+    <name>Prescriber_Type__c</name>
+    <picklistValues>
+        <masterLabel>Loyalist</masterLabel>
+        <translation><!-- Loyalist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rx Top Grower</masterLabel>
+        <translation><!-- Rx Top Grower --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Splitter</masterLabel>
+        <translation><!-- Splitter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spreader</masterLabel>
+        <translation><!-- Spreader --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

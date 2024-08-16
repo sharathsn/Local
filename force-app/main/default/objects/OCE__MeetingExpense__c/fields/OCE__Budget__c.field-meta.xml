@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Budget__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED. The name of the budget.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the budget.</inlineHelpText>
+    <label>DEPRECATED Budget</label>
+    <referenceTo>OCE__Budget__c</referenceTo>
+    <relationshipLabel>Meeting Expenses</relationshipLabel>
+    <relationshipName>MeetingExpenses</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

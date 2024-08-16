@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__StudyAlreadyInProgress__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether or not this study is already in progress and additional funding or product is needed support to continue</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether or not this study is already in progress and additional funding or product is needed support to continue</inlineHelpText>
+    <label>Study Already In Progress?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

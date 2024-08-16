@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__RestrictedProductsNames__c</fullName>
+    <deprecated>false</deprecated>
+    <description>New line symbol separated list of product names</description>
+    <externalId>false</externalId>
+    <label>Restricted Products Names</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

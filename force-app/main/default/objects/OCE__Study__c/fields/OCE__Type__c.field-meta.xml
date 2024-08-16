@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Describes the nature of a clinical study. Study types include interventional studies (also called clinical trials), observational studies (including patient registries), and expanded access.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describes the nature of a clinical study. Study types include interventional studies (also called clinical trials), observational studies (including patient registries), and expanded access.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Interventional</fullName>
+                <default>false</default>
+                <label>Interventional</label>
+            </value>
+            <value>
+                <fullName>Observational</fullName>
+                <default>false</default>
+                <label>Observational</label>
+            </value>
+            <value>
+                <fullName>Expanded Access</fullName>
+                <default>false</default>
+                <label>Expanded Access</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stores Nationality</help>
+    <label><!-- Nationality --></label>
+    <name>OCE__Nationality__c</name>
+</CustomFieldTranslation>

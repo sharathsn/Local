@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ActivityType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the promotional activity (MVP)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of the promotional activity</inlineHelpText>
+    <label>Activity Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Presence</fullName>
+                <default>false</default>
+                <label>Presence</label>
+            </value>
+            <value>
+                <fullName>Facing</fullName>
+                <default>false</default>
+                <label>Facing</label>
+            </value>
+            <value>
+                <fullName>Share of Shelf</fullName>
+                <default>false</default>
+                <label>Share of Shelf</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

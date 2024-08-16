@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AccountMatchAccountPlanAccountDigital</fullName>
+    <active>false</active>
+    <description>Account should match current Account Objective&apos;s Account Plan&apos;s Account for To-Do associated only with Account Plans</description>
+    <errorConditionFormula>AND(OCE__Account__c != OCE__AccountObjective__r.OCE__AccountPlan__r.OCE__Account__r.Id,OCE__AccountPlan__c != null)</errorConditionFormula>
+    <errorDisplayField>OCE__Account__c</errorDisplayField>
+    <errorMessage>Account should match current Account Objective&apos;s Account Plan&apos;s Account.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__KanaName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>(Single byte Kana) Text field applicable to both HCP and HCO that will store the Japanese phonetic name used for sorting and text searching.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>(Single byte Kana) Text field applicable to both HCP and HCO that will store the Japanese phonetic name used for sorting and text searching.</inlineHelpText>
+    <label>Kana Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

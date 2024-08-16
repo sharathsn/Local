@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Brand/Molecule --></label>
+    <name>Lilly_Primary_Brand_Molecule__c</name>
+    <picklistValues>
+        <masterLabel>11bHSD1 INHIBITOR(LY2508913)</masterLabel>
+        <translation><!-- 11bHSD1 INHIBITOR(LY2508913) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4-HEXYLRESORCINOL</masterLabel>
+        <translation><!-- 4-HEXYLRESORCINOL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ABCIXIMAB</masterLabel>
+        <translation><!-- ABCIXIMAB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ABEMACICLIB</masterLabel>
+        <translation><!-- ABEMACICLIB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AMBROXOL HYDROCHLORIDE</masterLabel>
+        <translation><!-- AMBROXOL HYDROCHLORIDE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANASTROZOLE</masterLabel>
+        <translation><!-- ANASTROZOLE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ANTI-CD20 ANTIBODY II</masterLabel>
+        <translation><!-- ANTI-CD20 ANTIBODY II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ang2 Antibody (LY3127804)</masterLabel>
+        <translation><!-- Ang2 Antibody (LY3127804) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

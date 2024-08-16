@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ExplanationOfUseOfFunds__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enables the Requestor to explain why they didn&apos;t use the funds as outlined in the grant request</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enables the Requestor to explain why they didn&apos;t use the funds as outlined in the grant request</inlineHelpText>
+    <label>Explanation of Use of Funds</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

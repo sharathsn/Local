@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- # of nominations this EP(original) --></label>
+    <name>Lilly_of_nominations_this_EP_original__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__SafetyPlan__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The activities intended to protect the safety of the subjects participating in the study</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The activities intended to protect the safety of the subjects participating in the study</inlineHelpText>
+    <label>Safety Plan</label>
+    <length>10000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Subtype__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The subtype of the Meeting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The subtype of the Meeting.</inlineHelpText>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Live/In-Person</fullName>
+                <default>false</default>
+                <label>Live/In-Person</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Symposia</fullName>
+                <default>false</default>
+                <label>Symposia</label>
+            </value>
+            <value>
+                <fullName>Lunch and Learn</fullName>
+                <default>false</default>
+                <label>Lunch &amp; Learn</label>
+            </value>
+            <value>
+                <fullName>Lunch</fullName>
+                <default>false</default>
+                <label>Lunch</label>
+            </value>
+            <value>
+                <fullName>Preceptorship</fullName>
+                <default>false</default>
+                <label>Preceptorship</label>
+            </value>
+            <value>
+                <fullName>Follow-up</fullName>
+                <default>false</default>
+                <label>Follow-up</label>
+            </value>
+            <value>
+                <fullName>Speaker Meeting</fullName>
+                <default>false</default>
+                <label>Speaker Meeting</label>
+            </value>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Local</fullName>
+                <default>false</default>
+                <label>Local</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>Education Grant</fullName>
+                <default>false</default>
+                <label>Education Grant</label>
+            </value>
+            <value>
+                <fullName>Donation</fullName>
+                <default>false</default>
+                <label>Donation</label>
+            </value>
+            <value>
+                <fullName>Fellowship</fullName>
+                <default>false</default>
+                <label>Fellowship</label>
+            </value>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>Scientific</fullName>
+                <default>false</default>
+                <label>Scientific</label>
+            </value>
+            <value>
+                <fullName>Expert Training</fullName>
+                <default>false</default>
+                <label>Expert Training</label>
+            </value>
+            <value>
+                <fullName>Field Sales Training</fullName>
+                <default>false</default>
+                <label>Field Sales Training</label>
+            </value>
+            <value>
+                <fullName>Grant Review Committee</fullName>
+                <default>false</default>
+                <label>Grant Review Committee</label>
+            </value>
+            <value>
+                <fullName>Non Accredited Medical Education</fullName>
+                <default>false</default>
+                <label>Non Accredited Medical Education</label>
+            </value>
+            <value>
+                <fullName>Interventional</fullName>
+                <default>false</default>
+                <label>Interventional</label>
+            </value>
+            <value>
+                <fullName>Non-interventional</fullName>
+                <default>false</default>
+                <label>Non-interventional</label>
+            </value>
+            <value>
+                <fullName>Observational</fullName>
+                <default>false</default>
+                <label>Observational</label>
+            </value>
+            <value>
+                <fullName>Registry</fullName>
+                <default>false</default>
+                <label>Registry</label>
+            </value>
+            <value>
+                <fullName>Pre-Clinical</fullName>
+                <default>false</default>
+                <label>Pre-Clinical</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Non-Clinical</fullName>
+                <default>false</default>
+                <label>Non-Clinical</label>
+            </value>
+            <value>
+                <fullName>Debate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Debate</label>
+            </value>
+            <value>
+                <fullName>Interaction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interaction</label>
+            </value>
+            <value>
+                <fullName>Meal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Meal</label>
+            </value>
+            <value>
+                <fullName>Regional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regional</label>
+            </value>
+            <value>
+                <fullName>Speaker Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Speaker Only</label>
+            </value>
+            <value>
+                <fullName>Speaker and Meal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Speaker and Meal</label>
+            </value>
+            <value>
+                <fullName>Staff</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Staff</label>
+            </value>
+            <value>
+                <fullName>Symposium</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Symposium</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

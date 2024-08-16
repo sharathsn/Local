@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__ClusterAttributes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Attributes assigned to the plan or template (MVP)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Attributes assigned to the plan or template</inlineHelpText>
+    <label>Cluster Attributes</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>T1</fullName>
+                <default>false</default>
+                <label>T1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

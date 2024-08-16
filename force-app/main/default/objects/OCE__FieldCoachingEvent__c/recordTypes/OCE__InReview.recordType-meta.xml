@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__InReview</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>OCE__FC_Event</compactLayoutAssignment>
+    <description>Status for evaluation phase of Coach.</description>
+    <label>In Review</label>
+    <picklistValues>
+        <picklist>OCE__Status__c</picklist>
+        <values>
+            <fullName>In Review</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

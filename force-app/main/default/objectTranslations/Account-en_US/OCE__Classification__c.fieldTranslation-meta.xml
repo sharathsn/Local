@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Classification the Account falls into</help>
+    <label><!-- Classification --></label>
+    <name>OCE__Classification__c</name>
+    <picklistValues>
+        <masterLabel>Client Defined</masterLabel>
+        <translation>Client Defined</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospital</masterLabel>
+        <translation>Hospital</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation>N/A</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail</masterLabel>
+        <translation>Retail</translation>
+    </picklistValues>
+</CustomFieldTranslation>

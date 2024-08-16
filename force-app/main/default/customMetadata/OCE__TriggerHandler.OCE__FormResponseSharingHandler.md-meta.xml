@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FormResponseSharingHandler</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__Description__c</field>
+        <value xsi:type="xsd:string">Updates Sharing of Form Response</value>
+    </values>
+    <values>
+        <field>OCE__HandlerName__c</field>
+        <value xsi:type="xsd:string">OCE.FormResponseSharingHandler</value>
+    </values>
+    <values>
+        <field>OCE__IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__IsAsync__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__IsHidden__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__Order__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>OCE__Params__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__PermissionLevel__c</field>
+        <value xsi:type="xsd:string">default</value>
+    </values>
+    <values>
+        <field>OCE__Phases__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Subscriber__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Type__c</field>
+        <value xsi:type="xsd:string">OCE__DataChangeEvent__e</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__DiscrepancyReasonActuals__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reason of the failure that occurred during rollup process of actual spend into Meeting Expense</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reason of the failure that occurred during rollup process of actual spend into Meeting Expense</inlineHelpText>
+    <label>Discrepancy Reason for Actuals</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

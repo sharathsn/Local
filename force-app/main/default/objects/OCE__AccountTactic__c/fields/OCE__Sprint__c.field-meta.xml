@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Sprint__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Sprint that is linked to the Account Tactic.</description>
+    <externalId>false</externalId>
+    <label>Sprint</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR 3</booleanFilter>
+        <filterItems>
+            <field>OCE__Sprint__c.OCE__Status__c</field>
+            <operation>notContain</operation>
+            <value>Completed</value>
+        </filterItems>
+        <filterItems>
+            <field>OCE__Sprint__c.OCE__Status__c</field>
+            <operation>notContain</operation>
+            <value>Cancelled</value>
+        </filterItems>
+        <filterItems>
+            <field>OCE__Sprint__c.OCE__Status__c</field>
+            <operation>equals</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>OCE__Sprint__c</referenceTo>
+    <relationshipLabel>Account Tactics</relationshipLabel>
+    <relationshipName>Account_Tactics</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__AcademicTitleCode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Degree Code</description>
+    <externalId>false</externalId>
+    <label>Academic Title Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hospital Specialist</fullName>
+                <default>false</default>
+                <label>Hospital Specialist</label>
+            </value>
+            <value>
+                <fullName>Hospital Assistant Specialist</fullName>
+                <default>false</default>
+                <label>Hospital Assistant Specialist</label>
+            </value>
+            <value>
+                <fullName>Professor, Hospital Doctor</fullName>
+                <default>false</default>
+                <label>Professor, Hospital Doctor</label>
+            </value>
+            <value>
+                <fullName>Faculties Monitor</fullName>
+                <default>false</default>
+                <label>Faculties Monitor</label>
+            </value>
+            <value>
+                <fullName>Hospital Assistant Doctor</fullName>
+                <default>false</default>
+                <label>Hospital Assistant Doctor</label>
+            </value>
+            <value>
+                <fullName>Ex-Work Chief</fullName>
+                <default>false</default>
+                <label>Ex-Work Chief</label>
+            </value>
+            <value>
+                <fullName>Ex-Provisory Hospital Intern</fullName>
+                <default>false</default>
+                <label>Ex-Provisory Hospital Intern</label>
+            </value>
+            <value>
+                <fullName>Ex-Hospital Trainee</fullName>
+                <default>false</default>
+                <label>Ex-Hospital Trainee</label>
+            </value>
+            <value>
+                <fullName>Ex-Monitor</fullName>
+                <default>false</default>
+                <label>Ex-Monitor</label>
+            </value>
+            <value>
+                <fullName>Ex-Hospital Clinical Clerk</fullName>
+                <default>false</default>
+                <label>Ex-Hospital Clinical Clerk</label>
+            </value>
+            <value>
+                <fullName>Clinic Ex-chief</fullName>
+                <default>false</default>
+                <label>Clinic Ex-chief</label>
+            </value>
+            <value>
+                <fullName>Hospital Ex-assistant</fullName>
+                <default>false</default>
+                <label>Hospital Ex-assistant</label>
+            </value>
+            <value>
+                <fullName>Doyen</fullName>
+                <default>false</default>
+                <label>Doyen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

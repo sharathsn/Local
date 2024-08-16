@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Interviewee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Account which was interviewed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account which was interviewed.</inlineHelpText>
+    <label>Interviewee</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>To-Do (Interviewee)</relationshipLabel>
+    <relationshipName>To_Do</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

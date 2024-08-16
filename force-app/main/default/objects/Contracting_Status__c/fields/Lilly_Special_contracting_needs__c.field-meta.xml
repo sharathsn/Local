@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Special_contracting_needs__c</fullName>
+    <externalId>false</externalId>
+    <label>Special contracting needs</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Institution Limits</fullName>
+                <default>false</default>
+                <label>Institution Limits</label>
+            </value>
+            <value>
+                <fullName>Country Limits</fullName>
+                <default>false</default>
+                <label>Country Limits</label>
+            </value>
+            <value>
+                <fullName>State Limit</fullName>
+                <default>false</default>
+                <label>State Limit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

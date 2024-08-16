@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ProcessRisk__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field stores risk score with Process type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field stores risk score with Process type</inlineHelpText>
+    <label>Process Risk</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

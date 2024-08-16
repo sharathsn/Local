@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SpecialtyX__c</fullName>
+    <complianceGroup>PII;GDPR</complianceGroup>
+    <deprecated>false</deprecated>
+    <description>Specialty from the source org.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specialty from the source org.</inlineHelpText>
+    <label>Specialty X</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

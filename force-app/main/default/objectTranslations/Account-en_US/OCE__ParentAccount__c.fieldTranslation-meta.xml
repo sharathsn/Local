@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The Parent of this Account which is used in building the Account Hierarchy.</help>
+    <label><!-- Parent Account --></label>
+    <lookupFilter>
+        <errorMessage><!-- Please select HCO record. --></errorMessage>
+    </lookupFilter>
+    <name>OCE__ParentAccount__c</name>
+    <relationshipLabel><!-- Parent Account --></relationshipLabel>
+</CustomFieldTranslation>

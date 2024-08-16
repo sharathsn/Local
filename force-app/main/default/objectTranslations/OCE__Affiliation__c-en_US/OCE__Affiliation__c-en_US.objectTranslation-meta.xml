@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affiliation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affiliations</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Affiliations Uniqueness Validation Fieldset --></label>
+        <name>AffiliationsUniquenessValidationField</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Lilly_Affiliation_Columns_to_Display --></label>
+        <name>Lilly_Affiliation_Columns_to_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Default Affiliation Table Widget Columns --></label>
+        <name>OCE__DefaultAffiliationTableWidgetColumns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sbc New Affiliation FieldSet --></label>
+        <name>OCE__SbcNewAffiliationFieldSet</name>
+    </fieldSets>
+    <layouts>
+        <layout>Lilly Affiliation Basic Layout</layout>
+        <sections>
+            <label><!-- Additional --></label>
+            <section>Additional</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Influence Network --></label>
+        <name>Influence_Network</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Referral Network --></label>
+        <name>Referral_Network</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Workplace --></label>
+        <name>Workplace</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Changing From/To is not allowed after creation. --></errorMessage>
+        <name>OCE__Changing_SomeFields_NotAllowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- From and To should be different in Affiliation. --></errorMessage>
+        <name>OCE__From_And_To_Should_Be_Different</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Affiliation: You can not create Affiliation for an Account of type Ins-Doc --></errorMessage>
+        <name>OCE__PreventAffiliationToInsDocAccounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Affiliation cannot be created for Global Subscribed Accounts. --></errorMessage>
+        <name>OCE__RestrictAffiliation_OnGlobalFromAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Affiliation cannot be created for Global Subscribed Accounts. --></errorMessage>
+        <name>OCE__RestrictAffiliation_OnGlobalToAccount</name>
+    </validationRules>
+</CustomObjectTranslation>

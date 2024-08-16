@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marker-icon to indicate on affiliation diagram that account has actually more children than it&apos;s shown.</help>
+    <label><!-- DEPRECATED Diagram Has Children Icon --></label>
+    <name>OCE__DiagramHasChildrenIcon__c</name>
+</CustomFieldTranslation>

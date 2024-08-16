@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The current Booking status of the call (Proposed, Accepted, Rejected)</help>
+    <label><!-- Booking Status --></label>
+    <name>OCE__BookingStatus__c</name>
+    <picklistValues>
+        <masterLabel>Accepted</masterLabel>
+        <translation>Accepted</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proposed</masterLabel>
+        <translation>Proposed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation>Rejected</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrieved</masterLabel>
+        <translation>Retrieved</translation>
+    </picklistValues>
+</CustomFieldTranslation>

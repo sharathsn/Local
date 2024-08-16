@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__MeetingType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of Meeting that this Expense Type is applicable for.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of Meeting that this Expense Type is applicable for.</inlineHelpText>
+    <label>Meeting Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Speaker_Meeting</fullName>
+                <default>false</default>
+                <label>Speaker Meeting</label>
+            </value>
+            <value>
+                <fullName>Rep_Presentation</fullName>
+                <default>false</default>
+                <label>Rep Presentation</label>
+            </value>
+            <value>
+                <fullName>Displays_Exhibits</fullName>
+                <default>false</default>
+                <label>Displays and Exhibits</label>
+            </value>
+            <value>
+                <fullName>HCP_Sponsorship</fullName>
+                <default>false</default>
+                <label>HCP Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Home_Office_Speaker_Meeting</fullName>
+                <default>false</default>
+                <label>Home Office Speaker Meeting</label>
+            </value>
+            <value>
+                <fullName>Advisory_Board</fullName>
+                <default>false</default>
+                <label>Advisory Board</label>
+            </value>
+            <value>
+                <fullName>Home_Office_Congress</fullName>
+                <default>false</default>
+                <label>Congress</label>
+            </value>
+            <value>
+                <fullName>Consulting_Services</fullName>
+                <default>false</default>
+                <label>Consulting Services</label>
+            </value>
+            <value>
+                <fullName>Grant_Donation</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Event_Sponsorship</fullName>
+                <default>false</default>
+                <label>Event Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Review_Committee</fullName>
+                <default>false</default>
+                <label>Review Committee</label>
+            </value>
+            <value>
+                <fullName>InvestigatorInitiatedStudy</fullName>
+                <default>false</default>
+                <label>Investigator-Initiated Study</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

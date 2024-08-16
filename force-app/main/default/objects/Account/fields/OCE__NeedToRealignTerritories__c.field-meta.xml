@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__NeedToRealignTerritories__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicator whether territories need to be re-aligned for current account. Populated at trigger level when Territories__c field is changed and used further by external service to apply Territory Alignment Rules as a part of standard SF functionality.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicator whether territories need to be re-aligned for current account. Populated at trigger level when Territories__c field is changed and used further by external service to apply Territory Alignment Rules as a part of standard SF functionality.</inlineHelpText>
+    <label>Need To Realign Territories</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stores Organization Types</help>
+    <label><!-- Organization Types --></label>
+    <name>OCE__OrganizationTypes__c</name>
+    <picklistValues>
+        <masterLabel>Departments</masterLabel>
+        <translation>Departments</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group Purchasing Organizations</masterLabel>
+        <translation>Group Purchasing Organizations</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institutions</masterLabel>
+        <translation>Institutions</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integrated Delivery Networks</masterLabel>
+        <translation>Integrated Delivery Networks</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacies</masterLabel>
+        <translation>Pharmacies</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Practices</masterLabel>
+        <translation>Practices</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wholesalers</masterLabel>
+        <translation>Wholesalers</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Cannot_create_on_behalf_of_yourself</fullName>
+    <active>false</active>
+    <description>User cannot create a Meeting on behalf of himself</description>
+    <errorConditionFormula>AND(
+            ISNEW(),
+            OCE__OnBehalfOfUser__c =  $User.Id
+            )</errorConditionFormula>
+    <errorDisplayField>OCE__OnBehalfOfUser__c</errorDisplayField>
+    <errorMessage>You cannot choose your user in the On Behalf Of User field.</errorMessage>
+</ValidationRule>

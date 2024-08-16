@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>OCE__Role__c</name>
+    <picklistValues>
+        <masterLabel>DM</masterLabel>
+        <translation>DM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAM</masterLabel>
+        <translation>KAM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSL</masterLabel>
+        <translation>MSL</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NAM</masterLabel>
+        <translation>NAM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Rep</masterLabel>
+        <translation>Sales Rep</translation>
+    </picklistValues>
+</CustomFieldTranslation>

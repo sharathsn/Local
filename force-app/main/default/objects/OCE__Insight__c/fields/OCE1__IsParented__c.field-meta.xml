@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__IsParented__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines if current insight has a parent or if it linked to another insight (MVP)</description>
+    <externalId>false</externalId>
+    <formula>OR(NOT(ISBLANK(OCE1__ParentLinkedInsight__c)), NOT(ISBLANK(OCE__ParentInsight__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Parented (MVP)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

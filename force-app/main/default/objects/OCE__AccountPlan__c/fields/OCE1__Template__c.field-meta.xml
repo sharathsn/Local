@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE1__Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Source of the record if it was created from Template (MVP)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Source of the record if it was created from Template</inlineHelpText>
+    <label>Template</label>
+    <referenceTo>OCE__AccountPlan__c</referenceTo>
+    <relationshipLabel>Account Plans</relationshipLabel>
+    <relationshipName>AccountPlans</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

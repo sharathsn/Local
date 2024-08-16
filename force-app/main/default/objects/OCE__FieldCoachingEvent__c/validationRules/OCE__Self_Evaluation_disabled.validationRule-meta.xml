@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Self_Evaluation_disabled</fullName>
+    <active>true</active>
+    <description>If Self Evaluation disabled, Coach will not be able to change Event status to Self-Evaluation using action and push for self-evaluation.</description>
+    <errorConditionFormula>AND($Setup.OCE__FieldCoachingEventSettings__c.OCE__SelfEvaluationEnabled__c = FALSE, ISPICKVAL(OCE__Status__c,&quot;Self Evaluation&quot;))</errorConditionFormula>
+    <errorMessage>You are not able to change status to Self-Evaluation, because SelfEvaluation setting is disabled</errorMessage>
+</ValidationRule>

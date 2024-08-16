@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Unplanned_Meeting_Can_Not_Be_Future_Date</fullName>
+    <active>true</active>
+    <description>Rep Presentation Meetings cannot be created for a future date.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Rep_Presentation&quot;,
+            IF( OR( ISCHANGED(RecordTypeId), ISNEW() , ISCHANGED(OCE__StartDateTime__c) ) , DATEVALUE(OCE__StartDateTime__c) &gt; TODAY(), false) )</errorConditionFormula>
+    <errorMessage>Rep Presentation Meetings cannot be created for a future date.</errorMessage>
+</ValidationRule>

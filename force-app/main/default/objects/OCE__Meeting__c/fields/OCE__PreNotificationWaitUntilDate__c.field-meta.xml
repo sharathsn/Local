@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__PreNotificationWaitUntilDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>After submission, date that must be waited for in order to proceed without a response.</description>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE(OCE__PreNotificationSentDate__c, OCE__PreNotificationSubmitByDate__c) + OCE__PreNotificationWaitTimeRequired__c</formula>
+    <inlineHelpText>The earliest date by which usage of the participant can proceed without having received a response from the external authority.</inlineHelpText>
+    <label>PreNotification Wait Until Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

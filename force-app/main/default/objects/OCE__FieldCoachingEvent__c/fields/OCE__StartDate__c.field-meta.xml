@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__StartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Event start (Date and time).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Event start (Date and time).</inlineHelpText>
+    <label>Event start</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

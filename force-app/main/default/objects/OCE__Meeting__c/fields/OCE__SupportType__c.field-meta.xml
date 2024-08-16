@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__SupportType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines the form of value transfer to the beneficiary.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the form of value transfer to the beneficiary.</inlineHelpText>
+    <label>Support Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monetary</fullName>
+                <default>false</default>
+                <label>Monetary</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Monetary &amp; Product</fullName>
+                <default>false</default>
+                <label>Monetary &amp; Product</label>
+            </value>
+            <value>
+                <fullName>Materials and/or Equipment</fullName>
+                <default>false</default>
+                <label>Materials and/or Equipment</label>
+            </value>
+            <value>
+                <fullName>Service/Time</fullName>
+                <default>false</default>
+                <label>Service/Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

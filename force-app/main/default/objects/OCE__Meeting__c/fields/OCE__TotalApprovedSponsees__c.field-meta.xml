@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TotalApprovedSponsees__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total number HCP&apos;s who have been approved for Sponsorship and have a valid Status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total number HCP&apos;s who have been approved for Sponsorship and have a valid Status</inlineHelpText>
+    <label>Total Approved Sponsees</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

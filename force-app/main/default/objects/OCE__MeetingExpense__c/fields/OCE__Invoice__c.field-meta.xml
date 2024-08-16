@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Invoice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Invoice related to Meeting Expense</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Invoice related to Meeting Expense</inlineHelpText>
+    <label>Invoice</label>
+    <referenceTo>OCE__Invoice__c</referenceTo>
+    <relationshipLabel>Meeting Expenses</relationshipLabel>
+    <relationshipName>MeetingExpenses</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

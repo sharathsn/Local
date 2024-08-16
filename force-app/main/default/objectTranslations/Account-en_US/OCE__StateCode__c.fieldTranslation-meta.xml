@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>State codes which is dependent pick-list to Country</help>
+    <label><!-- State Code --></label>
+    <name>OCE__StateCode__c</name>
+</CustomFieldTranslation>

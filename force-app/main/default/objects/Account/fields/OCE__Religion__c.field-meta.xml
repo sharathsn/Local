@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Religion__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores Religion</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores Religion</inlineHelpText>
+    <label>Religion</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

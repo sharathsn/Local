@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Parent account compliance cycle.</help>
+    <label><!-- Account Compliance Cycle --></label>
+    <name>OCE__AccountComplianceCycle__c</name>
+    <relationshipLabel><!-- To-Do --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Associated_Congress_if_applicable__c</fullName>
+    <description>Custom field for Lilly demo.</description>
+    <externalId>false</externalId>
+    <label>Associated Congress (if applicable)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(OW) Obesity Week</fullName>
+                <default>false</default>
+                <label>(OW) Obesity Week</label>
+            </value>
+            <value>
+                <fullName>(AHA) American Heart Association</fullName>
+                <default>false</default>
+                <label>(AHA) American Heart Association</label>
+            </value>
+            <value>
+                <fullName>(WCIRDC) - World Congress on Insulin Resistance, Diabetes &amp; Cardiovascular Disease</fullName>
+                <default>false</default>
+                <label>(WCIRDC) - World Congress on Insulin Resistance, Diabetes &amp; Cardiovascular Disease</label>
+            </value>
+            <value>
+                <fullName>(ATTD) Advanced Technologies &amp; Treatments for Diabetes</fullName>
+                <default>false</default>
+                <label>(ATTD) Advanced Technologies &amp; Treatments for Diabetes</label>
+            </value>
+            <value>
+                <fullName>(ADA) American Diabetes Association</fullName>
+                <default>false</default>
+                <label>(ADA) American Diabetes Association</label>
+            </value>
+            <value>
+                <fullName>(ECO) European Congress on Obesity</fullName>
+                <default>false</default>
+                <label>(ECO) European Congress on Obesity</label>
+            </value>
+            <value>
+                <fullName>(ASCO) American Society of Clinical Oncology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>(ASCO) American Society of Clinical Oncology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

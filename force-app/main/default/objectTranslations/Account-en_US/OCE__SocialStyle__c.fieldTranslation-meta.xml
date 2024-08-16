@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stores Social Style</help>
+    <label><!-- Social Style --></label>
+    <name>OCE__SocialStyle__c</name>
+</CustomFieldTranslation>

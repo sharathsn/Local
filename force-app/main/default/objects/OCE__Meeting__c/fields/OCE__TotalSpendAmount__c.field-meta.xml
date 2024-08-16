@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__TotalSpendAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sum of all Expenses of the Meeting either Estimates or Actuals depends on the Status of the Meeting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of all Expenses of the Meeting either Estimates or Actuals depends on the Status of the Meeting.</inlineHelpText>
+    <label>Total Spend Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

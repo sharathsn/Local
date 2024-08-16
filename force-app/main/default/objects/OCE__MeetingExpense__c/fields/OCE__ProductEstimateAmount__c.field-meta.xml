@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__ProductEstimateAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Lookup rollup field for calculating total Meeting Product Estimated Amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup rollup field for calculating total Meeting Product Estimated Amount</inlineHelpText>
+    <label>Product Estimate Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

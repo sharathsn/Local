@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Name of the object that the comment is for, to categorize comments in reports.</help>
+    <label><!-- Object API Name --></label>
+    <name>OCE__ObjectApiName__c</name>
+</CustomFieldTranslation>

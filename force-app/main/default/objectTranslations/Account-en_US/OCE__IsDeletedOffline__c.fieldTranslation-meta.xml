@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Is Deleted Offline</help>
+    <label><!-- Is Deleted Offline --></label>
+    <name>OCE__IsDeletedOffline__c</name>
+</CustomFieldTranslation>

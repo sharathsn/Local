@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Offline Last Modified By Id --></label>
+    <name>OCE__OfflineLastModifiedById__c</name>
+    <relationshipLabel><!-- Business Needs (Offline Last Modified By Id) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>LillyCongress_or_Meeting__c</columns>
+    <columns>LilIy_Thought_Leader__c</columns>
+    <columns>LilIy_Number_of_Requests__c</columns>
+    <columns>LilIy_Functional_Owner__c</columns>
+    <columns>LilIy_Discussion_Type_or_Topic__c</columns>
+    <columns>LilIy_Primary_Lilly_Attendee__c</columns>
+    <columns>LilIy_Add_Lilly_Emp_req_for_meeting__c</columns>
+    <columns>LilIy_Meeting_Room_Name__c</columns>
+    <columns>LilIy_Call_Date_and_Time__c</columns>
+    <columns>LilIy_Duration__c</columns>
+    <columns>LilIy_Pre_Negotiated_Time__c</columns>
+    <columns>LilIy_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

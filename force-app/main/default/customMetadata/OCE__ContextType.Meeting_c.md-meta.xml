@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Meeting</label>
+    <protected>false</protected>
+    <values>
+        <field>OCE__ChecklistCustomScript__c</field>
+        <value xsi:type="xsd:string">meeting-checklist</value>
+    </values>
+    <values>
+        <field>OCE__Icon__c</field>
+        <value xsi:type="xsd:string">presentation-speaker</value>
+    </values>
+    <values>
+        <field>OCE__IsControlledByWorkflowPath__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>OCE__IsInactive__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__IsPolymorphic__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>OCE__NameField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Object__c</field>
+        <value xsi:type="xsd:string">OCE__Meeting__c</value>
+    </values>
+    <values>
+        <field>OCE__ParentObject__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__Relationship__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OCE__SubheadingField__c</field>
+        <value xsi:type="xsd:string">RecordType.Name</value>
+    </values>
+    <values>
+        <field>OCE__ValidationCustomScript__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Engagement Title --></label>
+    <name>Lilly_Engagement_Title__c</name>
+    <picklistValues>
+        <masterLabel>Contracted Activity - Advising - Commercial</masterLabel>
+        <translation><!-- Contracted Activity - Advising - Commercial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contracted Activity - Advising - Medical</masterLabel>
+        <translation><!-- Contracted Activity - Advising - Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contracted Activity - Speaking - Commercial</masterLabel>
+        <translation><!-- Contracted Activity - Speaking - Commercial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contracted Activity - Speaking - Medical</masterLabel>
+        <translation><!-- Contracted Activity - Speaking - Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow Up</masterLabel>
+        <translation><!-- Follow Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Insights Gathering</masterLabel>
+        <translation><!-- General Insights Gathering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Introductory Meeting</masterLabel>
+        <translation><!-- Introductory Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partnership with Lilly</masterLabel>
+        <translation><!-- Partnership with Lilly --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

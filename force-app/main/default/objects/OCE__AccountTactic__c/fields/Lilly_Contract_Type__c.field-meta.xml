@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lilly_Contract_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Contract Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Medical Research</fullName>
+                <default>false</default>
+                <label>Non-Medical Research</label>
+            </value>
+            <value>
+                <fullName>Medical Research</fullName>
+                <default>false</default>
+                <label>Medical Research</label>
+            </value>
+            <value>
+                <fullName>Other Contract Type</fullName>
+                <default>false</default>
+                <label>Other Contract Type</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

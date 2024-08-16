@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE9__StudyPopulation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Group of individuals selected on the basis of inclusion and exclusion criteria which relate to the variables being studied. It is the population from which the sample population will be randomly or purposively selected.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Group of individuals selected on the basis of inclusion and exclusion criteria which relate to the variables being studied. It is the population from which the sample population will be randomly or purposively selected.</inlineHelpText>
+    <label>Study Population / Indication</label>
+    <length>5000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

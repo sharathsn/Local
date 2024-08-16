@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OCE__Planned_Can_Not_Be_Curr_Or_Past_Date</fullName>
+    <active>true</active>
+    <description>Speaker Meetings cannot be set for a current or past date.</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName == &apos;Speaker_Meeting&apos;,
+            IF( OR( ISCHANGED(RecordTypeId), ISNEW() , ISCHANGED(OCE__StartDateTime__c) ), DATEVALUE(OCE__StartDateTime__c) &lt;= TODAY(), false)  )</errorConditionFormula>
+    <errorMessage>Speaker Meetings cannot be set for a current or past date.</errorMessage>
+</ValidationRule>
